@@ -894,17 +894,14 @@
         tags: ["revision", "map", "internals", "six lectures"],
         title: "Unit I revision map",
         readAs: "Whole of Thakur Unit I · Mahadevan opening + Veda/darśana chapters as used",
-        summary: "One-page teaching flow for the six Unit I hours, plus sample internal questions. Seal this when you can redraw the folder tree and the check-marked four from memory.",
+        summary: "The Unit I house seen from the ridge: thirteen rooms, six artefacts to redraw, later units filed in folders already owned. A gallery of the map — not a quiz booklet.",
         outcomes: [
           "Redraw Caturdaśa + Kalā + Śilpa + darśana baskets in five minutes.",
-          "Assign each heading to a lecture slot.",
-          "Set a 25-mark internal without copying a bazaar guidebook."
+          "Name the six artefacts of the Unit I hand.",
+          "Point each later-unit heading to a folder already drawn."
         ],
-        explainer: `<p><strong>Six-lecture flow (also on the Teach notes tab).</strong> L1: What is IKS + Caturdaśa map. L2: Four Vedas + oral pāṭha. L3: Vedāṅgas + Upavedas. L4: 64 Kalās + Śilpa (the check-marked twin). L5: Āstika pairs + Nāstika trio. L6: Purāṇa lakṣaṇas, Itihāsa handles, Nīti packets, then a 20-minute quiz.</p>
-        <p><strong>Must-draw artefacts.</strong> (1) 4+6+4(+4). (2) RYSA and SBAU. (3) Six Vedāṅga job boxes. (4) Kalā tree + Śilpa P-M-P. (5) Three Āstika pairs + C-B-J. (6) Five Purāṇa lakṣaṇas. If a student can draw those six, they can pass a fair internal.</p>
-        <p><strong>High-yield reminder.</strong> Printed syllabus checkmarks: 64 Kalās, Śilpa Śāstra, Four Vedas, Vedāṅga. Those four get more board time and more 10-mark likelihood in a sane paper. Still teach Purāṇa/Itihāsa/Nīti — they are cheap 2/5s if the lists are clean.</p>
-        <p><strong>Sample internal (25).</strong> Section A: 5 × 2 marks — list Vedāṅgas; 14 counting; śruti/smṛti; nāstika names; five lakṣaṇas. Section B: 1 × 5 — Kalās as taxonomy. Section C: 1 × 10 — Four Vedas + layers + pāṭha. Adjust to your college pattern. Word questions yourself so you never need a leaked PDF.</p>
-        <p><strong>After Unit I.</strong> Students should feel the later units as files in folders they already own: Pāṇini under Vyākaraṇa, Śulba under Kalpa, temple under Sthāpatya/Śilpa, Āyurveda under Upaveda, Kautilya under Nīti-at-scale.</p>`,
+        explainer: window.IKSGallery.revision(),
+        diagramsInBody: true,
         analogy: {
           title: "A modern bridge",
           body: "Unit I is the map of seats, skills, and ways of seeing. Units II–V fill the folders. A revision hour is redrawing that map before later names arrive. If the folders are not drawn, Yoga will be taught twice and Śulba will go missing."
@@ -917,11 +914,10 @@
         mnemonic: {
           name: "MAP-TOOL-MAKE-SEE-TELL",
           hook: "Map · Veda · Tool · Make · See · Tell.",
-          recite: "‘Folders first. Checkmarks extra. Quiz on L6.’"
+          recite: "‘Folders first. Checkmarks extra. The six artefacts, from memory.’"
         },
         lectureTips: [
-          "Project the coverage table from Overview, then hide it and redraw.",
-          "Collect the Lecture 1 sticky-note questions and answer three of them live.",
+          "Hide the card; redraw the six artefacts. Coaching for the 25-mark paper lives under Teach notes.",
           "Seal Unit I cards only after this revision hour, not after Lecture 1 excitement."
         ],
         classroomActivity: {
@@ -931,7 +927,7 @@
         },
         studentQs: [
           "What is ‘high-yield’? (Check-marked + structurally central. Not a promise from the examiner.)",
-          "Are Units II–V in this internal? (Not if you are testing Unit I. Say so in the question paper heading.)"
+          "Must I memorise every Purāṇa plot? (No. Five lakṣaṇas, eighteen names as identities, one sthala walked.)"
         ],
         twomark: {
           q: "Name four Unit I headings marked as high-emphasis on the CCS sheet used for this bench.",
@@ -953,9 +949,9 @@
         },
         check: [
           "I can redraw six artefacts in five minutes.",
-          "I can assign 13 cards to 6 hours.",
-          "I have a 25-mark internal drafted in my own words.",
-          "I know what is still Coming next in Units II–V."
+          "I can walk thirteen rooms as one house.",
+          "I can file Pāṇini, Śulba, temple, Āyurveda, and Kauṭilya in folders already drawn.",
+          "I know Units II–V are Coming next, not a new civilisation."
         ],
         youtube: [
           { title: "IKS unit 1 recap searches", search: "Indian knowledge system Vedas Vedanga darshana revision" }

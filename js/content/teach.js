@@ -23,7 +23,7 @@
         <section class="lecture-card">
           <h3>Lecture 3 — Vedāṅgas as a living body</h3>
           <p>Cards: <button type="button" class="text-link" data-nav="unit1" data-topic="u1-vedanga">Six Vedāṅgas</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-upaveda">Upavedas</button></p>
-          <p><strong>Board:</strong> vedapuruṣa (nose, mouth, ear, feet, eyes, hands) + the function table. Pointers to Pāṇini and Śulba. <strong>Activity:</strong> match-the-limb. <strong>Do not:</strong> make the compiler-toolchain the spine. <strong>Exit ticket:</strong> six aṅgas in order.</p>
+          <p><strong>Board:</strong> vedapuruṣa (nose, mouth, ear, feet, eyes, hands) + the function table + Kalpa’s four folders (Śrauta, Gṛhya, Dharma, Śulba). Upavedas: four doors, Suśruta leaf, Rāma’s bow, Naṭarāja, Bṛhadīśvara. Pointers to Pāṇini and Śulba. <strong>Activity:</strong> match-the-limb. <strong>Do not:</strong> make the compiler-toolchain the spine. <strong>Exit ticket:</strong> six aṅgas in order.</p>
         </section>
         <section class="lecture-card">
           <h3>Lecture 4 — 64 Kalās + Śilpa (the check-marked twin)</h3>
@@ -33,12 +33,12 @@
         <section class="lecture-card">
           <h3>Lecture 5 — Darśanas</h3>
           <p>Cards: <button type="button" class="text-link" data-nav="unit1" data-topic="u1-astika">Āstika</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-nastika">Nāstika</button></p>
-          <p><strong>Board:</strong> ‘Āstika ≠ theist’; three pairs; C-B-J. Open Yoga with YS 1.2; Nyāya with NS 1.1.3; Jain with Tattvārtha 1.1. <strong>Activity:</strong> signature slips on the three pair columns. <strong>Do not:</strong> mock Cārvāka. <strong>Exit ticket:</strong> one fair Jain sentence.</p>
+          <p><strong>Board:</strong> ‘Āstika ≠ theist’; three pairs; C-B-J. Open Yoga with YS 1.2; Nyāya with NS 1.1.3; Jain with Tattvārtha 1.1. Walk Sāṁkhya’s twenty-five, aṣṭāṅga’s eight, Vaiśeṣika’s seven padārthas; then four truths, eightfold path, seven Jaina tattvas. <strong>Activity:</strong> signature slips on the three pair columns. <strong>Do not:</strong> mock Cārvāka. <strong>Exit ticket:</strong> one fair Jain sentence.</p>
         </section>
         <section class="lecture-card">
           <h3>Lecture 6 — Purāṇa, Itihāsa, Nīti + quiz</h3>
           <p>Cards: <button type="button" class="text-link" data-nav="unit1" data-topic="u1-purana">Purāṇas</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-itihasa">Itihāsa</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-niti">Nīti</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-revision">Revision map</button></p>
-          <p><strong>Purāṇas as a museum half-hour:</strong> open on Matsya’s five-mark verse; walk five rooms with one picture each (lotus-birth, flood, gotra, Vaivasvata, Pṛthu/Rāma-line); project all eighteen as identities; three houses (not Padma’s guṇa-ranking as a grade); daśāvatāra path + Bhāgavata 1.3.28; one sthala walked (Kāśī / Kāñcī / Setu). Then Itihāsa and Nīti. Last 20 quiz. <strong>Do not:</strong> tell students to skip the eighteen, or lead with ‘don’t binge plots.’ The card is the chapter. Answer three sticky questions from Lecture 1.</p>
+          <p><strong>Purāṇas as a museum half-hour:</strong> open on Matsya’s five-mark verse; walk five rooms with one picture each (lotus-birth, flood, gotra, Vaivasvata, Pṛthu/Rāma-line); project all eighteen as identities; three houses (not Padma’s guṇa-ranking as a grade); daśāvatāra path + Bhāgavata 1.3.28; one sthala walked (Kāśī / Kāñcī / Setu). Then Itihāsa (seven kāṇḍas, eighteen parvans) and Nīti (five tantras, four Hitopadeśa books). Last 20 quiz. <strong>Do not:</strong> tell students to skip the eighteen, or lead with ‘don’t binge plots.’ The card is the chapter. Answer three sticky questions from Lecture 1.</p>
         </section>
       </div>
     </article>
@@ -71,7 +71,7 @@
     <article class="topic" id="topic-internals" data-jump="internals">
       <p class="kicker">Teach notes · 25 marks</p>
       <h1>Internals without a leaked bank</h1>
-      <p>Write your own English. The revision card has a 5×2 + 5 + 10 sketch. Swap in Kalās as the 10-marker in another cycle; keep Vedāṅgas as the list that everyone should get right. A 10-marker on Vedas should now use the river and two Upaniṣadic doorways, not a software metaphor.</p>
+      <p>Write your own English. Sample 25: Section A 5×2 (Vedāṅgas; 14-count; śruti/smṛti; nāstika names; five lakṣaṇas). Section B 1×5 (Kalās as seven rooms). Section C 1×10 (Four Vedas + river + two Upaniṣadic doorways). Swap Kalās as the 10-marker in another cycle; keep Vedāṅgas as the list everyone should get right. The revision gallery is the map; this tab is where the exam is designed.</p>
       <table class="compare">
         <thead><tr><th>Cycle</th><th>10-marker</th><th>5-marker</th><th>Lists (2s)</th></tr></thead>
         <tbody>

@@ -6,6 +6,46 @@
     {
       date: "2026-09-17",
       type: "updated",
+      paper: "site",
+      topicId: "",
+      title: "Unit I raised to the 64 Kalās bar",
+      note: "Every remaining Unit I gallery now carries full traditional lists/tables, an attested opening verse, deep panels, a Wikimedia heritage strip, and diagrams. Coaching stays on Teach notes. Revision is a map-gallery (thirteen rooms, six artefacts, forward filing), not a quiz booklet."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-revision",
+      title: "Revision map — ridge gallery",
+      note: "Muṇḍaka 1.1.4 hook; thirteen-room table; six redraw artefacts; Caturdaśa tree and Veda-river again; later units filed; four witnesses. Sample internal moved to Teach notes."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-nastika",
+      title: "Nāstika — full path lists",
+      note: "Cārvāka pramāṇa-flag; four truths named; eightfold path opened; Jaina seven tattvas and five mahāvratas; Sarnath, Tīrthaṅkara, Nālandā strip."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-niti",
+      title: "Nīti — five tantras, four books",
+      note: "Pañcatantra’s five tantras and Hitopadeśa’s four books as policy-rooms; turtle folio and Nepalese Hitopadeśa manuscript."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-upaveda",
+      title: "Upavedas — four witnesses",
+      note: "Pairing table as one traditional scheme; Suśruta leaf, Ravi Varma’s Rāma-and-bow, Naṭarāja, Bṛhadīśvara."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
       paper: "unit1",
       topicId: "u1-purana",
       title: "Purāṇas — museum chapter",
