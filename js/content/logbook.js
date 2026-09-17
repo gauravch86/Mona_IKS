@@ -8,6 +8,14 @@
       type: "updated",
       paper: "site",
       topicId: "",
+      title: "Attested-verse authenticity pass",
+      note: "Unit I galleries now open on named śruti/smṛti/sūtra lines (Ṛg, Upaniṣad, Gītā, Nāṭyaśāstra, Pāṇinīya-śikṣā, Nyāya, Yoga-sūtra, Tattvārtha, Caraka, Matsya lakṣaṇa, Vālmīki, Yakṣa-praśna, Hitopadeśa, Manu) with IAST, English sense, Hindi भाव labelled not-a-śloka, and traditional attribution. Original Hindi couplets sit in a dashed ‘this site’ box. Remaining Git/wiki/lint/API analogies removed from What/Upaveda/Purāṇa/Itihāsa/Nīti. Full 18 Mahāpurāṇa names and 64 Kalās kept as lists."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "site",
+      topicId: "",
       title: "Content-first Sanātana galleries",
       note: "Unit I high-yield cards rewritten as museum chapters: verse-led, illustrated, four-audience. Git/repo/checksum framing removed from Vedas. 64 Kalās now carries a full numbered list in seven clusters plus heritage figures. Mona coaching moved to Teach notes."
     },
