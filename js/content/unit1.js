@@ -31,13 +31,13 @@
           "Give one CS-facing reason to care (storage, rules, measurement, or ethics)."
         ],
         explainer: `<p><strong>Working definition for this classroom:</strong> Indian Knowledge System (IKS) names the organised methods by which knowledge on the subcontinent was produced, classified, transmitted, and put to work — from recitation schools and rule-grammars to medicine, metallurgy, architecture, and statecraft. It is a <em>system</em> word: taxonomy + transmission + application. If you only say “old Indian wisdom,” you have not started the paper.</p>
-        <p><strong>Why it is on a BCA timetable.</strong> CCS places this course as <strong>BCA-1003 T</strong>, GEC-I <em>Indian Culture and Civilization</em>, 2 credits, 30 theory hours, 100 marks (25 internal + 75 external), aligned to the <strong>AICTE Model Curriculum 2024</strong> and <strong>NEP 2020</strong>. The policy bet is not that every graduate becomes a Sanskritist. The bet is that a computing student can recognise Indian methods of encoding, error-checking, measurement, and governance as <em>knowledge architectures</em>, then relate them to well-being and sustainable practice (CO3, CO4) without turning the room into a civilisational shouting match.</p>
+        <p><strong>Why it is on a BCA timetable.</strong> CCS places this course as <strong>BCA-1003 T</strong>, GEC-I <em>Indian Culture and Civilization</em>, 2 credits, 30 theory hours, 100 marks (25 internal + 75 external), aligned to the <strong>AICTE Model Curriculum 2024</strong> and <strong>NEP 2020</strong>. The policy bet is not that every graduate becomes a Sanskritist. The bet is that a professional student can recognise Indian methods of conservation, measurement, grammar, and governance as <em>knowledge architectures</em>, then relate them to well-being and sustainable practice (CO3, CO4) without turning the room into a civilisational shouting match.</p>
         <p><strong>What this course is not.</strong> It is not a substitute for Physics or Discrete Maths. It is not a licence to claim that every modern invention was “already in the Veda.” It is not a copy of any one textbook. We cite public syllabus headings and traditional names; we open Thakur and Mahadevan for chapter depth.</p>
         <p><strong>Four course outcomes, in lecturer English:</strong> (CO1) students can sketch how Vedas, Vedāṅgas, Upāṅgas, Upaveda, Purāṇa and Itihāsa sit together as an education map; (CO2) they can trace and name the systems on the sheet; (CO3) they can pick ideas that are publicly discussable and testable rather than mystical fog; (CO4) they can take pride without denying other people’s knowledge or human rights.</p>
-        <p><strong>How we will work.</strong> Each topic card has a board diagram, a BCA analogy, a 10-minute activity, and 2/5/10-mark outlines. Seal a card only when you can teach it without scrolling. Unit I is the map; Units II–V apply it to language, number, sky, making, and the body-politic.</p>`,
+        <p><strong>How these pages work.</strong> Each topic is a gallery: a verse or hook, a map, named lists, heritage figures, then a short modern bridge. Seal a card when you can teach it without scrolling. Unit I is the map; Units II–V apply it to language, number, sky, making, and the body-politic.</p>`,
         analogy: {
-          title: "OS, not wallpaper",
-          body: "Think of IKS as an operating system: file formats (how knowledge is stored — oral pāṭha, sūtra, narrative), APIs (Vedāṅgas as tooling), applications (Upavedas, Kalās), and design debates (darśanas). BCA already studies OS concepts. This paper asks you to notice that India ran knowledge systems long before GitHub — and to describe them in precise nouns, not adjectives."
+          title: "A modern bridge",
+          body: "After the Sanskrit map: IKS is a system word — ways of generating, classifying, transmitting, and applying knowledge. A computing student already knows that ‘system’ is not a slogan. Use that familiarity; do not let it rename the Veda."
         },
         diagram: {
           type: "tree",
@@ -51,10 +51,8 @@
           recite: "‘IKS is the Indian stack for making, sorting, passing on, and using knowledge — not a slogan pack.’"
         },
         lectureTips: [
-          "Write the course code and 25+75 on the board in minute one so the paper feels real.",
-          "Ban the sentence ‘India invented everything.’ Replace with ‘Here is a named method; here is what it conserved.’",
-          "Spend two minutes on CO4: pride + human rights + sustainability sit on the same slide.",
-          "Point at Thakur’s Unit I and Mahadevan’s opening chapter — then teach from this card, not from a photocopy."
+          "Write the course code and 25+75 in minute one. Ban ‘India invented everything.’",
+          "CO4 in one breath: pride, human rights, sustainability."
         ],
         classroomActivity: {
           title: "Four sticky notes",
@@ -112,35 +110,27 @@
         tags: ["caturdasa", "vidyasthana", "astadasa", "upanga", "map"],
         title: "Caturdaśa Vidyāsthānam",
         readAs: "Thakur Unit I — 14 vidyās · Mahadevan knowledge-taxonomy chapter",
-        summary: "Fourteen ‘seats of knowledge’: 4 Vedas + 6 Vedāṅgas + 4 Upāṅgas. Sometimes the four Upavedas are added to make eighteen (aṣṭādaśa). Teach the CCS grouping as primary and flag variants instead of fighting them.",
+        summary: "Fourteen established seats of learning: four Vedas, six Vedāṅgas, four Upāṅgas. Eighteen when the four Upavedas are counted. A curriculum tree, drawn before the names are fought over.",
         outcomes: [
-          "Write 4 + 6 + 4 = 14 on the board from memory.",
-          "Name one common Upāṅga list and one variant.",
-          "Explain how 14 becomes 18."
+          "Draw 4 + 6 + 4 = 14, and 14 + 4 = 18.",
+          "Name the four Upāṅgas in a widely taught list and admit variants.",
+          "File Pāṇini, Śulba, temple, and Āyurveda on the tree."
         ],
-        explainer: `<p><strong>Caturdaśa vidyāsthānam</strong> means fourteen established seats of learning — a classical curriculum map, not a modern UGC file. The version this paper wants you to write first is arithmetic anyone can check: <strong>four Vedas + six Vedāṅgas + four Upāṅgas = 14</strong>.</p>
-        <p><strong>The four Vedas</strong> are Ṛg, Yajur, Sāma, Atharva (own card). <strong>The six Vedāṅgas</strong> are Śikṣā, Vyākaraṇa, Nirukta, Chandas, Jyotiṣa, Kalpa (own card). They are called aṅgas — limbs — because they make the Veda usable: sound, grammar, etymology, metre, timing, procedure.</p>
-        <p><strong>The four Upāṅgas</strong> are where lists wobble, and a good lecturer says so. A widely taught set is <em>Purāṇa, Nyāya, Mīmāṁsā, Dharmaśāstra</em>. Other teachers fold <em>Itihāsa–Purāṇa</em> together, or treat darśana more broadly. CCS wants you to know that Upāṅgas complete the fourteen; it does not want a religious war over the fourth name. Write the common list, add one line: “variant listings exist.”</p>
-        <p><strong>Aṣṭādaśa (18):</strong> add the four <strong>Upavedas</strong> (Āyurveda, Dhanurveda, Gandharvaveda, Sthāpatyaveda) and many traditional accounts speak of eighteen vidyās. So 14 is the core academic map; 18 is the same map with the application layer counted. That is a 2-mark gift if students keep the arithmetic clean.</p>
-        <p><strong>How to use the map in later units.</strong> Unit II’s Pāṇini lives under Vyākaraṇa. Unit III’s Śulba lives under Kalpa. Unit IV’s architecture lives under Sthāpatya / Śilpa. Unit V’s Āyurveda is an Upaveda. Caturdaśa is the folder tree; later lectures are files inside folders.</p>`,
+        explainer: window.IKSGallery.caturdasa(),
+        diagramsInBody: true,
         analogy: {
-          title: "Degree programme vs course list",
-          body: "Caturdaśa is a programme specification: required cores (Vedas), tooling labs (Vedāṅgas), theory electives (Upāṅgas). Aṣṭādaśa adds applied labs (Upavedas). Different colleges shuffle elective names; the credit total is still 14 or 18. Do not panic when two PDFs disagree on the fourth Upāṅga — read the grouping rule."
+          title: "A modern bridge",
+          body: "If you have ever looked at a university’s programme specification — cores, tool-courses, electives, applied labs — you already understand why a civilisation bothered to count fourteen seats and then eighteen. The bridge is allowed after the Sanskrit names are in the mouth."
         },
-        diagram: {
-          type: "stack",
-          title: "14, then 18",
-          layers: ["4 Vedas (śruti cores)", "6 Vedāṅgas (toolchain)", "4 Upāṅgas (often Purāṇa, Nyāya, Mīmāṁsā, Dharmaśāstra)", "+ 4 Upavedas → 18 vidyās"]
-        },
+        diagram: { type: "named", id: "caturdasa-tree", title: "Caturdaśa tree" },
         mnemonic: {
           name: "4–6–4–(+4)",
           hook: "Four heard · six limbs · four near-limbs · optional four applied.",
           recite: "‘Fourteen is 4+6+4. Eighteen adds the four Upavedas. Variants live in the Upāṅga slot.’"
         },
         lectureTips: [
-          "Draw three boxes before naming anything. Numbers first, names second.",
-          "If a student quotes a different Upāṅga list from Instagram, praise the curiosity and park it under ‘variants’.",
-          "Do not recite all 18 names at speed. Make them build the sum."
+          "Numbers on the board before names; variants go in a small box, not a fight.",
+          "Leave Pāṇini, Śulba, temple, Āyurveda as labelled fruits on the tree."
         ],
         classroomActivity: {
           title: "Human folder tree",
@@ -189,71 +179,62 @@
         tags: ["kala", "64", "skills", "occupation", "nep"],
         title: "64 Kalās",
         readAs: "Thakur Unit I — 64 Kalās (syllabus checkmark) · Mahadevan arts/skills discussion",
-        summary: "A traditional taxonomy of arts and practical skills — fine arts plus occupational know-how. High-yield on the printed CCS sheet. Do not memorise all 64 in Lecture 4; teach the idea of integrated competence and a classroom-friendly sample.",
+        summary: "Catuḥṣaṣṭi kalā: a classical catalogue of sixty-four trained skills. Full numbered list (Sanskrit and English), seven pedagogical rooms, temple–bronze–painting–dance heritage. Lists vary; this page keeps one spine and shows every item.",
         outcomes: [
-          "Define kalā as skilled competence, not only ‘fine art’.",
-          "Give 8–12 named examples spanning music, making, calculation, and social skill.",
-          "Connect the list to occupational knowledge and NEP-style skill education."
+          "Define kalā beside vidyā — skill beside a seat of knowing.",
+          "Point to the seven-cluster map and land any numbered kalā in a room.",
+          "Name three living or built witnesses (e.g. Naṭarāja bronze, Ajanta, a temple sculpture programme)."
         ],
-        explainer: `<p>The printed CCS sheet check-marks <strong>64 Kalās</strong>. That is a signal: spend real board time. A <strong>kalā</strong> in this usage is a cultivated skill — singing, painting, jewellery, cooking, carpentry, logic-play, even the social arts of conversation and dressing. Traditional lists (often attached to stories of Kṛṣṇa or to śilpa/kāma encyclopaedic cultures) mix what a modern college splits into Fine Arts, Vocational, and Life Skills.</p>
-        <p><strong>Do not make the class chant 64 names.</strong> That is a trap. Examiners want (a) what a kalā is, (b) that there is a canonical sixty-four, (c) a sample that shows range, (d) why a knowledge civilisation bothered to count skills at all. The pedagogical claim is integrated education: a learned person was not only a reciter of verse but a body that could make, measure, and live with others.</p>
-        <p><strong>Classroom sample (pick ten, stay honest that lists vary):</strong> gīta (song), vādya (instrument), nṛtya (dance), alekhya (drawing), takṣaṇa (carpentry), svarṇa-ratna-parīkṣā (testing gold/gems), pāka (cooking), vastroddhāna / clothing arts, gaṇita-related calculation play, mlecchita-vikalpa (cipher / secret writing — a fun BCA landing), utsādana / perfumery, and dūta-karma / message-craft. If a student brings a different ten from a calendar poster, accept the range and refuse the fight.</p>
-        <p><strong>Occupational knowledge.</strong> Several kalās are job descriptions: metal-testing, architecture-adjacent making, agriculture-adjacent skills. Unit IV will return to metallurgy and dyes; plant the flag now. NEP’s talk of multidisciplinary and skill-based education is not a foreign implant — this list is one classical way India already catalogued competence beside vidyā.</p>
-        <p><strong>Exam hygiene.</strong> Never claim you personally verified all 64 from a palm leaf in class. Say “traditional lists.” The marks are in the taxonomy idea plus a clean sample.</p>`,
+        explainer: window.IKSGallery.kalas(),
+        diagramsInBody: true,
         analogy: {
-          title: "Competency matrix, not a Spotify genre list",
-          body: "A software team has a skills matrix: backend, UX, security, communication, on-call. 64 Kalās is an older competency matrix that refuses to treat ‘music’ and ‘metal-testing’ as different species of dignity. BCA students already know T-shaped skills. Teach kalā as T-shaped citizenship of a knowledge culture."
+          title: "A modern bridge",
+          body: "A competency matrix that refuses to treat music, metal, cooking, and coded speech as different species of dignity is older than the modern university’s split between ‘fine art’ and ‘vocational.’ After the Sanskrit names, a computing student may notice cipher and machine-kalās — then must put them back among garlands."
         },
-        diagram: {
-          type: "tree",
-          title: "Kalā as a skill tree (sample, not the full 64)",
-          root: "64 Kalās",
-          branches: ["Performance (gīta, nṛtya, vādya)", "Making (takṣaṇa, painting, jewellery)", "Measure & cipher (gaṇita play, secret writing)", "Social / life arts (food, dress, speech)"]
-        },
+        diagram: { type: "named", id: "kalas-clusters", title: "64 Kalās in seven clusters" },
         mnemonic: {
-          name: "MAKE",
-          hook: "Music · Artefact · Knowing-count · Everyday social skill.",
-          recite: "‘Sixty-four is a catalogue of competence. Sample ten; explain the catalogue.’"
+          name: "Seven rooms",
+          hook: "Performing · Visual · Domestic · Craft · Language · Social · Nature-and-care.",
+          recite: "‘Sixty-four is a catalogue of competence. The mandala holds all of them. Lists vary; the spine is Vātsyāyana’s tradition.’"
         },
         lectureTips: [
-          "This is a check-marked heading — slow down. One full lecture with Śilpa, not a drive-by.",
-          "Put a ‘lists vary’ box on the board before any names.",
-          "Invite one student who paints / sings / codes / cooks to map their skill onto the tree.",
-          "Do not gender the list (‘girls’ arts’). The traditional mix is broader than that insult."
+          "Project the numbered table; walk three clusters slowly; land in Naṭarāja, Ajanta, and one temple wall.",
+          "Coaching for the 20-minute arc lives under Teach notes — this card is the chapter."
         ],
         classroomActivity: {
-          title: "Ten sticky kalās",
+          title: "Place the kalā",
           minutes: 10,
-          body: "Groups of four invent a ‘BCA 2030’ list of ten kalās a computing graduate should have (e.g. version control, accessible design, kitchen literacy, local-language UI). Then map each modern skill to a classical cluster (performance / making / measure / social). Debrief: the point is taxonomy, not time-travel."
+          body: "Call twelve numbers from the table. Students stand under the seven cluster titles on the wall. Then one volunteer must walk from nṛtya (3) to dhātu-vāda (38) to ālekhya (4) using the heritage figures on the card — bronze, temple, painting."
         },
         studentQs: [
-          "Must I memorise all 64? (No. Sample + idea. Maybe five names cleanly.)",
-          "Is coding a kalā? (Not on the classical list; it is a useful analogy for ‘skilled making with rules’.)",
-          "Kalā vs vidyā? (Vidyā = organised knowledge seat; kalā = practised skill. They overlap in people, not in the folder names.)"
+          "Must I memorise all 64? (Know the seven rooms and a dozen names cleanly; the full table is here to be used, not feared.)",
+          "Is coding a kalā? (Not on the classical list. Yantra-mātṛkā and mlecchita-vikalpa are the nearest doors — still only two of sixty-four.)",
+          "Kalā vs vidyā? (Vidyā = organised knowledge seat; kalā = practised skill. They meet in people.)"
         ],
         twomark: {
-          q: "What are the 64 Kalās?",
-          outline: ["Traditional catalogue of arts and practical skills.", "Give two examples from different clusters."]
+          q: "What are the 64 Kalās? Name two from different clusters.",
+          outline: ["Traditional catalogue of trained skills (catuḥṣaṣṭi kalā).", "e.g. nṛtya (performing) and takṣaṇa or dhātu-vāda (craft)."]
         },
         fivemark: {
-          q: "Why does an IKS paper teach 64 Kalās to BCA students?",
-          outline: ["Define kalā.", "Integrated skill + knowledge, not only recitation.", "Occupational / making skills as knowledge.", "One NEP or competency-matrix landing."]
+          q: "Explain kalā as a taxonomy of competence. Use one pedagogical cluster with at least four named arts.",
+          outline: ["Define kalā vs vidyā.", "Lists vary; name the Vātsyāyana spine.", "One full cluster (names + English).", "One heritage witness."]
         },
         tenmark: {
-          q: "Discuss the 64 Kalās as a taxonomy of competence. Illustrate with examples. Do not dump an unlabelled list.",
+          q: "Write a structured note on the 64 Kalās: definition, the seven-room map, and how the arts appear in temple, bronze, and painting traditions.",
           outline: [
-            "Definition and ‘lists vary’.",
-            "Four clusters with 2 examples each.",
-            "Relation to vidyāsthāna (parallel, not identical).",
-            "Bridge to Śilpa / Unit IV occupations.",
-            "Close: why counting skills is itself a knowledge act."
+            "Kalā vs vidyā; catuḥṣaṣṭi; lists vary.",
+            "Seven clusters with two examples each (cover all rooms).",
+            "Deep dive: nṛtya + Naṭarāja / living dance.",
+            "Deep dive: ālekhya + Ajanta; takṣaṇa/vāstu + a named temple.",
+            "Relation to Śilpa.",
+            "Close: why counting skills is a knowledge act."
           ]
         },
         check: [
           "I can define kalā without saying ‘dance only’.",
-          "I can give ten examples in four clusters.",
-          "I can say lists vary.",
-          "I can connect kalā to occupational knowledge."
+          "I can show the seven-cluster mandala and land any number in a room.",
+          "I can name the list-variance honestly.",
+          "I can point at bronze, mural, and temple as kalā-witnesses."
         ],
         youtube: [
           { title: "Chausath kala overview", search: "64 kala Chausath kalas Indian arts list" },
@@ -268,34 +249,27 @@
         tags: ["silpa", "iconometry", "craft", "vastu", "engineering"],
         title: "Śilpa Śāstra",
         readAs: "Thakur Unit I — Śilpa Śāstra (syllabus checkmark) · later Unit IV Vāstu/temple chapters",
-        summary: "Treatises on making: craft, sculpture, proportion, materials. The art–engineering interface. High-yield. For BCA, teach measurement, spec, and constraint — not temple tourism.",
+        summary: "Śilpa as the śāstra of making: proportion, material, process. Nāgara, Drāviḍa, Vesara with named temples; Mānasāra and Mayamata on the shelf; bronze, mural, and the cut mountain at Ellora as witnesses.",
         outcomes: [
-          "Define Śilpa Śāstra as a body of making-knowledge, not ‘drawing class’.",
-          "Name proportion / iconometry / materials as three handles.",
-          "Place it relative to Sthāpatyaveda, Vāstu, and 64 Kalās."
+          "Define Śilpa as making-knowledge, neighbour of kalā, sthāpatya, and vāstu.",
+          "Sketch Nāgara / Drāviḍa / Vesara with one named temple each.",
+          "Point at iconometry, lost-wax bronze, and a sculpture programme."
         ],
-        explainer: `<p>The CCS sheet also check-marks <strong>Śilpa Śāstra</strong>. If Kalās are the skill catalogue, Śilpa is the <em>written and workshop tradition of making</em>: how a form is measured, how a material behaves, how an image or building part is specified so another craftsperson can repeat it. Śilpa sits next to <strong>Sthāpatyaveda</strong> (Upaveda of built form) and later <strong>Vāstu</strong> (Unit IV). Do not collapse all three into one vague ‘Indian architecture’ blob on day one — but do show they are neighbours.</p>
-        <p><strong>Three handles for a BCA lecture.</strong> (1) <em>Proportion / iconometry:</em> grids, modules, tāla measures for images and elements — a spec. (2) <em>Materials:</em> stone, metal, wood, plaster — constraints, not vibes. (3) <em>Process:</em> from selection of material to finishing; workshop knowledge that is empirical even when wrapped in ritual language. The ritual layer is real for practitioners; in this paper we also name the engineering layer so CS students have a door in.</p>
-        <p><strong>Art–science interface.</strong> A mūrti that must stand, take weather, and match a canonical proportion is both aesthetic and structural. That is why this heading is in an IKS paper rather than only in a BFA studio. Students who draw well and students who only code should both hear: specification plus constraint is knowledge.</p>
-        <p><strong>Guardrail.</strong> We will not reconstruct a full temple from this card. Unit IV returns to town planning and temple architecture. Today’s job is to put Śilpa on the map as <em>śāstra of making</em>.</p>`,
+        explainer: window.IKSGallery.silpa(),
+        diagramsInBody: true,
         analogy: {
-          title: "Design system + materials science",
-          body: "A UI design system (spacing scale, component spec) plus a hardware constraint file (this glass, this load). Śilpa is closer to that pair than to ‘art period.’ Iconometry is the type scale. Material chapters are the device lab. The workshop is CI: can another maker reproduce the artefact?"
+          title: "A modern bridge",
+          body: "A design system (spacing, component, constraint) is a faint cousin of tāla and material temperament. After the temples have been named, that sentence is allowed. Before they are named, it is a theft of the hour."
         },
-        diagram: {
-          type: "flow",
-          title: "From brief to artefact",
-          steps: ["Purpose / icon or element", "Module & proportion", "Material constraint", "Workshop process", "Finish & install"]
-        },
+        diagram: { type: "named", id: "temple-styles", title: "Three temple dialects" },
         mnemonic: {
           name: "P-M-P",
           hook: "Proportion · Material · Process.",
           recite: "‘Śilpa is the spec for making. Kalā is the skill. Vāstu is the spatial brief (later).’"
         },
         lectureTips: [
-          "Bring one photograph of a measured grid (you may sketch a simple 8×8 on the board) — no need for a copyrighted plate from a book.",
-          "Pair this card with 64 Kalās in the same lecture hour if time is tight; they are the check-marked twin.",
-          "If a student asks for ‘secret codes in temples,’ park it: this paper teaches measure and making, not conspiracy."
+          "Walk Nāgara–Drāviḍa–Vesara on the figures; keep Kalā / Śilpa / Vāstu as three courtyard neighbours.",
+          "Park ‘secret codes in temples.’ Measure and making are the paper."
         ],
         classroomActivity: {
           title: "Spec a lamp",
@@ -312,17 +286,17 @@
           outline: ["Body of knowledge on craft, sculpture, proportion, and materials.", "Art–engineering interface."]
         },
         fivemark: {
-          q: "Explain Śilpa Śāstra as an art–science interface with two illustrations.",
-          outline: ["Definition.", "Proportion/iconometry as spec.", "Materials as constraint.", "One object example (image, pillar, lamp)."]
+          q: "Explain Śilpa Śāstra as making-knowledge. Illustrate with one temple style and one named building.",
+          outline: ["Definition (proportion, material, process).", "Nāgara or Drāviḍa or Vesara with one named temple.", "Neighbour: kalā vs vāstu."]
         },
         tenmark: {
-          q: "Discuss Śilpa Śāstra in the IKS map. Relate it to Kalās and to Sthāpatyaveda / Vāstu.",
+          q: "Discuss Śilpa Śāstra in the IKS map. Relate it to the 64 Kalās and to Nāgara–Drāviḍa–Vesara with named examples.",
           outline: [
-            "Place on the map (making-knowledge).",
-            "P-M-P handles.",
-            "Kalā = skill catalogue; Śilpa = śāstra of making.",
-            "Sthāpatya / Vāstu as neighbours (Unit IV).",
-            "BCA landing: spec + constraint + reproducibility."
+            "Making-knowledge; P-M-P.",
+            "Mānasāra / Mayamata as named treatises.",
+            "Three dialects + Khajuraho / Thanjāvūr / Paṭṭadakal (or kin).",
+            "Chola bronze or Ellora as process-witness.",
+            "Kalā = skill; Śilpa = śāstra; Vāstu later."
           ]
         },
         check: [
@@ -344,78 +318,63 @@
         tags: ["veda", "sruti", "rg", "yajur", "sama", "atharva", "patha", "high"],
         title: "Four Vedas",
         readAs: "Thakur Unit I — Four Vedas (checkmark) · Mahadevan Veda chapters",
-        summary: "Ṛg, Yajur, Sāma, Atharva. Teach each Veda’s job, the Saṁhitā–Brāhmaṇa–Āraṇyaka–Upaniṣad layering, śruti vs smṛti, and oral pāṭha as error-checking. High-yield.",
+        summary: "Four Vedas as four temperaments of śruti; the Saṁhitā–Brāhmaṇa–Āraṇyaka–Upaniṣad river; oral pāṭha as a vow of sound; ten principal Upaniṣads as doorways. A museum chapter, not a software metaphor.",
         outcomes: [
-          "Name the four Vedas with one job-line each.",
-          "Sketch the four internal layers.",
-          "Distinguish śruti and smṛti in one sentence.",
-          "Explain one pāṭha method as redundancy."
+          "Give each Veda a character: hymn, rite, chant, household-and-peace.",
+          "Walk the inner river to the Upaniṣad without calling the Upaniṣad a fifth Veda.",
+          "Name saṁhitā, pada, krama (and jaṭā, ghana) as the weave of recitation.",
+          "Place four mahāvākyas in their Upaniṣads."
         ],
-        explainer: `<p><strong>Four named corpora, four jobs.</strong> <em>Ṛgveda</em> — metrical hymns (ṛks); the oldest widely taught layer; deities such as Agni, Indra, Varuṇa appear as addressed powers in hymn. <em>Yajurveda</em> — liturgical formulas for the rite; traditionally taught in Śukla (white, more clearly arranged) and Kṛṣṇa (black, mixed with brāhmaṇa-like prose) recensions. <em>Sāmaveda</em> — melodies; much of its verse is Ṛg material set for chant — a reminder that ‘new Veda’ can mean a new <em>interface</em> (sound) on shared payload. <em>Atharvaveda</em> — speech of everyday welfare, healing, peace, and household concerns in the Atharvan–Aṅgiras stream. Do not caricature it as ‘magic vs the serious Vedas’; teach it as the corpus closest to lived trouble.</p>
-        <p><strong>Layers often taught inside a Veda:</strong> <em>Saṁhitā</em> (collected mantras), <em>Brāhmaṇa</em> (prose that explains the rite), <em>Āraṇyaka</em> (forest treatises, interiorising ritual), <em>Upaniṣad</em> (inquiry). This is a reading map. It stops the false idea that ‘Veda’ is only fire and ‘Upaniṣad’ is a separate modern spirituality shelf.</p>
-        <p><strong>Śruti vs smṛti.</strong> Śruti is ‘heard’ — the Veda as conserved revelation/recitation, classically called <em>apauruṣeya</em> (not authored in the ordinary human-book sense) in Mīmāṁsā teaching. Smṛti is ‘remembered’ — dharma texts, epics, Purāṇas, codes that acknowledge human transmission. For this paper: śruti is the primary file; smṛti is commentary, narrative, and law-memory that must not contradict the primary in orthodox reading. Keep it technical, not sermonising.</p>
-        <p><strong>Oral conservation (the CS gold).</strong> Recitation schools used multiple <em>pāṭha</em> patterns — saṁhitā (continuous), pada (word-wise), krama (pairwise chaining), jaṭā and ghana (dense interleavings). If a syllable slips in one pattern, another pattern fails to match. That is redundancy and checksum, implemented in human memory. Mention it; do not pretend you trained as a ghanapāṭhin this morning.</p>
-        <p><strong>What not to do.</strong> Do not date-fight for twenty minutes. Do not claim astrophysics from a hymn in this class. Do name the four, the layers, śruti/smṛti, and pāṭha.</p>`,
+        explainer: window.IKSGallery.vedas(),
+        diagramsInBody: true,
         analogy: {
-          title: "Repo, recensions, and checksums",
-          body: "Each Veda is a repo. Śukla/Kṛṣṇa Yajur are recensions (forks with different working-tree layouts). Sāma is the same poetry with a different codec (melody). Pāṭha methods are like storing a file plus its hash plus a second encoding: corruption in one copy is caught by the others. Śruti is the protected main branch; smṛti is documentation and narrative issues that still refer to main."
+          title: "A modern bridge",
+          body: "After the hymn has been heard as a hymn, a student of systems may notice that a civilisation which refuses to lose a syllable has trained human memory as an instrument of fidelity. That observation is a guest. It does not get to rename the Veda."
         },
-        diagram: {
-          type: "compare",
-          title: "Four Vedas — job lines",
-          headers: ["Veda", "Primary job in this paper", "BCA landing"],
-          rows: [
-            ["Ṛg", "Hymn / ṛk — praise and cosmic address in metre", "Source payload"],
-            ["Yajur", "Liturgical formula — Śukla / Kṛṣṇa recensions", "Runbook / two layouts"],
-            ["Sāma", "Melody — chant interface on verse", "Codec / audio layer"],
-            ["Atharva", "Everyday welfare, healing, peace-speech", "User-space / applied speech"]
-          ]
-        },
+        diagram: { type: "named", id: "veda-river", title: "The inner river" },
         mnemonic: {
-          name: "RYSA + SBAU",
-          hook: "Ṛg Yajur Sāma Atharva. Saṁhitā Brāhmaṇa Āraṇyaka Upaniṣad.",
-          recite: "‘Four corpora, four layers, heard vs remembered, oral checksums.’"
+          name: "RYSA + the river + four lines",
+          hook: "Ṛg Yajur Sāma Atharva. Saṁhitā Brāhmaṇa Āraṇyaka Upaniṣad. Four mahāvākyas in four houses.",
+          recite: "‘Four faces of śruti; one inward river; sound kept by vow.’"
         },
         lectureTips: [
-          "This is check-marked — a full lecture with the oral-checksum demo.",
-          "Clap a simple krama: words A B C become AB, BC on the board. Students feel chaining.",
-          "Say ‘apauruṣeya’ once, define it as a traditional claim about authorship, then return to structure.",
-          "Leave dating debates to optional reading. Structure scores."
+          "Begin with Ṛgveda 1.1.1; walk four characters; then the river; then two Upaniṣadic rooms. Pāṭha last, as reverence, not as a trick.",
+          "Date-fights and ‘Vedas are scientific’ slogans are off this card. Structure and hearing score."
         ],
         classroomActivity: {
-          title: "Human krama",
-          minutes: 10,
-          body: "Write a 6-word English line on the board. Team A recites it continuously (saṁhitā). Team B recites word-wise (pada). Team C recites overlapping pairs (krama). Then silently change one word on a hidden card and see which team catches the mismatch first. Debrief: redundancy detects error."
+          title: "Four voices, one river",
+          minutes: 12,
+          body: "Four volunteers speak one sentence in the voice of Ṛg (a calling), Yajur (a formula for doing), Sāma (the same line hummed), Atharva (a peace or healing wish). Then the class places that line on the river: is it still saṁhitā, or has someone begun to ask an Upaniṣadic question about it?"
         },
         studentQs: [
-          "How many Vedas? (Four named. Occasional ‘fifth’ talk in popular culture is not the CCS list.)",
-          "Is Upaniṣad a fifth Veda? (No. It is a layer / associated corpus, often the close of the Veda stack.)",
-          "Can I write that Vedas are ‘scientific’? (Write what they conserved: metre, ritual procedure, oral engineering. Avoid blank cheque ‘science’.)"
+          "How many Vedas? (Four named saṁhitās. Popular ‘fifth Veda’ talk is not the CCS list.)",
+          "Is the Upaniṣad a fifth Veda? (No. It is a depth of the same śruti-river.)",
+          "May I write that Vedas are ‘scientific’? (Write what they conserved: metre, rite, oral exactitude, inquiry. Avoid a blank cheque.)"
         ],
         twomark: {
-          q: "Name the four Vedas and one feature of any one.",
-          outline: ["Ṛg, Yajur, Sāma, Atharva.", "One job-line (e.g. Sāma = melody)."]
+          q: "Name the four Vedas and give one character-line for any one.",
+          outline: ["Ṛg, Yajur, Sāma, Atharva.", "e.g. Sāma — where the ṛk becomes song."]
         },
         fivemark: {
-          q: "Explain śruti and smṛti. Why does oral pāṭha matter?",
-          outline: ["Śruti = heard / Veda.", "Smṛti = remembered literature.", "Pāṭha as multiple encodings / error check.", "One named pāṭha."]
+          q: "Explain śruti and smṛti. How does pāṭha keep the Veda?",
+          outline: ["Śruti = heard / Veda.", "Smṛti = remembered literature.", "Guru-śiṣya, śākhā.", "One named pāṭha as a weave of sound."]
         },
         tenmark: {
-          q: "Write a structured note on the four Vedas, their internal layers, and conservation.",
+          q: "Write a structured note on the four Vedas, the Saṁhitā–Brāhmaṇa–Āraṇyaka–Upaniṣad river, and oral conservation. Include two Upaniṣadic doorways.",
           outline: [
-            "Four job-lines.",
+            "Four characters (not four slogans).",
             "Śukla / Kṛṣṇa Yajur in one sentence.",
-            "SBAU layers.",
-            "Śruti vs smṛti.",
-            "Pāṭha redundancy.",
-            "Close: map, not mystique."
+            "The inner river with named Brāhmaṇa or Āraṇyaka examples.",
+            "Two mukhya Upaniṣads and one mahāvākya placed.",
+            "Pāṭha as vow, not as a modern metaphor.",
+            "Close: map and reverence together."
           ]
         },
         check: [
-          "I can recite RYSA.",
-          "I can recite SBAU.",
-          "I can distinguish śruti / smṛti.",
-          "I can run the krama demo."
+          "I can recite RYSA as four temperaments.",
+          "I can walk SBAU as one river.",
+          "I can distinguish śruti / smṛti without insulting either.",
+          "I can name ten mukhya Upaniṣads as rooms, and four mahāvākyas as hinges."
         ],
         youtube: [
           { title: "Four Vedas explained", search: "Rig Yajur Sama Atharva Veda difference lecture" },
@@ -430,48 +389,27 @@
         tags: ["vedanga", "siksa", "vyakarana", "nirukta", "chandas", "jyotisa", "kalpa"],
         title: "Six Vedāṅgas",
         readAs: "Thakur Unit I — Vedāṅga (checkmark) · Mahadevan ancillary sciences",
-        summary: "Six limbs that make the Veda usable: phonetics, grammar, etymology, metre, timing, and ritual procedure (including Śulba geometry). High-yield toolchain card.",
+        summary: "Six living limbs of the vedapuruṣa: pronunciation, grammar, etymology, metre, timing, procedure. A body-map, a function table, and pointers to Pāṇini and the Śulba.",
         outcomes: [
-          "List all six Vedāṅgas in a stable order.",
-          "Give a one-line job for each.",
-          "Point Unit II (Pāṇini) and Unit III (Śulba, Jyotiṣa) from this list."
+          "List the six Vedāṅgas in a stable order.",
+          "Place each on the vedapuruṣa (nose, mouth, ear, feet, eyes, hands).",
+          "Give a one-line job and one later-unit pointer."
         ],
-        explainer: `<p>If the Veda is a protected corpus, the <strong>Vedāṅgas</strong> are the tools without which it cannot be pronounced, parsed, timed, or performed. CCS check-marks this heading. Teach all six; do not skip Kalpa because geometry sounds ‘Unit III’ — plant the pointer.</p>
-        <ol>
-          <li><strong>Śikṣā</strong> — phonetics and pronunciation. Sound is data: a changed vowel can change a rite. Closest BCA cousin: phonology / speech as discrete symbols.</li>
-          <li><strong>Vyākaraṇa</strong> — grammar. Pāṇini’s Aṣṭādhyāyī is the celebrity system: compact rewrite rules. Unit II will live here.</li>
-          <li><strong>Nirukta</strong> — etymology and word-explanation, classically associated with Yāska. When a Vedic word is opaque, this is the gloss engine.</li>
-          <li><strong>Chandas</strong> — metre / prosody, classically associated with Piṅgala. Patterns of light and heavy syllables; later the same name opens a door onto combinatorial and binary-like ideas (Unit II/III). Today: metre is a constraint language for verse.</li>
-          <li><strong>Jyotiṣa</strong> — time-keeping and sky-calculation for ritual timing (and, in the wider tradition, astronomy). Unit III returns with Pañcāṅga and yantras. Today: clocks and calendars as knowledge.</li>
-          <li><strong>Kalpa</strong> — procedure: ritual manuals (Śrauta, Gṛhya, Dharma) and, inside that family, <strong>Śulba Sūtras</strong> — cord geometry for altars. That is the honest bridge to Indian geometry. Do not steal Unit III’s lecture; name the folder.</li>
-        </ol>
-        <p><strong>Order to recite:</strong> Śikṣā, Vyākaraṇa, Nirukta, Chandas, Jyotiṣa, Kalpa. Some posters shuffle; pick one order and keep it for internals.</p>`,
+        explainer: window.IKSGallery.vedanga(),
+        diagramsInBody: true,
         analogy: {
-          title: "Compiler toolchain",
-          body: "Śikṣā = lexer (tokens must be valid sounds). Vyākaraṇa = parser/grammar. Nirukta = documentation / symbol table for opaque names. Chandas = formatting language / typed patterns. Jyotiṣa = scheduler / clock. Kalpa = build and deploy scripts; Śulba is the geometry library the build calls when the altar must actually fit."
+          title: "A modern bridge",
+          body: "Only after the limbs are named: a body that cannot pronounce, parse, time, or perform cannot keep a sacred corpus. That is not a compiler lecture. It is why the aṅgas were counted as life-support for śruti."
         },
-        diagram: {
-          type: "compare",
-          title: "Six limbs — job board",
-          headers: ["Vedāṅga", "Job", "Later unit"],
-          rows: [
-            ["Śikṣā", "Phonetics", "I (and linguistics in II)"],
-            ["Vyākaraṇa", "Grammar / Pāṇini", "II"],
-            ["Nirukta", "Etymology / Yāska", "I–II"],
-            ["Chandas", "Metre / Piṅgala", "II–III"],
-            ["Jyotiṣa", "Time / sky", "III"],
-            ["Kalpa (+ Śulba)", "Procedure + altar geometry", "III"]
-          ]
-        },
+        diagram: { type: "named", id: "vedapurusa", title: "Vedapuruṣa" },
         mnemonic: {
           name: "SVC-NJK",
           hook: "Sounds · Vyākaraṇa · Chandas — Nirukta · Jyotiṣa · Kalpa. (Or: ‘Some Very Neat Chants Just Click.’)",
           recite: "‘Six limbs: pronounce, parse, gloss, metre, time, perform.’"
         },
         lectureTips: [
-          "Write six boxes in a row. Fill jobs before names if the class is sleepy.",
-          "Spend extra seconds on Kalpa→Śulba so Unit III does not feel like a new planet.",
-          "If you only remember one celebrity per box: Pāṇini, Yāska, Piṅgala."
+          "Draw the body; fill jobs; then names. Linger on Kalpa→Śulba so Unit III is not a new planet.",
+          "One celebrity per box is enough: Pāṇini, Yāska, Piṅgala."
         ],
         classroomActivity: {
           title: "Match the limb",
@@ -492,13 +430,13 @@
           outline: ["Six job-lines.", "One later-unit pointer (Pāṇini or Śulba)."]
         },
         tenmark: {
-          q: "Vedāṅgas as a toolchain for preserving and using the Veda.",
+          q: "Vedāṅgas as the living limbs of the Veda. Explain with the traditional body-map.",
           outline: [
-            "Define aṅga.",
-            "Six-box table.",
-            "Patañjali/Pāṇini only as grammar celebrity — do not derail.",
+            "Vedapuruṣa verses in English.",
+            "Six-box table with limb + job.",
+            "Pāṇini and Yāska in the right boxes.",
             "Kalpa–Śulba bridge.",
-            "CS toolchain analogy in four lines max."
+            "Why ‘limb’ is not a metaphor you can skip."
           ]
         },
         check: [
@@ -599,30 +537,26 @@
         tags: ["astika", "samkhya", "yoga", "nyaya", "vaiseika", "mimamsa", "vedanta"],
         title: "Āstika darśanas",
         readAs: "Thakur Unit I — Āstika systems · Mahadevan philosophical systems",
-        summary: "Six Veda-accepting outlooks, taught in pairs: Sāṁkhya–Yoga, Nyāya–Vaiśeṣika, Pūrva-Mīmāṁsā and Vedānta. Āstika here is an authority flag, not a census of theism.",
+        summary: "Six Veda-accepting darśanas in three pairs. Āstika is an authority flag, not a theism census. Signatures you can lecture from.",
         outcomes: [
-          "Define Āstika as ‘accepts Veda as authority / pramāṇa’ for this paper.",
+          "Define Āstika as ‘accepts Veda as pramāṇa’ for this paper.",
           "Name the six and the three pairs.",
-          "Give one signature idea per pair."
+          "Give one signature per pair without drowning in later sects."
         ],
-        explainer: `<p>A <strong>darśana</strong> is a ‘way of seeing’ — a philosophical operating system. The CCS sheet asks for Indian philosophical systems in two baskets. This card is the Āstika basket.</p>
-        <p><strong>Do not translate Āstika as ‘theist’.</strong> In this syllabus it means systems that accept the Veda as a valid authority (a pramāṇa), even when they argue fiercely about what the Veda is primarily <em>for</em>. Some Āstika schools have little use for a creator-God in the classroom sense (classical Sāṁkhya is the usual example). If you say ‘Āstika = believes in God,’ you will mis-mark your own internals.</p>
-        <p><strong>Pair 1 — Sāṁkhya and Yoga.</strong> Sāṁkhya maps reality as <em>prakṛti</em> (the evolute world) and <em>puruṣa</em> (consciousness-witness). Yoga, in the Patañjali stream taught in colleges, is the disciplined method (eight limbs as a later Unit V hook). Same family: map + method.</p>
-        <p><strong>Pair 2 — Nyāya and Vaiśeṣika.</strong> Nyāya is the logic and debate OS: how we know (perception, inference, comparison, testimony — the famous pramāṇa set). Vaiśeṣika is the category OS: how the world is typed (substance, quality, action, and the rest of the padārtha list). Type system + proof system. Unit II will reopen pramāṇa.</p>
-        <p><strong>Pair 3 — Pūrva-Mīmāṁsā and Vedānta (Uttara-Mīmāṁsā).</strong> Both are Veda-hermeneutics. Pūrva-Mīmāṁsā reads the Veda as primarily action-guiding (dharma, rite). Vedānta reads the ‘end’ of the Veda (Upaniṣad) as knowledge of Brahman. Same library, different primary key. Mention that Vedānta itself has sub-schools (Advaita etc.) but do not drown a first-year BCA slot in later sectarian detail unless a student asks.</p>
-        <p><strong>Board discipline.</strong> Six names, three pairs, one signature each. That is a 10-marker. Save Cārvāka/Buddha/Jina for the next card.</p>`,
+        explainer: window.IKSGallery.astika(),
+        diagramsInBody: true,
         analogy: {
-          title: "Three product pairs",
-          body: "Sāṁkhya–Yoga is spec plus implementation of a practice stack. Nyāya–Vaiśeṣika is type theory plus theorem prover. Mīmāṁsā–Vedānta is two compilers for the same language spec — one optimises for actions, one for knowledge of the ground of being. Students do not need to ‘join’ a school; they need to know which compiler they are describing."
+          title: "A modern bridge",
+          body: "After the pairs are named: two schools can share a library and still compile different centres of gravity — action (Mīmāṁsā) or knowledge of Brahman (Vedānta). The sentence is a guest."
         },
         diagram: {
           type: "compare",
           title: "Three Āstika pairs",
-          headers: ["Pair", "Signature", "One-line exam phrase"],
+          headers: ["Pair", "Signature", "Exam phrase"],
           rows: [
-            ["Sāṁkhya–Yoga", "Map of prakṛti/puruṣa + method", "Metaphysics with a practice OS"],
+            ["Sāṁkhya–Yoga", "Map of prakṛti/puruṣa + method", "Metaphysics with a practice"],
             ["Nyāya–Vaiśeṣika", "Pramāṇa + padārtha", "How we know / what there is"],
-            ["Mīmāṁsā–Vedānta", "Rite-hermeneutics + Brahman-knowledge", "Action vs knowledge as Veda’s centre"]
+            ["Mīmāṁsā–Vedānta", "Rite-hermeneutics + Brahman-knowledge", "Action vs knowledge as the Veda’s centre"]
           ]
         },
         mnemonic: {
@@ -631,9 +565,8 @@
           recite: "‘Āstika = Veda-accepting. Six names, three pairs, no theism shortcut.’"
         },
         lectureTips: [
-          "Write ‘NOT = theist’ in a box before the six names.",
-          "This is Lecture 5 with the Nāstika card — 30/30 minutes if you talk. Cut celebrity quotes.",
-          "Nyāya pramāṇa list is the CS-friendly core; linger there."
+          "Write ‘Āstika ≠ theist’ before the six names. Nyāya’s pramāṇa list is the clearest hour-saver.",
+          "Save Cārvāka, Bauddha, Jaina for the next card."
         ],
         classroomActivity: {
           title: "Compiler badges",
@@ -658,7 +591,7 @@
           outline: [
             "Definition of darśana and Āstika.",
             "Three pair paragraphs.",
-            "One CS analogy (types/proofs or compilers).",
+            "One careful modern bridge (how knowing is justified) — after the pairs, not instead of them.",
             "Guardrail on Vedānta ≠ whole of Indian life.",
             "Pointer to nāstika paper."
           ]
@@ -687,14 +620,11 @@
           "State one signature each for Cārvāka, Bauddha, Jaina.",
           "Avoid mockery and avoid flattening all three into ‘atheism’."
         ],
-        explainer: `<p>CCS lists <strong>Nāstika</strong> systems as <em>Cārvāka, Buddhist, Jain</em>. In this classroom Nāstika means: these streams do not take the Veda as a binding pramāṇa. It does <em>not</em> mean ‘villains in a myth’ or ‘people without ethics.’ A professional lecturer models respect; the marks are in the distinctions.</p>
-        <p><strong>Cārvāka (Lokāyata, as often taught).</strong> Perception-first empiricism in the college caricature: inference is treated with suspicion when it claims hidden ritual worlds; material flourishing is discussed without a Veda-backed afterlife. Teach it as a philosophical pressure-test: <em>what evidence is allowed?</em> Do not turn it into a joke about eating meat. Do not pretend we have a complete Cārvāka library — much is known through opponents’ reports. Say that out loud; it is intellectual honesty, which is also IKS pedagogy (CO3: discussable, not fog).</p>
-        <p><strong>Buddhist stream (Bauddha).</strong> A full civilisation of philosophy, not a footnote. For a 50-minute BCA slot, pick a tiny honest core: dissatisfaction and its cessation as an analysed problem; no permanent ātman in the way Vedānta asserts one (anātman as taught); a middle path ethic; later schools (Mādhyamika, Yogācāra) exist but are optional names. Epistemology: perception and inference are heavily analysed. The point is: this is a knowledge system with monasteries, logic, and ethics — on the Indian map.</p>
-        <p><strong>Jain stream (Jaina).</strong> Signature classroom handles: <em>ahiṁsā</em> as a rigorous ethic, <em>anekāntavāda</em> (many-sidedness of truth claims), <em>syādvāda</em> (conditioned predication) — teach as intellectual humility plus logic, not as ‘maybe everything is true.’ Karma as a subtle-matter doctrine in Jain teaching is different from pop-karma tweets; one sentence is enough.</p>
-        <p><strong>Why BCA should care.</strong> These three disagree about <em>what counts as knowledge</em>. That is the same family of question as: what is a valid test, a valid proof, a valid log? Unit II’s pramāṇa card will echo this. Pride in IKS (CO4) includes the capacity to describe a neighbour’s system without a sneer.</p>`,
+        explainer: window.IKSGallery.nastika(),
+        diagramsInBody: true,
         analogy: {
-          title: "Three alternative runtimes",
-          body: "If Āstika schools compile against a Veda standard library, these three ship their own runtimes. Cārvāka is a ‘only what I can instrument’ runtime. Buddhist analysis is a process/impermanence runtime. Jain logic is a multi-valued / standpoint runtime. You can describe a runtime you do not install."
+          title: "A modern bridge",
+          body: "After fair portraits: these three disagree about what counts as a valid knowing. That family of question is older than any laboratory — and it is why they sit on an IKS paper."
         },
         diagram: {
           type: "compare",
@@ -713,8 +643,7 @@
         },
         lectureTips: [
           "Open with the respect rule. Close with one student restating a Jain idea fairly.",
-          "If the room is mixed-faith, this card is a trust test. Do not smile at Cārvāka as ‘the funny one’.",
-          "Keep Buddhist and Jain history (councils, tīrthaṅkaras) to one line each unless a student is from that tradition and offers more."
+          "Do not smile at Cārvāka as ‘the funny one.’"
         ],
         classroomActivity: {
           title: "Steelman, 3×3",
@@ -850,7 +779,7 @@
         <p><strong>Classroom ethics.</strong> Students will bring film versions. Honour the love; examine the syllabus object. No community-baiting. CO4 again: pride without turning classmates into avatars of a war.</p>`,
         analogy: {
           title: "Narrative as a teaching API",
-          body: "A well-written postmortem or a case-study in a B-school is knowledge in story form. Itihāsa is a civilisation-scale case library: kingship bugs, kin-protocol bugs, counsel ignored, recovery after failure. The Gītā is a module imported into the Mahābhārata repo. You can study the API (what dilemma it exposes) without binge-watching the runtime (the serial)."
+          body: "A well-written case-study is knowledge in story form. Itihāsa is a civilisation-scale case library: kingship under constraint, kin-protocol in conflict, counsel ignored, recovery after failure. The Gītā is a philosophical module inside the Mahābhārata. Study the dilemma without binge-watching a serial."
         },
         diagram: {
           type: "compare",
@@ -923,7 +852,7 @@
           "Use two classroom-safe maxims without claiming a fake Sanskrit quote."
         ],
         explainer: `<p><strong>Nīti</strong> is practical wisdom about conduct — of a person, a court, a king. Nīti-śāstras (the Hitopadeśa / Pañcatantra neighbourhood, later Arthaśāstra as a heavier cousin in Unit V) store policy and ethics in story-plus-maxim form. This is not ‘moral science period’ in the school sense. It is a knowledge format: <em>what should an agent do under constraint?</em></p>
-        <p><strong>Subhāṣita</strong> means ‘well-spoken’ — a polished verse or sentence built to travel. Compression + memorability + ethical payload. For BCA: it is a tweet-sized packet with checksums of metre (when in verse) and a point. The classroom use is to give students a few portable lines they can explain, not a WhatsApp forward dump of unverified Sanskrit.</p>
+        <p><strong>Subhāṣita</strong> means ‘well-spoken’ — a polished verse or sentence built to travel. Compression, memorability, and an ethical point. For this paper: a portable packet students can explain, not a WhatsApp forward of unverified Sanskrit.</p>
         <p><strong>How we will quote.</strong> Prefer ideas you can paraphrase in English and attribute as ‘a common nīti idea’ unless you have verified the verse from a printed subhāṣita collection in your hand. Fake Sanskrit on a slide is a professionalism fail. Two safe themes: (1) company shapes conduct (choose colleagues as you choose libraries); (2) knowledge unused is a lamp in a closed box — vidyā asks for application (CO3).</p>
         <p><strong>Link forward.</strong> Unit V’s Kautilya is nīti at state scale. Unit I only installs the format: practical ethics, compressed, teachable at 9 a.m. to a sleepy first year.</p>`,
         analogy: {
@@ -1004,7 +933,7 @@
         <p><strong>After Unit I.</strong> Students should feel the later units as files in folders they already own: Pāṇini under Vyākaraṇa, Śulba under Kalpa, temple under Sthāpatya/Śilpa, Āyurveda under Upaveda, Kautilya under Nīti-at-scale.</p>`,
         analogy: {
           title: "Sprint review",
-          body: "Unit I is sprint 0: repo layout, branching model, lint rules. Units II–V are features. A revision map is the architecture diagram you redraw before you add code. If you cannot draw the folders, you will duplicate them later (teaching Yoga twice, missing Śulba, etc.)."
+          body: "Unit I is the map of seats, skills, and ways of seeing. Units II–V fill the folders. A revision hour is redrawing that map before you add later names. If the folders are not drawn, Yoga will be taught twice and Śulba will go missing."
         },
         diagram: {
           type: "flow",

@@ -43,7 +43,7 @@
                 ${field("Who / name", who)}
                 ${field("Where it lives", b.country ? `<span class="tl-where">${esc(b.country)}</span>` : "")}
                 ${field("Landmark", b.work ? esc(b.work) : "")}
-                ${field("What to teach", esc(b.doctrine))}
+                ${field("What it is", esc(b.doctrine))}
                 ${field("Why it matters", esc(b.shift))}
               </dl>
             </article>

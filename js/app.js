@@ -211,9 +211,10 @@
               ["youtube", "YouTube searches"],
               ["copyright", "How to cite"]
             ]
-          : page === "teach"
+            : page === "teach"
             ? [
                 ["plan", "6-lecture plan"],
+                ["voice", "Four audiences"],
                 ["board", "Board habits"],
                 ["internals", "Internals"]
               ]
@@ -293,55 +294,59 @@
       .join("");
     const checks = (topic.check || []).map((c) => `<li>${c}</li>`).join("");
     const outcomes = (topic.outcomes || []).map((o) => `<li>${o}</li>`).join("");
-    const tips = (topic.lectureTips || []).map((t) => `<li>${t}</li>`).join("");
+    const tips = (topic.lectureTips || [])
+      .slice(0, 2)
+      .map((t) => `<li>${t}</li>`)
+      .join("");
     const qs = (topic.studentQs || []).map((q) => `<li>${q}</li>`).join("");
     const act = topic.classroomActivity
       ? `<aside class="activity"><h3>${topic.classroomActivity.title || "Classroom activity"} · ${topic.classroomActivity.minutes || 10} min</h3><p>${topic.classroomActivity.body}</p></aside>`
       : "";
     const coming = topic.comingNext
-      ? `<aside class="coming"><h3>Coming next</h3><p>This title is on the CCS / AICTE map so Mona can show the full 30-hour arc. The lecture script, board diagram, and mark outlines will land in a later drop — do not treat this card as a finished class.</p></aside>`
+      ? `<aside class="coming"><h3>Coming next</h3><p>This title is on the CCS / AICTE map so the full 30-hour arc is visible. The gallery card will land in a later drop.</p></aside>`
       : "";
     const shelf = paper.shelf
-      ? `<aside class="note shelf-banner"><h3>Primary shelf</h3><p>${paper.shelf.primary}${topic.readAs ? ` · <em>${topic.readAs}</em>` : ""}. Site prose is original — open the physical book for chapter depth.</p></aside>`
+      ? `<aside class="note shelf-footer"><p>${paper.shelf.primary}${topic.readAs ? ` · <em>${topic.readAs}</em>` : ""}. Prose on this page is original.</p></aside>`
       : "";
     const yieldBadge = topic.yield === "high" ? '<span class="badge">High-yield</span>' : "";
     const stubBadge = topic.comingNext ? '<span class="badge">Coming next</span>' : "";
+    const diagramList = topic.diagrams || (topic.diagram && !topic.diagramsInBody ? [topic.diagram] : []);
+    const diagramBlock =
+      topic.diagramsInBody || !diagramList.length
+        ? ""
+        : `<h2 class="section-title">Maps</h2>${diagramList.map((d) => window.IKSDiagrams.render(d)).join("")}`;
     return `<article class="topic" id="topic-${topic.id}">
       <div class="topic-head">
         <div>
-          <p class="kicker">${paper.code} · ${topic.readAs || "Unit " + (topic.unit || "—")} ${yieldBadge}${stubBadge}</p>
+          <p class="kicker">${paper.code}${yieldBadge}${stubBadge}</p>
           <h1>${topic.title}</h1>
           <p class="lede">${topic.summary || ""}</p>
         </div>
         <button class="seal-btn ${sealed ? "sealed" : ""}" data-seal="${topic.id}">${sealed ? "Sealed ✓" : "Seal this topic"}</button>
       </div>
       ${coming}
-      ${shelf}
-      ${
-        outcomes
-          ? `<h2 class="section-title">Learning outcomes</h2><ul class="outcomes">${outcomes}</ul>`
-          : ""
-      }
-      <h2 class="section-title">Concept</h2>
       <div class="explainer">${topic.explainer || ""}</div>
+      ${diagramBlock}
+      ${window.IKSTimeline ? window.IKSTimeline.renderForTopic(topic.id) : ""}
       ${
         topic.analogy
-          ? `<aside class="analogy"><h3>${topic.analogy.title || "BCA analogy"}</h3><p>${topic.analogy.body}</p></aside>`
+          ? `<aside class="analogy modern-bridge"><h3>${topic.analogy.title || "A modern bridge"}</h3><p>${topic.analogy.body}</p></aside>`
           : ""
       }
-      ${window.IKSTimeline ? window.IKSTimeline.renderForTopic(topic.id) : ""}
-      <h2 class="section-title">Board diagram</h2>
-      ${window.IKSDiagrams.render(topic.diagram)}
       ${
         topic.mnemonic
           ? `<aside class="mnemonic"><h3>Memory hook · ${topic.mnemonic.name}</h3><p><strong>${topic.mnemonic.hook}</strong></p><p>${topic.mnemonic.recite || ""}</p></aside>`
           : ""
       }
-      ${tips ? `<h2 class="section-title">Lecture tips for Mona</h2><ul class="tips-list">${tips}</ul>` : ""}
+      ${
+        outcomes
+          ? `<h2 class="section-title">Short checks</h2><ul class="outcomes">${outcomes}</ul>`
+          : ""
+      }
+      ${qs ? `<h2 class="section-title">Questions that usually arise</h2><ul class="qs-list">${qs}</ul>` : ""}
       ${act}
-      ${qs ? `<h2 class="section-title">Student questions</h2><ul class="qs-list">${qs}</ul>` : ""}
-      <h2 class="section-title">Exam outlines (CCS-style, original wording)</h2>
-      <p class="note">2 / 5 / 10-mark skeletons for internals and the 75-mark paper. Write your own English; do not paste textbook paragraphs.</p>
+      <h2 class="section-title">Exam outlines</h2>
+      <p class="note">2 / 5 / 10-mark skeletons in original wording. Write your own English in the answer book.</p>
       ${markBlock("2 marks", topic.twomark)}
       ${markBlock("5 marks", topic.fivemark)}
       ${markBlock("10 marks", topic.tenmark)}
@@ -349,6 +354,8 @@
       <ul class="check-list">${checks}</ul>
       <h2 class="section-title">Watch / search</h2>
       <div class="yt-row">${yt}</div>
+      ${tips ? `<h2 class="section-title">For the lecturer</h2><ul class="tips-list thin">${tips}</ul>` : ""}
+      ${shelf}
     </article>`;
   }
 
@@ -389,7 +396,7 @@
       <h2 class="display">How to use this bench in class</h2>
       <ol>
         <li>Pick a unit tab, then a sidebar topic. Unit I is lecture-ready; Units II–V show the course map with honest “Coming next” cards.</li>
-        <li>Project <strong>Concept + board diagram</strong>. Read the BCA analogy once; then hide the site and redraw the diagram on the board.</li>
+        <li>Project the <strong>gallery</strong> (verse, map, figures). A modern bridge, if any, is last. Hide the site and redraw the map on the board.</li>
         <li>Run the <strong>10-minute classroom activity</strong>. Park student answers; do not chase a perfect list.</li>
         <li>Close with a 2-mark oral and point students at the matching chapter in the <strong>physical Thakur / Mahadevan book</strong> — this site does not copy those books.</li>
         <li>Hit <strong>Seal this topic</strong> only when you can teach it without scrolling. Progress lives in this browser under <code>mona-iks-progress-v1</code>.</li>
