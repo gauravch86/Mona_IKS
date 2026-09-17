@@ -125,7 +125,7 @@
     const cards = [
       ["Ṛgveda", "Hymn", "The oldest widely taught saṁhitā. Ten maṇḍalas of ṛc — metrical praise addressed to Agni, Indra, Soma, Varuṇa, Uṣas, and many more. Family books of named ṛṣis sit at its heart."],
       ["Yajurveda", "Rite", "The Veda of the offering-formula. Śukla (clearly arranged) and Kṛṣṇa (mantra woven with brāhmaṇa-prose) are two ways of carrying the same liturgical world."],
-      ["Sāmaveda", "Chant", "Where a ṛk learns to be a song. Much of its verse is Ṛg material set to melody — gāna as a sacred interface, not a lesser copy."],
+      ["Sāmaveda", "Chant", "Where a ṛk learns to be a song. Much of its verse is Ṛg material set to melody — gāna as sacred sounding, not a lesser copy."],
       ["Atharvaveda", "Household", "Speech of healing, peace (śānti), kingship, and the day’s trouble. The Atharvan–Aṅgiras stream. Teach it with dignity — it is śruti of lived life, not a cartoon of ‘magic’."]
     ];
     return `<div class="four-veda-grid">${cards
@@ -241,6 +241,42 @@
     </div>`;
   }
 
+  function puranaLakshanas() {
+    const items = [
+      ["Sarga", "सर्ग", "origination of worlds"],
+      ["Pratisarga", "प्रतिसर्ग", "dissolution and return"],
+      ["Vaṁśa", "वंश", "gods, ṛṣis, families"],
+      ["Manvantara", "मन्वन्तर", "ages under a Manu"],
+      ["Vaṁśānucarita", "वंशानुचरित", "kings and their deeds"]
+    ];
+    const cards = items
+      .map(
+        ([en, sa, hint], i) =>
+          `<article class="lakshana-card" style="--i:${i}">
+            <p class="kicker">${i + 1}</p>
+            <h3>${esc(en)}</h3>
+            <p class="sa">${sa}</p>
+            <p>${esc(hint)}</p>
+          </article>`
+      )
+      .join("");
+    return `<div class="lakshana-row" role="list">${cards}</div>
+      <p class="diagram-note">Five required headings — the pañcalakṣaṇa. A text ‘does Purāṇa’ when it carries this encyclopaedic job, not when it merely tells a favourite episode.</p>`;
+  }
+
+  function gcta() {
+    const items = [
+      ["Generate", "inquiry, experiment, śāstra — Nyāya’s questions, Śulba’s cords, Caraka’s bedside"],
+      ["Classify", "vidyāsthāna and kalā — fourteen seats, sixty-four skills, six limbs"],
+      ["Transmit", "mouth to ear, sūtra to memory — pāṭha, gurukula, the compact rule"],
+      ["Apply", "health, craft, counsel, the built place — Upaveda, Śilpa, Nīti"]
+    ];
+    return `<div class="gcta-grid">${items
+      .map(([t, b]) => `<article><h3>${esc(t)}</h3><p>${esc(b)}</p></article>`)
+      .join("")}</div>
+      <p class="diagram-note">IKS as a system word. The Sanskrit names come first; this four-beat is only how a BCA paper holds them together.</p>`;
+  }
+
   function darsanaMatrix() {
     return compare(
       ["School", "Folder on this paper", "Signature to remember", "What it will not let you skip"],
@@ -266,7 +302,9 @@
     "vedapurusa": vedapurusa,
     "caturdasa-tree": caturdasaTree,
     "temple-styles": templeStyles,
-    "darsana-matrix": darsanaMatrix
+    "darsana-matrix": darsanaMatrix,
+    "purana-lakshanas": puranaLakshanas,
+    "gcta": gcta
   };
 
   function render(diagram) {
