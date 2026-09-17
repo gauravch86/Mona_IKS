@@ -6,6 +6,22 @@
     {
       date: "2026-09-17",
       type: "updated",
+      paper: "unit1",
+      topicId: "u1-purana",
+      title: "Purāṇas — museum chapter",
+      note: "Full gallery: cultural opening (smṛti/Upāṅga, Sanātana memory); five lakṣaṇa rooms with living examples; all eighteen Mahāpurāṇas as identities with the Śiva/Vāyu fork; Vaiṣṇava–Śaiva–Śākta houses (Padma guṇa-ranking named and refused as insult); daśāvatāra path + Bhāgavata 1.3.28; sthala walked at Kāśī, Kāñcī, Rameśvara, Puri; Upapurāṇa as companion; temple–festival–oral strip; Itihāsa contrast. Lecturer ‘don’t binge / two names’ coaching removed from the card body."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "site",
+      topicId: "",
+      title: "Attested-verse authenticity pass",
+      note: "Unit I galleries now open on named śruti/smṛti/sūtra lines (Ṛg, Upaniṣad, Gītā, Nāṭyaśāstra, Pāṇinīya-śikṣā, Nyāya, Yoga-sūtra, Tattvārtha, Caraka, Matsya lakṣaṇa, Vālmīki, Yakṣa-praśna, Hitopadeśa, Manu) with IAST, English sense, Hindi भाव labelled not-a-śloka, and traditional attribution. Original Hindi couplets sit in a dashed ‘this site’ box. Remaining Git/wiki/lint/API analogies removed from What/Upaveda/Purāṇa/Itihāsa/Nīti. Full 18 Mahāpurāṇa names and 64 Kalās kept as lists."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
       paper: "site",
       topicId: "",
       title: "Content-first Sanātana galleries",

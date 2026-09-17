@@ -13,7 +13,7 @@
         <section class="lecture-card">
           <h3>Lecture 1 — What is IKS + Caturdaśa</h3>
           <p>Cards: <button type="button" class="text-link" data-nav="unit1" data-topic="u1-what">What is IKS?</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-caturdasa">Caturdaśa</button></p>
-          <p><strong>Board:</strong> G-C-T-A; the 4+6+4 tree with named fruit. <strong>Activity:</strong> four sticky notes. <strong>Do not:</strong> invent civilisational rankings. <strong>Exit ticket:</strong> 14 vs 18 in one sentence.</p>
+          <p><strong>Open</strong> with Taittirīya 1.11.1 (satyaṃ vada, dharmaṃ cara) then Gītā 4.38. <strong>Board:</strong> G-C-T-A; the 4+6+4 tree with named fruit. <strong>Activity:</strong> four sticky notes. <strong>Do not:</strong> invent civilisational rankings. <strong>Exit ticket:</strong> 14 vs 18 in one sentence.</p>
         </section>
         <section class="lecture-card">
           <h3>Lecture 2 — Four Vedas as a museum hour</h3>
@@ -33,12 +33,12 @@
         <section class="lecture-card">
           <h3>Lecture 5 — Darśanas</h3>
           <p>Cards: <button type="button" class="text-link" data-nav="unit1" data-topic="u1-astika">Āstika</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-nastika">Nāstika</button></p>
-          <p><strong>Board:</strong> ‘Āstika ≠ theist’; three pairs; C-B-J. <strong>Activity:</strong> compiler-badges only as an optional after-game — the matrix on the card is the lesson. <strong>Do not:</strong> mock Cārvāka. <strong>Exit ticket:</strong> one fair Jain sentence.</p>
+          <p><strong>Board:</strong> ‘Āstika ≠ theist’; three pairs; C-B-J. Open Yoga with YS 1.2; Nyāya with NS 1.1.3; Jain with Tattvārtha 1.1. <strong>Activity:</strong> signature slips on the three pair columns. <strong>Do not:</strong> mock Cārvāka. <strong>Exit ticket:</strong> one fair Jain sentence.</p>
         </section>
         <section class="lecture-card">
           <h3>Lecture 6 — Purāṇa, Itihāsa, Nīti + quiz</h3>
           <p>Cards: <button type="button" class="text-link" data-nav="unit1" data-topic="u1-purana">Purāṇas</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-itihasa">Itihāsa</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-niti">Nīti</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-revision">Revision map</button></p>
-          <p><strong>Board:</strong> five lakṣaṇas; R+M handles; P-C-P. First 30 minutes teach; last 20 quiz. Answer three sticky questions from Lecture 1.</p>
+          <p><strong>Purāṇas as a museum half-hour:</strong> open on Matsya’s five-mark verse; walk five rooms with one picture each (lotus-birth, flood, gotra, Vaivasvata, Pṛthu/Rāma-line); project all eighteen as identities; three houses (not Padma’s guṇa-ranking as a grade); daśāvatāra path + Bhāgavata 1.3.28; one sthala walked (Kāśī / Kāñcī / Setu). Then Itihāsa and Nīti. Last 20 quiz. <strong>Do not:</strong> tell students to skip the eighteen, or lead with ‘don’t binge plots.’ The card is the chapter. Answer three sticky questions from Lecture 1.</p>
         </section>
       </div>
     </article>

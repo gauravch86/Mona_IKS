@@ -30,21 +30,13 @@
           "Name why BCA-1003 T exists (NEP 2020 / AICTE 2024 / CCS GEC-I).",
           "Give one CS-facing reason to care (storage, rules, measurement, or ethics)."
         ],
-        explainer: `<p><strong>Working definition for this classroom:</strong> Indian Knowledge System (IKS) names the organised methods by which knowledge on the subcontinent was produced, classified, transmitted, and put to work — from recitation schools and rule-grammars to medicine, metallurgy, architecture, and statecraft. It is a <em>system</em> word: taxonomy + transmission + application. If you only say “old Indian wisdom,” you have not started the paper.</p>
-        <p><strong>Why it is on a BCA timetable.</strong> CCS places this course as <strong>BCA-1003 T</strong>, GEC-I <em>Indian Culture and Civilization</em>, 2 credits, 30 theory hours, 100 marks (25 internal + 75 external), aligned to the <strong>AICTE Model Curriculum 2024</strong> and <strong>NEP 2020</strong>. The policy bet is not that every graduate becomes a Sanskritist. The bet is that a professional student can recognise Indian methods of conservation, measurement, grammar, and governance as <em>knowledge architectures</em>, then relate them to well-being and sustainable practice (CO3, CO4) without turning the room into a civilisational shouting match.</p>
-        <p><strong>What this course is not.</strong> It is not a substitute for Physics or Discrete Maths. It is not a licence to claim that every modern invention was “already in the Veda.” It is not a copy of any one textbook. We cite public syllabus headings and traditional names; we open Thakur and Mahadevan for chapter depth.</p>
-        <p><strong>Four course outcomes, in lecturer English:</strong> (CO1) students can sketch how Vedas, Vedāṅgas, Upāṅgas, Upaveda, Purāṇa and Itihāsa sit together as an education map; (CO2) they can trace and name the systems on the sheet; (CO3) they can pick ideas that are publicly discussable and testable rather than mystical fog; (CO4) they can take pride without denying other people’s knowledge or human rights.</p>
-        <p><strong>How these pages work.</strong> Each topic is a gallery: a verse or hook, a map, named lists, heritage figures, then a short modern bridge. Seal a card when you can teach it without scrolling. Unit I is the map; Units II–V apply it to language, number, sky, making, and the body-politic.</p>`,
+        explainer: window.IKSGallery.what(),
+        diagramsInBody: true,
         analogy: {
           title: "A modern bridge",
-          body: "After the Sanskrit map: IKS is a system word — ways of generating, classifying, transmitting, and applying knowledge. A computing student already knows that ‘system’ is not a slogan. Use that familiarity; do not let it rename the Veda."
+          body: "After the Taittirīya instruction and the Gītā line: a computing student already knows that ‘system’ is not a slogan. Use that familiarity last. Do not let it rename śruti, kalā, or dharma."
         },
-        diagram: {
-          type: "tree",
-          title: "IKS as a system word",
-          root: "IKS",
-          branches: ["Generate (inquiry, experiment, śāstra)", "Classify (vidyāsthāna, kalā)", "Transmit (oral, sūtra, school)", "Apply (health, craft, state)"]
-        },
+        diagram: { type: "named", id: "gcta", title: "Generate · Classify · Transmit · Apply" },
         mnemonic: {
           name: "G-C-T-A",
           hook: "Generate · Classify · Transmit · Apply.",
@@ -399,7 +391,7 @@
         diagramsInBody: true,
         analogy: {
           title: "A modern bridge",
-          body: "Only after the limbs are named: a body that cannot pronounce, parse, time, or perform cannot keep a sacred corpus. That is not a compiler lecture. It is why the aṅgas were counted as life-support for śruti."
+          body: "Only after the limbs are named: a body that cannot pronounce, parse, time, or perform cannot keep a sacred corpus. That is why the aṅgas were counted as life-support for śruti — not as optional extras."
         },
         diagram: { type: "named", id: "vedapurusa", title: "Vedapuruṣa" },
         mnemonic: {
@@ -464,18 +456,11 @@
           "Give a one-line domain for each.",
           "State the 14→18 arithmetic."
         ],
-        explainer: `<p><strong>Upavedas</strong> are the applied companions of the Veda stack — not a fifth Veda, but a traditional way of saying: this corpus of practice hangs next to śruti. The four names this paper wants on the board:</p>
-        <ul>
-          <li><strong>Āyurveda</strong> — life-knowledge: health, food, regimen. Unit V returns with sleep, water, and food as lecture headings. Today: name it as applied knowledge of the living body.</li>
-          <li><strong>Dhanurveda</strong> — bow-knowledge: martial and defence training in the traditional list. Teach it as organised force-knowledge, not as a video-game skin.</li>
-          <li><strong>Gandharvaveda</strong> — music and performance knowledge; sits beside Sāmaveda’s chant world. Useful when students think IKS is only ‘serious philosophy’.</li>
-          <li><strong>Sthāpatyaveda</strong> — architecture / built form. Neighbour of Śilpa and Vāstu. Unit IV lives here.</li>
-        </ul>
-        <p><strong>Pairing lore</strong> (optional 2-mark colour, not a hill to die on): traditional schemes often pair Āyurveda with Ṛg or Atharva, Dhanurveda with Yajur, Gandharva with Sāma, Sthāpatya with Atharva — posters disagree. If you mention pairings, say “one traditional pairing” and keep the four names as the scoring core.</p>
-        <p><strong>Curriculum job.</strong> Upavedas are how Caturdaśa becomes Aṣṭādaśa, and how later units are not random GK. Health, sound, defence, building — application layer.</p>`,
+        explainer: window.IKSGallery.upaveda(),
+        diagramsInBody: true,
         analogy: {
-          title: "Core CS + applied labs",
-          body: "Discrete maths is core; HCI, networks, security, graphics are applied. Upavedas are applied labs hanging off the Veda programme spec. You can be examined on the lab names even before the lab manuals (Units IV–V) are fully taught."
+          title: "A modern bridge",
+          body: "After the four names: a university still distinguishes core seats from applied faculties — medicine, music, architecture, defence studies. The Sanskrit doors are older than that office-map. Use the comparison last."
         },
         diagram: {
           type: "tree",
@@ -569,7 +554,7 @@
           "Save Cārvāka, Bauddha, Jaina for the next card."
         ],
         classroomActivity: {
-          title: "Compiler badges",
+          title: "Signature slips",
           minutes: 10,
           body: "Six slips: ‘witness consciousness’, ‘inference as a valid knowledge event’, ‘atom-like particular’, ‘ritual meaning of a sentence’, ‘Brahman as Upaniṣadic centre’, ‘eight-limbed discipline’. Students pin them on the three pair columns. Wrong pins stay on the board as the next oral 2-marker."
         },
@@ -691,44 +676,37 @@
         tags: ["purana", "lakshana", "maha", "upa", "sthala"],
         title: "Purāṇas",
         readAs: "Thakur Unit I — Purāṇas (Maha, Upa, Sthala)",
-        summary: "Narrative encyclopaedias of the smṛti world. Teach Maha / Upa / Sthala as a size-and-place taxonomy, and the five lakṣaṇas as the exam spine — not a binge-watch of every book.",
+        summary: "Eighteen named Mahāpurāṇas, five lakṣaṇa-rooms, Vaiṣṇava–Śaiva–Śākta houses, daśāvatāra as a path of time, and sthala-lore you can still walk. Smṛti-side encyclopaedias of Sanātana memory.",
         outcomes: [
-          "Place Purāṇa on the map (often Upāṅga; smṛti-side narrative).",
-          "Explain Maha, Upa, Sthala in one line each.",
-          "Recite the five lakṣaṇas."
+          "Place Purāṇa as smṛti / Upāṅga — not a fifth Veda.",
+          "Walk the five lakṣaṇas with one living example each.",
+          "Give any of the eighteen a one-line identity; name the Śiva/Vāyu fork.",
+          "Sketch daśāvatāra as cosmology-in-story; name one sthala (Kāśī, Kāñcī, or Rameśvara)."
         ],
-        explainer: `<p><strong>Purāṇas</strong> are long narrative-encyclopaedic works that carry cosmology, genealogies, place-lore, and dharma-in-story. They are not Vedas. They are typically taught on the smṛti side of the line, and in the Caturdaśa map they often occupy an Upāṅga slot. Traditional counts speak of <strong>eighteen Mahāpurāṇas</strong> (and eighteen Upapurāṇas in many lists). Do not force a student to name all eighteen on day one unless you are drilling a specific 2-marker; teach the <em>count</em> and two examples (e.g. Viṣṇu, Śiva, Bhāgavata — as names, not as plot summaries).</p>
-        <p><strong>Three folders on the CCS sheet:</strong> <em>Maha</em> — the great Purāṇas, the eighteen. <em>Upa</em> — lesser / supplementary Purāṇas. <em>Sthala</em> — place-Purāṇas, tied to a tīrtha or temple-region (local knowledge, pilgrimage geography). Sthala is the one first-years forget; put it in a box. It is how a civilisation stored <em>where</em> as well as <em>when</em> and <em>who</em>.</p>
-        <p><strong>Five lakṣaṇas</strong> (the scoring spine): <em>sarga</em> (creation / origination of the world), <em>pratisarga</em> (re-creation / dissolution cycles), <em>vaṁśa</em> (genealogies of gods and sages), <em>manvantara</em> (intervals of Manu — cosmic-administrative eras), <em>vaṁśānucarita</em> (histories of royal lineages). A text that does this encyclopaedic job is ‘doing Purāṇa.’ That is a better 5-marker than a plot of one episode.</p>
-        <p><strong>How to teach without TV serials.</strong> One story, three minutes, to show dharma-in-narrative — then back to lakṣaṇas. Purāṇa is a knowledge vehicle (memory, geography, ethics), not a substitute for a streaming app.</p>`,
+        explainer: window.IKSGallery.purana(),
+        diagramsInBody: true,
         analogy: {
-          title: "Wiki + changelog + place pages",
-          body: "Mahāpurāṇa is a huge wiki with cosmology templates. Upapurāṇa is a smaller project wiki. Sthala is a location page with history. The five lakṣaṇas are required headings in the style guide: origin, reset, people-tree, era-clock, dynasty log. If a page misses the style guide, tradition may still love it — but the exam wants the style guide."
+          title: "A modern bridge",
+          body: "After the five rooms and the eighteen names: a civilisation that stores origin, era, family, king, and holy place in one genre is doing encyclopaedic memory. That sentence is a guest. It does not get to rename Purāṇa."
         },
-        diagram: {
-          type: "tree",
-          title: "Purāṇa taxonomy + five headings",
-          root: "Purāṇa",
-          branches: ["Maha (18)", "Upa (supplement)", "Sthala (place)", "Lakṣaṇas: sarga, pratisarga, vaṁśa, manvantara, vaṁśānucarita"]
-        },
+        diagram: { type: "named", id: "purana-lakshanas", title: "Pañcalakṣaṇa" },
         mnemonic: {
           name: "SPVMV",
           hook: "Sarga · Pratisarga · Vaṁśa · Manvantara · Vaṁśānucarita.",
           recite: "‘Create, re-create, family tree, Manu-era, kings’ stories.’"
         },
         lectureTips: [
-          "Write the five lakṣaṇas as a numbered list and leave it on the board all hour.",
-          "Sthala is the discriminator — ask it orally.",
-          "If a student starts a 20-minute myth, smile and time-box to 90 seconds."
+          "Project the eighteen as a gallery; walk three houses; land in one sthala and one avatāra image.",
+          "Coaching for the hour lives under Teach notes — this card is the chapter."
         ],
         classroomActivity: {
-          title: "Style-guide audit",
-          minutes: 10,
-          body: "Give a 6-line fake ‘mini-Purāṇa’ you invent (a town, a flood, a family, a king). Teams tick which lakṣaṇas are present and which are missing. Then they add one sentence to fill a hole. Teaches the template, not trivia."
+          title: "Five rooms, one town",
+          minutes: 12,
+          body: "Pairs take a place they know (a river, a temple-street, a hill). They write one sentence each for sarga, pratisarga, vaṁśa, manvantara, and vaṁśānucarita as if that place had a Purāṇa. Read two aloud. The point is the floor-plan, not invention-as-scripture."
         },
         studentQs: [
-          "Are Purāṇas ‘history’? (They conserve memory, geography, and values in narrative form. Do not dump them into Rankean history or into ‘mere myth’ — teach the lakṣaṇa job.)",
-          "Eighteen names? (Know the count; two examples; full list is extra drill.)"
+          "Are Purāṇas ‘history’? (They conserve memory, geography, and values in narrative form. Neither Rankean history nor ‘mere myth’ — walk the lakṣaṇa job and one sthala.)",
+          "Must I memorise all eighteen? (They are on the card as identities. Know the five rooms, the three houses, the path of ten, and as many names as your mouth will hold — Skanda, Bhāgavata, Matsya, and the Śiva/Vāyu fork at minimum.)"
         ],
         twomark: {
           q: "What are the five lakṣaṇas of a Purāṇa?",
@@ -742,17 +720,18 @@
           q: "Purāṇas as a knowledge system: taxonomy and lakṣaṇas.",
           outline: [
             "Not Veda; smṛti / Upāṅga neighbourhood.",
-            "Maha–Upa–Sthala.",
-            "Five lakṣaṇas with glosses.",
-            "One example of ‘knowledge in story’.",
-            "Guardrail: no serial recap."
+            "Five lakṣaṇas with a living example each.",
+            "Eighteen as identities; Śiva/Vāyu fork.",
+            "Three houses (Vaiṣṇava / Śaiva / Śākta) without ranking.",
+            "Daśāvatāra as a path; one sthala walked.",
+            "Itihāsa contrast in two clean lines."
           ]
         },
         check: [
-          "I can recite five lakṣaṇas.",
-          "I can explain Sthala.",
-          "I know the ‘eighteen’ count without listing all names.",
-          "I can run the style-guide audit."
+          "I can walk five lakṣaṇas with examples, not slogans.",
+          "I can give identities for the eighteen and name the Śiva/Vāyu fork.",
+          "I can sketch daśāvatāra as cosmology-in-story.",
+          "I can walk Kāśī or Kāñcī or Rameśvara as sthala-knowledge."
         ],
         youtube: [
           { title: "Puranas pancha lakshana", search: "Puranas pancha lakshana sarga pratisarga" }
@@ -772,14 +751,11 @@
           "Name Rāmāyaṇa and Mahābhārata as the pair on this paper.",
           "Give two examples of knowledge carried (kingship, kin-dharma, counsel)."
         ],
-        explainer: `<p><strong>Itihāsa</strong> is traditionally glossed as ‘so indeed it was’ — narrative that claims a past and teaches through it. On this CCS paper the pair is <strong>Rāmāyaṇa</strong> and <strong>Mahābhārata</strong>. A famous line taught in this neighbourhood is that Veda is afraid of being misread by one who has not approached it via Itihāsa–Purāṇa — i.e. story is a <em>user interface</em> for values and institutions. You may cite the idea; you need not chant a Sanskrit verse unless you are sure of it.</p>
-        <p><strong>Rāmāyaṇa as a knowledge vehicle.</strong> Not ‘the good prince serial.’ Board handles: maryādā (a constraint language for royal conduct), vanavāsa as a stress-test of promises, counsel (Vibhīṣaṇa, Hanumān) as information flow in a campaign, and later Unit V’s public-administration hook. Pick two scenes max.</p>
-        <p><strong>Mahābhārata as a knowledge vehicle.</strong> Not ‘war plus Gītā quote dump.’ Board handles: kin vs polity, the cost of silence (Vidura’s counsel ignored), dharma as conflict of duties rather than a sticker, and the Gītā as a philosophical module <em>inside</em> the epic (do not let it eat the whole hour). The epic is an encyclopaedia of dilemmas.</p>
-        <p><strong>Itihāsa vs Purāṇa.</strong> Rough classroom contrast: Itihāsa is framed as human-scale dynastic narrative with a ‘it happened’ claim; Purāṇa leans encyclopaedic-cosmological with the five lakṣaṇas. They leak into each other in real manuscripts. For marks: two folders, two jobs, one leak sentence.</p>
-        <p><strong>Classroom ethics.</strong> Students will bring film versions. Honour the love; examine the syllabus object. No community-baiting. CO4 again: pride without turning classmates into avatars of a war.</p>`,
+        explainer: window.IKSGallery.itihasa(),
+        diagramsInBody: true,
         analogy: {
-          title: "Narrative as a teaching API",
-          body: "A well-written case-study is knowledge in story form. Itihāsa is a civilisation-scale case library: kingship under constraint, kin-protocol in conflict, counsel ignored, recovery after failure. The Gītā is a philosophical module inside the Mahābhārata. Study the dilemma without binge-watching a serial."
+          title: "A modern bridge",
+          body: "After Vālmīki’s krauñca-line and the Yakṣa’s cave of dharma: a well-written case still teaches through a claimed past. That is allowed as a guest sentence. The spine remains maryādā, dilemma, and counsel — not a gadget word for story."
         },
         diagram: {
           type: "compare",
@@ -820,7 +796,7 @@
         tenmark: {
           q: "Itihāsa as a knowledge system. Illustrate from both epics without story-dumping.",
           outline: [
-            "Definition and UI-for-Veda idea.",
+            "Definition; Itihāsa–Purāṇa as how the little-heard person is kept from stretching the Veda.",
             "Rāmāyaṇa: two handles.",
             "Mahābhārata: two handles.",
             "Contrast Purāṇa.",
@@ -851,13 +827,11 @@
           "Explain why aphorism is a storage format.",
           "Use two classroom-safe maxims without claiming a fake Sanskrit quote."
         ],
-        explainer: `<p><strong>Nīti</strong> is practical wisdom about conduct — of a person, a court, a king. Nīti-śāstras (the Hitopadeśa / Pañcatantra neighbourhood, later Arthaśāstra as a heavier cousin in Unit V) store policy and ethics in story-plus-maxim form. This is not ‘moral science period’ in the school sense. It is a knowledge format: <em>what should an agent do under constraint?</em></p>
-        <p><strong>Subhāṣita</strong> means ‘well-spoken’ — a polished verse or sentence built to travel. Compression, memorability, and an ethical point. For this paper: a portable packet students can explain, not a WhatsApp forward of unverified Sanskrit.</p>
-        <p><strong>How we will quote.</strong> Prefer ideas you can paraphrase in English and attribute as ‘a common nīti idea’ unless you have verified the verse from a printed subhāṣita collection in your hand. Fake Sanskrit on a slide is a professionalism fail. Two safe themes: (1) company shapes conduct (choose colleagues as you choose libraries); (2) knowledge unused is a lamp in a closed box — vidyā asks for application (CO3).</p>
-        <p><strong>Link forward.</strong> Unit V’s Kautilya is nīti at state scale. Unit I only installs the format: practical ethics, compressed, teachable at 9 a.m. to a sleepy first year.</p>`,
+        explainer: window.IKSGallery.niti(),
+        diagramsInBody: true,
         analogy: {
-          title: "Lint rules and commit messages",
-          body: "A good linter encodes ‘how we do things here’ in short rules. A good commit message is a subhāṣita for a diff. Nīti-śāstra is an organisation’s engineering handbook written as fables. You still need the big spec (dharma, artha, Veda-map) — the aphorism is the on-call cheat sheet."
+          title: "A modern bridge",
+          body: "After Hitopadeśa’s chain and Manu’s courtroom line: a short, attributed maxim is a storage format. That is why first-years still learn nīti. Do not rename it as a software style-guide."
         },
         diagram: {
           type: "vflow",
@@ -932,8 +906,8 @@
         <p><strong>Sample internal (25).</strong> Section A: 5 × 2 marks — list Vedāṅgas; 14 counting; śruti/smṛti; nāstika names; five lakṣaṇas. Section B: 1 × 5 — Kalās as taxonomy. Section C: 1 × 10 — Four Vedas + layers + pāṭha. Adjust to your college pattern. Word questions yourself so you never need a leaked PDF.</p>
         <p><strong>After Unit I.</strong> Students should feel the later units as files in folders they already own: Pāṇini under Vyākaraṇa, Śulba under Kalpa, temple under Sthāpatya/Śilpa, Āyurveda under Upaveda, Kautilya under Nīti-at-scale.</p>`,
         analogy: {
-          title: "Sprint review",
-          body: "Unit I is the map of seats, skills, and ways of seeing. Units II–V fill the folders. A revision hour is redrawing that map before you add later names. If the folders are not drawn, Yoga will be taught twice and Śulba will go missing."
+          title: "A modern bridge",
+          body: "Unit I is the map of seats, skills, and ways of seeing. Units II–V fill the folders. A revision hour is redrawing that map before later names arrive. If the folders are not drawn, Yoga will be taught twice and Śulba will go missing."
         },
         diagram: {
           type: "flow",
