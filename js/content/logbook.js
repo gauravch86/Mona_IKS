@@ -6,6 +6,14 @@
     {
       date: "2026-09-17",
       type: "updated",
+      paper: "unit1",
+      topicId: "u1-purana",
+      title: "Purāṇas — museum chapter",
+      note: "Full gallery: cultural opening (smṛti/Upāṅga, Sanātana memory); five lakṣaṇa rooms with living examples; all eighteen Mahāpurāṇas as identities with the Śiva/Vāyu fork; Vaiṣṇava–Śaiva–Śākta houses (Padma guṇa-ranking named and refused as insult); daśāvatāra path + Bhāgavata 1.3.28; sthala walked at Kāśī, Kāñcī, Rameśvara, Puri; Upapurāṇa as companion; temple–festival–oral strip; Itihāsa contrast. Lecturer ‘don’t binge / two names’ coaching removed from the card body."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
       paper: "site",
       topicId: "",
       title: "Attested-verse authenticity pass",

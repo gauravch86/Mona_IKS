@@ -740,29 +740,34 @@
 
   function purana() {
     const eighteen = [
-      ["Brahma", "origins, first things"],
-      ["Padma", "lotus-cosmology, tīrtha lore"],
-      ["Viṣṇu", "Vaiṣṇava encyclopaedia"],
-      ["Śiva / Vāyu", "Śaiva stream — lists vary here"],
-      ["Bhāgavata", "Kṛṣṇa-līlā; bhakti as a knowledge"],
-      ["Nārada", "teaching of devotion"],
-      ["Mārkaṇḍeya", "includes the Devī-māhātmya neighbourhood"],
-      ["Agni", "rite, image, and many crafts in summary"],
-      ["Bhaviṣya", "the ‘future’ as a Purāṇa genre"],
-      ["Brahmavaivarta", "Rādhā–Kṛṣṇa world"],
-      ["Liṅga", "Śaiva; the liṅga as a teaching form"],
-      ["Varāha", "the earth lifted — geography as story"],
-      ["Skanda", "largest; many sthala-khaṇḍas live here"],
-      ["Vāmana", "the dwarf-stride that measures worlds"],
-      ["Kūrma", "the tortoise; churning’s still point"],
-      ["Matsya", "the fish, the flood — and our lakṣaṇa verse"],
-      ["Garuḍa", "Viṣṇu’s vehicle; dharma in flight"],
-      ["Brahmāṇḍa", "the egg of Brahmā; cosmic architecture"]
+      [1, "Brahma", "Brahmā", "First things — Brahmā’s own telling of how worlds begin. Often the shortest of the eighteen; a doorway into the house, not a thin book."],
+      [2, "Padma", "Vaiṣṇava", "The cosmic lotus. Later recensions carry vast tīrtha-māhātmya — holy places treated as chapters of the earth."],
+      [3, "Viṣṇu", "Vaiṣṇava", "The classic Vaiṣṇava encyclopaedia: cosmology, kingship, the six topics expanded into Viṣṇu’s house."],
+      [4, "Śiva / Vāyu", "Śaiva", "The honest fork. Some lists read Śiva, some Vāyu. Both sit in Śiva’s house; Vāyu is among the older-feeling voices in this family."],
+      [5, "Bhāgavata", "Vaiṣṇava", "Kṛṣṇa as child, friend, and Bhagavān himself. Bhakti here is a knowledge-path, not a leftover emotion."],
+      [6, "Nārada", "Vaiṣṇava", "Nārada as teacher of devotion — a handbook of bhakti, the sage who walks between worlds with a vīṇā and a question."],
+      [7, "Mārkaṇḍeya", "Śākta heart", "The sage who does not die. Inside this Maha lives the Devī-māhātmya (Durgā-saptaśatī) — the Goddess’s own battle-hymn."],
+      [8, "Agni", "Mixed", "Agni speaks. Ritual, image-making, vāstu fragments — a craftsman’s Purāṇa, neighbour of Śilpa."],
+      [9, "Bhaviṣya", "Brahmā", "‘That which will be.’ Prophecy as a Purāṇa genre. Later layers are thick; the heading still teaches that time has a future tense."],
+      [10, "Brahmavaivarta", "Śākta-leaning", "Brahmā’s unfolding. Rādhā–Kṛṣṇa; Prakṛti as goddess. A meeting of Vaiṣṇava love and Śākta nature."],
+      [11, "Liṅga", "Śaiva", "The liṅga as a teaching form — not a riddle for tourists. Śaiva cosmology held in a single sacred shape."],
+      [12, "Varāha", "Vaiṣṇava", "The boar lifts Bhūdevī from the waters. Geography as rescue: the earth itself is a person to be carried."],
+      [13, "Skanda", "Śaiva", "The largest. Kārtikeya’s book that became a continent of sthala-khaṇḍas — Kāśī, Reva, Prabhāsa, Utkala, Setu."],
+      [14, "Vāmana", "Vaiṣṇava", "The dwarf who asks three paces and takes the three worlds. Measure, kingship, and a king who had to learn the size of a gift."],
+      [15, "Kūrma", "Vaiṣṇava", "The tortoise beneath the churning. The still point under the ocean of milk — knowledge that does not slip."],
+      [16, "Matsya", "Vaiṣṇava", "The fish, the flood, Manu, the seeds of knowledge carried over water. This card’s five-mark verse lives in this book."],
+      [17, "Garuḍa", "Vaiṣṇava", "Viṣṇu’s vehicle. Dharma, afterlife, a bird’s-eye law-book — how a soul travels, and how a living person should."],
+      [18, "Brahmāṇḍa", "Brahmā", "The egg of Brahmā: cosmic architecture. Some recensions carry the Adhyātma-rāmāyaṇa neighbourhood — Purāṇa leaning into Itihāsa."]
     ];
     const cards = eighteen
       .map(
-        ([name, hint], i) =>
-          `<article class="upa-card"><p class="kicker">${i + 1}</p><h3>${name}</h3><p>${hint}</p></article>`
+        ([n, name, stream, hint]) =>
+          `<article class="maha-card">
+            <p class="kicker">${n}</p>
+            <h3>${name}</h3>
+            <p class="stream-tag">${stream}</p>
+            <p>${hint}</p>
+          </article>`
       )
       .join("");
     return `
@@ -771,94 +776,229 @@
         sa: "सर्गश्च प्रतिसर्गश्च वंशो मन्वन्तराणि च ।<br/>वंशानुचरितं चैव पुराणं पञ्चलक्षणम् ॥",
         iast: "sargaś ca pratisargaś ca vaṃśo manvantarāṇi ca / vaṃśānucaritaṃ caiva purāṇaṃ pañca-lakṣaṇam",
         en: "Creation, re-creation, genealogies, the intervals of Manu, and the deeds of lineages — these five are the marks of a Purāṇa.",
-        hi: "पुराण कहानी का ढेर नहीं — पाँच शीर्षक हैं: सृष्टि, फिर सृष्टि, वंश, मन्वन्तर, राजाओं की कथा।",
+        hi: "पुराण पाँच कमरों का घर है — सृष्टि, फिर सृष्टि, वंश, मन्वन्तर, राजाओं की कथा।",
         attrib: "Matsya Purāṇa 53.65 neighbourhood; the same five marks appear in Vāyu and in Viṣṇu Purāṇa 3.6.",
-        note: "Scoring spine of this card. Maha / Upa / Sthala is the size-and-place taxonomy. Eighteen is the famous count — know the count, the five marks, and two names. Do not binge plots."
+        note: "The genre naming itself. What follows is the house those five headings built."
       })}
 
-      <h2>What a Purāṇa is (and is not)</h2>
-      <p><strong>Purāṇa</strong> means ‘ancient’ — but the genre is not a dusty attic. These are long narrative-encyclopaedic works on the <em>smṛti</em> side of the line: cosmology, genealogies, place-lore, and dharma carried in story. They are <em>not</em> Vedas. In the Caturdaśa map they often occupy an Upāṅga slot. A civilisation that stores ‘how the world began,’ ‘who begot whom,’ ‘which king kept which vow,’ and ‘why this river is holy’ in the same kind of book is doing knowledge work, not only entertainment.</p>
-      <p>One story, three minutes, to show dharma-in-narrative — then back to the five headings. Television serials are a later love. The exam wants the template.</p>
-
-      <h2>The five marks</h2>
-      ${D.render({ type: "named", id: "purana-lakshanas", title: "Pañcalakṣaṇa" })}
-      <div class="deep-panels">
-        <article class="deep-panel">
-          <h3>Sarga</h3>
-          <p>Origination — how worlds, beings, and orders arise. Not a science-class ‘Big Bang substitute.’ A memory of beginning, told so a people know where they stand.</p>
-        </article>
-        <article class="deep-panel">
-          <h3>Pratisarga</h3>
-          <p>Dissolution and return. Time here is cyclic: what is made is unmade and made again. The heading keeps a student from treating one creation-story as the whole book.</p>
-        </article>
-        <article class="deep-panel">
-          <h3>Vaṁśa</h3>
-          <p>Genealogies of gods and sages. Who taught whom; which ṛṣi-line holds which knowledge. A family-tree as a library catalogue.</p>
-        </article>
-        <article class="deep-panel">
-          <h3>Manvantara</h3>
-          <p>The intervals of Manu — cosmic-administrative eras. A clock larger than a dynasty. First-years need the name and the idea of a named age, not a full list of fourteen Manus.</p>
-        </article>
-        <article class="deep-panel">
-          <h3>Vaṁśānucarita</h3>
-          <p>The deeds of royal lineages. Kings as cases: how power kept or broke dharma. Neighbour of Itihāsa, still inside the Purāṇa template.</p>
-        </article>
-      </div>
-
-      <h2>Three folders on the CCS sheet</h2>
-      ${D.render({
-        type: "compare",
-        title: "Maha · Upa · Sthala",
-        headers: ["Folder", "What it names", "What to write in an answer"],
-        rows: [
-          ["Mahāpurāṇa", "The great eighteen", "Count + two examples (e.g. Viṣṇu, Bhāgavata, Matsya)"],
-          ["Upapurāṇa", "Supplementary Purāṇas (often also counted eighteen)", "Lesser / companion corpus — not ‘unimportant,’ just not the Maha list"],
-          ["Sthala-purāṇa", "Place-Purāṇa: a tīrtha, a temple-region, a river’s story", "How a civilisation stored <em>where</em> as well as when and who"]
-        ]
-      })}
-      <p><strong>Sthala</strong> is the discriminator first-years forget. Skanda Purāṇa’s Kāśī-khaṇḍa is a famous large example: a city as a knowledge-object. Smaller sthala texts tie a pond, a hill, a liṅga, or a festival to a landscape you can still walk. Geography here is not a footnote. It is a heading.</p>
-
-      <h2>Eighteen names — one spine, one honest variant</h2>
-      <p>Traditional lists speak of eighteen Mahāpurāṇas. The names below are the usual classroom set. One well-known fork: some lists read <em>Vāyu</em> where others read <em>Śiva</em>. Say the count; name two; mention the fork if asked. That is scholarship, not hedging.</p>
-      <div class="eighteen-grid">${cards}</div>
+      <h2>What ‘Purāṇa’ names</h2>
+      <p><em>Purāṇa</em> means that which is ancient — and, in living use, that which makes the ancient present. These are long narrative-encyclopaedic works: cosmology, genealogies, the lore of places, and dharma carried in story. A civilisation that stores ‘how the world began,’ ‘who begot whom,’ ‘which king kept which vow,’ and ‘why this river is holy’ in the same kind of book is doing memory-work, not only telling tales.</p>
+      <p>On the śruti/smṛti line they sit with <strong>smṛti</strong>: remembered literature, transmitted by named teachers, not claiming the unauthored status of Veda. They are <em>not</em> Vedas. In the Caturdaśa map they often occupy an <strong>Upāṅga</strong> slot, beside Nyāya, Mīmāṁsā, and Dharmaśāstra. That placement is a respect: story is a seat of learning.</p>
+      <p>Why this genre matters for Sanātana memory: it is how a people keep time as a cycle, keep a landscape as a scripture, and keep a god as a person one can love. Recitation at a temple, a saptāha in a town hall, a grandmother’s telling at dusk — the book is larger than the critical edition. The edition is a gift. The telling is the life.</p>
       ${cite({
         kind: "Bhāgavata Purāṇa",
         sa: "निगमकल्पतरोर्गलितं फलं शुकमुखादमृतद्रवसंयुतम् ।<br/>पिबत भागवतं रसमालयं मुहुरहो रसिका भुवि भावुकाः ॥",
         iast: "nigama-kalpa-taror galitaṃ phalaṃ śuka-mukhād amṛta-drava-saṃyutam / pibata bhāgavataṃ rasam ālayaṃ muhur aho rasikā bhuvi bhāvukāḥ",
         en: "The ripe fruit fallen from the wish-tree of the Veda, mixed with nectar from Śuka’s mouth — drink, lovers of rasa, this Bhāgavata again and again.",
-        hi: "वेद कल्पवृक्ष है; भागवत उसका गिरा फल है — रस है, नारा नहीं।",
+        hi: "वेद कल्पवृक्ष है; भागवत उसका गिरा फल है — गुरु के मुख से रस बनकर।",
         attrib: "Bhāgavata Purāṇa 1.1.3.",
-        note: "One Purāṇa speaking of its own job: to carry Veda as flavour, through a teacher’s mouth. Use as a taste of the genre — not as a claim that every Purāṇa is the Bhāgavata."
+        note: "One Purāṇa speaking of the genre’s job: to carry Veda as flavour, through a teacher’s mouth. Not a claim that every Purāṇa is the Bhāgavata — a claim that story can be rasa, and rasa can be knowledge."
+      })}
+      ${sitePoem({
+        lines: "पाँच कमरे, अठारह नाम, एक घाट की कथा।<br/>जो जगह को भी ग्रन्थ माने — वही पुराण-विधा।",
+        en: "Five rooms, eighteen names, the story of one ghāṭ. The genre that treats a place as a book — that is Purāṇa-knowledge. (Original — not a śloka.)"
       })}
 
       ${D.render({
         type: "figures",
-        title: "Images that teach the genre",
+        title: "A body of worlds, a rest between worlds",
         items: [
           {
             file: "Vishnu_Vishvarupa.jpg",
             alt: "Viṣṇu as the cosmic form",
-            caption: "Viśvarūpa.",
-            note: "A body that contains worlds — sarga made visible. Neighbour of the Gītā’s theophany, at home in Purāṇa painting."
-          },
-          {
-            file: "Matsya avatar.jpg",
-            alt: "Matsya, the fish avatāra of Viṣṇu",
-            caption: "Matsya.",
-            note: "The Purāṇa that lends us the five-mark verse also remembers a flood and a fish that carries knowledge across a pratisarga."
+            caption: "Viśvarūpa (V&amp;A).",
+            note: "Sarga made visible: a body that contains worlds. Neighbour of the Gītā’s theophany, at home in Purāṇa painting."
           },
           {
             file: "Vishnu reclining on the cosmic serpent Shesha, with Brahma emerging from his navel.jpg",
             alt: "Viṣṇu reclining on Śeṣa, Brahmā emerging from the navel",
             caption: "Śeṣaśāyī Viṣṇu.",
-            note: "Between kalpas: the world rests, then begins again. Pratisarga as an image, not a slogan."
+            note: "Between kalpas the world rests. Brahmā from the navel-lotus is a sarga-image; the sleep is pratisarga."
           }
         ]
       })}
-      ${sitePoem({
-        lines: "पाँच शीर्षक, अठारह नाम, एक तीर्थ की कथा।<br/>जो जगह को भी ग्रन्थ माने — वही पुराण-विधा।",
-        en: "Five headings, eighteen names, the story of one tīrtha. The genre that treats a place as a book — that is Purāṇa-knowledge. (Original — not a śloka.)"
+
+      <h2>Pañcalakṣaṇa — five rooms of one house</h2>
+      <p>Matsya’s verse is not a filing-cabinet. It is a floor-plan. Walk each room with one picture in the mind. A favourite episode still lives here; the house is larger than any one room.</p>
+      ${D.render({ type: "named", id: "purana-lakshanas", title: "Pañcalakṣaṇa" })}
+      <div class="deep-panels">
+        <article class="deep-panel">
+          <h3>1. Sarga — origination</h3>
+          <p>How worlds, beings, and orders arise. Brahmā from the lotus on Viṣṇu’s navel; the golden egg (<em>brahmāṇḍa</em>) in which sky and earth are halves; prakṛti stirring so that count and form appear. This is not a laboratory ‘Big Bang substitute.’ It is a memory of beginning, told so a people know where they stand when they wake. Viśvarūpa — the body that contains worlds — is sarga as an image you can look at.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>2. Pratisarga — dissolution and return</h3>
+          <p>What is made is unmade and made again. The waters of pralaya; Matsya carrying Manu and the seeds of plants and the Veda over the flood; Śeṣaśāyī Viṣṇu between kalpas. Time here is a breathing, not a one-way road. A student who treats one creation-story as the whole book has sat in one room and called it the house.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>3. Vaṁśa — lines of gods and ṛṣis</h3>
+          <p>Genealogies are a library catalogue: who taught whom, which gotra holds which knowledge, which daughter of Dakṣa married which ṛṣi. Solar and lunar lines (<em>sūrya-vaṁśa</em>, <em>candra-vaṁśa</em>) later flow into kings. A family-tree here is not gossip. It is how a civilisation files its teachers.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>4. Manvantara — the ages of Manu</h3>
+          <p>A clock larger than a dynasty. Tradition names fourteen Manus; this age is Vaivasvata’s. Each interval has its Indra, its ṛṣis, its way the Veda is held. Manu is not ‘a king of a city.’ Manu is the name of a cosmic-administrative era — a way of saying that dharma has a climate, and climates change.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>5. Vaṁśānucarita — deeds of royal lines</h3>
+          <p>Kings as cases. Pṛthu who milks the earth; Yayāti who tastes and learns; Ikṣvāku’s line flowing toward Rāma — where Purāṇa and Itihāsa share blood. Power kept or broke dharma; the Purāṇa keeps the case. This room is the neighbour of the next card, not its rival.</p>
+        </article>
+      </div>
+
+      <h2>Eighteen Mahāpurāṇas — a gallery of identities</h2>
+      <p>Traditional lists speak of eighteen great Purāṇas. The spine below is the usual classroom set. One well-known fork: some lists read <em>Vāyu</em> where others read <em>Śiva</em>. Both names belong in Śiva’s house. A pandit is not embarrassed by the fork; a first-year need not be either. The names are identities, not a spelling panic — walk them as you would walk a mandapa of eighteen sculptures.</p>
+      <div class="eighteen-grid">${cards}</div>
+
+      <h2>Three houses — Vaiṣṇava, Śaiva, Śākta</h2>
+      <p>Purāṇas cluster by the deity’s household. This is a map of devotion, not a ranking of books. Brahmā’s courtyard (Brahma, Brahmāṇḍa, Bhaviṣya, and often Agni) sits beside the three. A medieval Vaiṣṇava scheme in the Padma Purāṇa also sorts by sattva, rajas, and tamas; that ranking is sectarian. This gallery will not use it to insult a Śaiva or Śākta book.</p>
+      ${D.render({ type: "named", id: "purana-streams", title: "Three houses of telling" })}
+
+      <h2>Daśāvatāra — cosmology walking as story</h2>
+      <p>From Matsya to Kalki, ten forms make a path a child can remember and a scholar can complicate. The path is Purāṇic: flood and rescue, churning and still point, earth lifted, a devotee heard from a pillar, three strides that measure worlds, a fierce axe, a prince of maryādā, then the hinge of later lists, then a rider still to come. Time has a past deep enough for a fish and a future tense for a white horse.</p>
+      <p>Bhāgavata Skandha 1, adhyāya 3, lists more than ten — ṛṣis, Dattātreya, and others sit in that longer necklace. The ten is a teaching path (temple walls, Jayadeva’s hymn, festival tableaux). Temple lists often place Kṛṣṇa eighth and Buddha ninth; Jayadeva places Balarāma and Buddha among the ten and praises Kṛṣṇa as their Lord. Buddha’s seat in a Purāṇic ten is a historical inclusion with a complicated theology — name it with respect, not as a cartoon of ‘Hinduism absorbing Buddhism.’</p>
+      ${D.render({ type: "named", id: "dashavatara", title: "Ten forms as a path" })}
+      ${cite({
+        kind: "Bhāgavata Purāṇa",
+        sa: "एते चांशकलाः पुंसः कृष्णस्तु भगवान् स्वयम् ।<br/>इन्द्रारिव्याकुलं लोकं मृडयन्ति युगे युगे ॥",
+        iast: "ete cāṃśa-kalāḥ puṃsaḥ kṛṣṇas tu bhagavān svayam / indrāri-vyākulaṃ lokaṃ mṛḍayanti yuge yuge",
+        en: "These are portions and parts of portions of the Puruṣa; but Kṛṣṇa is the Blessed Lord himself. Age after age they soothe the world troubled by Indra’s foes.",
+        hi: "ये अंश हैं; कृष्ण स्वयं भगवान हैं — युग-युग में लोक को शान्त करते हैं।",
+        attrib: "Bhāgavata Purāṇa 1.3.28 (after the longer avatāra-catalogue of 1.3).",
+        note: "The Bhāgavata’s own hinge: many forms, one fullness. Use it to open the path of ten, not to close every other Purāṇa."
       })}
+      ${D.render({
+        type: "figures",
+        title: "Three moments on the path",
+        items: [
+          {
+            file: "Matsya avatar.jpg",
+            alt: "Matsya, the fish avatāra of Viṣṇu",
+            caption: "Matsya.",
+            note: "Pratisarga as rescue: Manu, the seeds, the Veda — knowledge does not drown."
+          },
+          {
+            file: "Samudra Manthan, The Churning of the Ocean of Milk.png",
+            alt: "The churning of the ocean of milk",
+            caption: "Samudra-manthana.",
+            note: "Kūrma is the still point under the rope of the nāga. The churning is a cosmos at work — not a cartoon tug-of-war."
+          },
+          {
+            file: "Varaha Raja Ravi Varma.jpg",
+            alt: "Varāha lifting the earth, Raja Ravi Varma",
+            caption: "Varāha (Ravi Varma).",
+            note: "Bhūdevī lifted from the waters. Geography as a person; sarga as an act of care."
+          }
+        ]
+      })}
+
+      <h2>Sthala-purāṇa — when a place is a book</h2>
+      <p><em>Sthala</em> means place. A sthala-purāṇa (or a sthala-khaṇḍa inside a Maha) is how a civilisation stored <em>where</em> as well as when and who. The CCS sheet names this folder because first-years otherwise think Purāṇa is only ‘old stories in the sky.’ It is also the story of a ghāṭ, a liṅga, a river-bend, a corridor of a temple you can still walk.</p>
+      <div class="sthala-grid">
+        <article class="deep-panel">
+          <h3>Kāśī — Skanda’s Kāśī-khaṇḍa</h3>
+          <p>Vārāṇasī as a knowledge-object: Viśvanātha, the Gaṅgā, the claim that this city does not abandon a person at death. The khaṇḍa is huge because the city is a scripture of lanes. To walk Kāśī with the khaṇḍa in the ear is to hear why a place can be smṛti.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>Kāñcī — two cities in one</h3>
+          <p>Śiva’s Kāñcī and Viṣṇu’s Kāñcī share a landscape: Ekāmreśvara, Kāmākṣī, Varadarāja, the Pallava shore of stone at Kailāsanātha. Sthala here is not one temple’s brochure. It is how a whole town became a mandala.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>Rameśvara — Setu, where Itihāsa kneels</h3>
+          <p>On an island of corridors, Rāma worships Śiva. Setu-māhātmya / Skanda’s Setu neighbourhood: the epic’s prince becomes a pilgrim. Purāṇa and Itihāsa meet at a liṅga beside the sea. The long corridor is itself a teaching: approach is a practice.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>Puri — Utkala, a god who processes</h3>
+          <p>Jagannātha’s ratha-yātrā is a Purāṇa that moves. Skanda’s Utkala-khaṇḍa and the temple’s own sthala-lore keep a wooden god who leaves the garbha-gṛha once a year. Festival is not extra. It is the book outdoors.</p>
+        </article>
+      </div>
+      ${D.render({
+        type: "figures",
+        title: "Places that keep the telling",
+        items: [
+          {
+            file: "Shri Kashi Vishwanath Temple.jpg",
+            alt: "Kāśī Viśvanātha temple",
+            caption: "Viśvanātha, Kāśī.",
+            note: "A city as a khaṇḍa. Gold śikhara over a liṅga that sthala-lore will not let you treat as ‘just architecture.’"
+          },
+          {
+            file: "Kailasanathar Temple. Kanchipuram, TamilNadu.jpg",
+            alt: "Kailāsanātha temple, Kāñcīpuram",
+            caption: "Kailāsanātha, Kāñcī.",
+            note: "Pallava sandstone: Śiva’s Kāñcī in stone before later gopuras. Sthala as a built sentence."
+          },
+          {
+            file: "Rameswaram Temple, Tamil Nadu.jpg",
+            alt: "Rameśvaram temple corridors",
+            caption: "Rameśvaram.",
+            note: "Setu and the long corridor. Rāma’s worship of Śiva — Itihāsa inside a Śaiva sthala."
+          }
+        ]
+      })}
+
+      <h2>Upapurāṇa — standing near, not standing lower</h2>
+      <p><em>Upa</em> means near, beside, companion. An Upapurāṇa is not ‘unimportant.’ It is the book that stands next to the eighteen — often more local, more devoted to one deity, sometimes claimed as a Maha by the community that lives by it. Traditional lists also speak of eighteen Upapurāṇas; the names vary even more than the Maha list. Three identities a first-year can keep:</p>
+      <ul>
+        <li><strong>Devī-Bhāgavata</strong> — Śākta companion of the Bhāgavata; some communities seat it among the eighteen. The variant is the teaching: folders leak when devotion is alive.</li>
+        <li><strong>Narasiṁha Purāṇa</strong> — the man-lion cycle expanded; Prahlāda’s cry given a whole book’s worth of air.</li>
+        <li><strong>Kālikā Purāṇa</strong> — Kāmākhyā and the Assam landscape; a Śākta geography as thick as any sthala-khaṇḍa of Skanda.</li>
+      </ul>
+      ${D.render({
+        type: "compare",
+        title: "Three folders, one civilisation of story",
+        headers: ["Folder", "What it names", "What it feels like in life"],
+        rows: [
+          ["Mahāpurāṇa", "The great eighteen", "The named ocean — Bhāgavata saptāha, Śiva-purāṇa recitation, Skanda as a continent"],
+          ["Upapurāṇa", "Companions, often also counted eighteen", "A deity’s own house-book — Devī-Bhāgavata, Kālikā, Narasiṁha"],
+          ["Sthala-purāṇa", "Place as scripture", "The māhātmya of a tīrtha you can still miss your train for"]
+        ]
+      })}
+
+      <h2>How Purāṇa reaches people who never open a critical edition</h2>
+      <p>A manuscript is one body of the genre. The other bodies are a voice, a wall, and a festival.</p>
+      <div class="deep-panels">
+        <article class="deep-panel">
+          <h3>Temple</h3>
+          <p>Avatāras on a vimāna; Devī’s battle on a mandapa panel; a ratha that is Jagannātha walking. Sculpture programmes are Purāṇa in stone — cousin of the 64 Kalās’ temple walls.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>Festival and recitation</h3>
+          <p>Bhāgavata-saptāha; Navarātri and the recitation of the Devī-māhātmya; Mahāśivarātra; Janmāṣṭamī. The year is a syllabus. A pandit who reads for seven days is doing the same knowledge-act as a śākhā that recites a Veda — in a different folder, with rasa as the method.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>Oral telling</h3>
+          <p>Harikathā, kathāvācaka, yakṣagāna, a paurāṇika in a village courtyard, a Tamil villupāṭṭu, a Bengali maṅgala-kāvya as a cousin. The grandmother’s dusk-story is not ‘less than’ the edition. It is how the edition stays warm.</p>
+        </article>
+      </div>
+      ${D.render({
+        type: "figures",
+        title: "Manuscript, Goddess, ratha",
+        items: [
+          {
+            file: "Bhagavata Purana manuscript, 18 century.jpg",
+            alt: "Eighteenth-century Bhāgavata Purāṇa manuscript",
+            caption: "Bhāgavata, 18th c. manuscript.",
+            note: "Palm and pigment: the book as an object of bhakti, not only as text to be searched."
+          },
+          {
+            file: 'The Great Goddess Battles the Demons, Folio from a dispersed manuscript of the "Devi Mahatmya".jpg',
+            alt: "Devī-māhātmya folio: the Goddess battles demons",
+            caption: "Devī-māhātmya folio.",
+            note: "Mārkaṇḍeya’s Śākta heart, painted. Navarātri still reads this battle aloud."
+          },
+          {
+            file: "Puri Ratha Yatra.jpg",
+            alt: "Ratha-yātrā at Purī",
+            caption: "Jagannātha’s ratha.",
+            note: "Utkala-sthala outdoors. A god who processes is a Purāṇa the street can touch."
+          }
+        ]
+      })}
+
+      <aside class="contrast-box">
+        <h3>Beside Itihāsa — two folders, one blood</h3>
+        <p><strong>Itihāsa</strong> on this paper is a pair: Rāmāyaṇa and Mahābhārata — human-scale narrative with a ‘so indeed it was’ claim, dharma as dilemma and counsel. <strong>Purāṇa</strong> is a library: eighteen names, five cosmic headings, place as a chapter, avatāra as a path of time.</p>
+        <p>They leak, and the leak is honest. The Bhāgavata tells Kṛṣṇa’s life; the Brahmāṇḍa neighbourhood retells Rāma; Skanda’s Setu lets Rāma worship Śiva. The Mahābhārata itself says one should expand the Veda by Itihāsa and Purāṇa. Respect both folders. Do not flatten one into the other’s exam-handle.</p>
+      </aside>
     `;
   }
 

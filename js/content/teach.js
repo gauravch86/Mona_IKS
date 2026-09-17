@@ -38,7 +38,7 @@
         <section class="lecture-card">
           <h3>Lecture 6 — Purāṇa, Itihāsa, Nīti + quiz</h3>
           <p>Cards: <button type="button" class="text-link" data-nav="unit1" data-topic="u1-purana">Purāṇas</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-itihasa">Itihāsa</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-niti">Nīti</button> · <button type="button" class="text-link" data-nav="unit1" data-topic="u1-revision">Revision map</button></p>
-          <p><strong>Board:</strong> Matsya’s five lakṣaṇas; the Ādi couplet on Itihāsa–Purāṇa; mā niṣāda; Hitopadeśa’s vidyā-chain. First 30 minutes teach; last 20 quiz. Answer three sticky questions from Lecture 1.</p>
+          <p><strong>Purāṇas as a museum half-hour:</strong> open on Matsya’s five-mark verse; walk five rooms with one picture each (lotus-birth, flood, gotra, Vaivasvata, Pṛthu/Rāma-line); project all eighteen as identities; three houses (not Padma’s guṇa-ranking as a grade); daśāvatāra path + Bhāgavata 1.3.28; one sthala walked (Kāśī / Kāñcī / Setu). Then Itihāsa and Nīti. Last 20 quiz. <strong>Do not:</strong> tell students to skip the eighteen, or lead with ‘don’t binge plots.’ The card is the chapter. Answer three sticky questions from Lecture 1.</p>
         </section>
       </div>
     </article>

@@ -504,7 +504,7 @@ h2.display, .topic h1, .hero h2 {
 }
 .lakshana-row { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
 .gcta-grid { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
-.eighteen-grid { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+.eighteen-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 .lakshana-card, .gcta-grid article {
   background: var(--elev-2);
   border: 1px solid var(--line);
@@ -517,7 +517,49 @@ h2.display, .topic h1, .hero h2 {
   margin: 0 0 6px;
 }
 .gcta-grid h3, .lakshana-card h3 { margin: 0 0 6px; font-family: var(--display); }
-.eighteen-grid .kicker { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; }
+.maha-card {
+  background: var(--elev-2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+.maha-card h3 { margin: 0 0 6px; font-family: var(--display); }
+.maha-card .kicker { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; color: var(--gold); margin: 0 0 4px; }
+.stream-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: var(--gold-2);
+  margin: 0 0 8px;
+}
+.stream-cols, .avatara-path, .sthala-grid {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 16px;
+}
+.stream-cols { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.avatara-path { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+.sthala-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.stream-cols article, .avatara-path article {
+  background: var(--elev-2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+.stream-cols h3, .avatara-path h3 { margin: 0 0 6px; font-family: var(--display); }
+.avatara-path .kicker { font-family: var(--mono); font-size: 0.72rem; color: var(--gold); margin: 0 0 4px; }
+.contrast-box {
+  border: 1px dashed var(--line);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin: 16px 0;
+  background: color-mix(in srgb, var(--blue) 10%, var(--elev-2));
+}
+.contrast-box h3 { margin: 0 0 8px; font-family: var(--display); }
 
 .tips-list.thin { color: var(--muted); font-size: 0.9rem; }
 .shelf-footer { font-size: 0.86rem; }

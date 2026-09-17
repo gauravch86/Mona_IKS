@@ -261,7 +261,40 @@
       )
       .join("");
     return `<div class="lakshana-row" role="list">${cards}</div>
-      <p class="diagram-note">Five required headings — the pañcalakṣaṇa. A text ‘does Purāṇa’ when it carries this encyclopaedic job, not when it merely tells a favourite episode.</p>`;
+      <p class="diagram-note">Pañcalakṣaṇa — five rooms of one house. A favourite episode still lives here; the house is larger than any one room.</p>`;
+  }
+
+  function puranaStreams() {
+    const cols = [
+      ["Vaiṣṇava house", "Viṣṇu, Bhāgavata, Nārada, Garuḍa, Padma, Varāha — and often Matsya, Kūrma, Vāmana. Viṣṇu’s forms, bhakti, the earth lifted, the three strides."],
+      ["Śaiva house", "Śiva Purāṇa or Vāyu (the honest fork), Liṅga, Skanda. The liṅga as a teaching form; Kārtikeya’s book that became a continent of places."],
+      ["Śākta heart", "Mārkaṇḍeya holds the Devī-māhātmya. Brahmavaivarta sings Prakṛti and Rādhā. Devī-Bhāgavata stands as a great Upapurāṇa — some communities seat it among the eighteen."]
+    ];
+    return `<div class="stream-cols">${cols
+      .map(([t, b]) => `<article><h3>${esc(t)}</h3><p>${esc(b)}</p></article>`)
+      .join("")}</div>
+      <p class="diagram-note">Clustering by the deity’s house — a map of devotion, not a grade. A medieval Vaiṣṇava scheme (Padma) also sorts by sattva / rajas / tamas; that ranking is sectarian. This card will not use it to insult a book.</p>`;
+  }
+
+  function dashavatara() {
+    const steps = [
+      ["1", "Matsya", "Fish — the flood, Manu, Veda carried over water"],
+      ["2", "Kūrma", "Tortoise — the still point under the churning"],
+      ["3", "Varāha", "Boar — the earth lifted from the dark waters"],
+      ["4", "Narasiṁha", "Man-lion — a devotee’s cry answered in a pillar"],
+      ["5", "Vāmana", "Dwarf — three strides that measure the worlds"],
+      ["6", "Paraśurāma", "Axe — a fierce reset of kingly power"],
+      ["7", "Rāma", "Maryādā — the epic and the Purāṇa share a prince"],
+      ["8–9", "Kṛṣṇa / Buddha", "The hinge of lists — see the note below"],
+      ["10", "Kalki", "The rider still to come — time has a future tense"]
+    ];
+    return `<div class="avatara-path">${steps
+      .map(
+        ([n, name, hint]) =>
+          `<article><p class="kicker">${esc(n)}</p><h3>${esc(name)}</h3><p>${esc(hint)}</p></article>`
+      )
+      .join("")}</div>
+      <p class="diagram-note">A teaching path of ten, not the Bhāgavata’s full avatāra-count (which is longer). Temple lists often place Kṛṣṇa as eighth and Buddha as ninth; Jayadeva’s hymn places Balarāma and Buddha and praises Kṛṣṇa as the Lord of the ten. Say the path; name the fork; do not flatten either.</p>`;
   }
 
   function gcta() {
@@ -304,6 +337,8 @@
     "temple-styles": templeStyles,
     "darsana-matrix": darsanaMatrix,
     "purana-lakshanas": puranaLakshanas,
+    "purana-streams": puranaStreams,
+    "dashavatara": dashavatara,
     "gcta": gcta
   };
 

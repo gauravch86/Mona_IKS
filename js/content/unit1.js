@@ -676,17 +676,18 @@
         tags: ["purana", "lakshana", "maha", "upa", "sthala"],
         title: "Purāṇas",
         readAs: "Thakur Unit I — Purāṇas (Maha, Upa, Sthala)",
-        summary: "Narrative encyclopaedias of the smṛti world. Teach Maha / Upa / Sthala as a size-and-place taxonomy, and the five lakṣaṇas as the exam spine — not a binge-watch of every book.",
+        summary: "Eighteen named Mahāpurāṇas, five lakṣaṇa-rooms, Vaiṣṇava–Śaiva–Śākta houses, daśāvatāra as a path of time, and sthala-lore you can still walk. Smṛti-side encyclopaedias of Sanātana memory.",
         outcomes: [
-          "Place Purāṇa on the map (often Upāṅga; smṛti-side narrative).",
-          "Explain Maha, Upa, Sthala in one line each.",
-          "Recite the five lakṣaṇas."
+          "Place Purāṇa as smṛti / Upāṅga — not a fifth Veda.",
+          "Walk the five lakṣaṇas with one living example each.",
+          "Give any of the eighteen a one-line identity; name the Śiva/Vāyu fork.",
+          "Sketch daśāvatāra as cosmology-in-story; name one sthala (Kāśī, Kāñcī, or Rameśvara)."
         ],
         explainer: window.IKSGallery.purana(),
         diagramsInBody: true,
         analogy: {
           title: "A modern bridge",
-          body: "After the five marks are in the mouth: a civilisation that stores origin, era, family, king, and holy place in one genre is doing encyclopaedic memory. That observation is a guest. It does not get to rename Purāṇa as a website."
+          body: "After the five rooms and the eighteen names: a civilisation that stores origin, era, family, king, and holy place in one genre is doing encyclopaedic memory. That sentence is a guest. It does not get to rename Purāṇa."
         },
         diagram: { type: "named", id: "purana-lakshanas", title: "Pañcalakṣaṇa" },
         mnemonic: {
@@ -695,18 +696,17 @@
           recite: "‘Create, re-create, family tree, Manu-era, kings’ stories.’"
         },
         lectureTips: [
-          "Write the five lakṣaṇas as a numbered list and leave it on the board all hour.",
-          "Sthala is the discriminator — ask it orally.",
-          "If a student starts a 20-minute myth, smile and time-box to 90 seconds."
+          "Project the eighteen as a gallery; walk three houses; land in one sthala and one avatāra image.",
+          "Coaching for the hour lives under Teach notes — this card is the chapter."
         ],
         classroomActivity: {
-          title: "Style-guide audit",
-          minutes: 10,
-          body: "Give a 6-line fake ‘mini-Purāṇa’ you invent (a town, a flood, a family, a king). Teams tick which lakṣaṇas are present and which are missing. Then they add one sentence to fill a hole. Teaches the template, not trivia."
+          title: "Five rooms, one town",
+          minutes: 12,
+          body: "Pairs take a place they know (a river, a temple-street, a hill). They write one sentence each for sarga, pratisarga, vaṁśa, manvantara, and vaṁśānucarita as if that place had a Purāṇa. Read two aloud. The point is the floor-plan, not invention-as-scripture."
         },
         studentQs: [
-          "Are Purāṇas ‘history’? (They conserve memory, geography, and values in narrative form. Do not dump them into Rankean history or into ‘mere myth’ — teach the lakṣaṇa job.)",
-          "Eighteen names? (Know the count; two examples; full list is extra drill.)"
+          "Are Purāṇas ‘history’? (They conserve memory, geography, and values in narrative form. Neither Rankean history nor ‘mere myth’ — walk the lakṣaṇa job and one sthala.)",
+          "Must I memorise all eighteen? (They are on the card as identities. Know the five rooms, the three houses, the path of ten, and as many names as your mouth will hold — Skanda, Bhāgavata, Matsya, and the Śiva/Vāyu fork at minimum.)"
         ],
         twomark: {
           q: "What are the five lakṣaṇas of a Purāṇa?",
@@ -720,17 +720,18 @@
           q: "Purāṇas as a knowledge system: taxonomy and lakṣaṇas.",
           outline: [
             "Not Veda; smṛti / Upāṅga neighbourhood.",
-            "Maha–Upa–Sthala.",
-            "Five lakṣaṇas with glosses.",
-            "One example of ‘knowledge in story’.",
-            "Guardrail: no serial recap."
+            "Five lakṣaṇas with a living example each.",
+            "Eighteen as identities; Śiva/Vāyu fork.",
+            "Three houses (Vaiṣṇava / Śaiva / Śākta) without ranking.",
+            "Daśāvatāra as a path; one sthala walked.",
+            "Itihāsa contrast in two clean lines."
           ]
         },
         check: [
-          "I can recite five lakṣaṇas.",
-          "I can explain Sthala.",
-          "I know the ‘eighteen’ count without listing all names.",
-          "I can run the style-guide audit."
+          "I can walk five lakṣaṇas with examples, not slogans.",
+          "I can give identities for the eighteen and name the Śiva/Vāyu fork.",
+          "I can sketch daśāvatāra as cosmology-in-story.",
+          "I can walk Kāśī or Kāñcī or Rameśvara as sthala-knowledge."
         ],
         youtube: [
           { title: "Puranas pancha lakshana", search: "Puranas pancha lakshana sarga pratisarga" }
