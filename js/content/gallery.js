@@ -437,6 +437,31 @@
       ${D.render({ type: "named", id: "patha-weave", title: "The weave of pāṭha" })}
       <p>Saṁhitā, pada, krama, jaṭā, ghana: names a student can carry. What they name is tapas — a reciter’s discipline — and a civilisation’s trust that memory, trained in community, can hold what matters. Engineers may later notice redundancy. Notice the hymn first.</p>
 
+      ${D.render({
+        type: "figures",
+        title: "Mouth, fire, and leaf",
+        items: [
+          {
+            file: "Yajna.jpg",
+            alt: "A fire offering in progress",
+            caption: "Yajña.",
+            note: "The Ṛgveda’s first word is a fire-priest. The offering is a grammar, not a spectacle."
+          },
+          {
+            file: "1500-1200 BCE, Rigveda manuscript page sample iii, Sanskrit, Devanagari.jpg",
+            alt: "Devanāgarī manuscript page of the Ṛgveda",
+            caption: "A Ṛgveda page (Devanāgarī).",
+            note: "Honest caption: Commons files often repeat a composition-date in the filename. The leaf you see is a later written witness of a heard corpus."
+          },
+          {
+            file: "Vedas palm leaf manuscript, Tamil Grantha Script, Sanskrit, Tamil Nadu.jpg",
+            alt: "Palm-leaf Veda manuscript in Grantha",
+            caption: "Veda on palm, Grantha.",
+            note: "Śruti also travelled south as leaf. Oral vow and written leaf are neighbours."
+          }
+        ]
+      })}
+
       <h2>A note on dating, science-claims, and pride</h2>
       <p>This gallery will not spend its hour on calendar-fights. It will not claim astrophysics from a hymn as if the ṛṣi had sat a modern exam. Pride (CO4) here means: we can describe a sacred corpus accurately, name its inner river, and refuse both sneer and cartoon. That is enough knowledge for a first-year paper, and enough reverence for a traditional scholar in the room.</p>
     `;
@@ -497,6 +522,43 @@
         </article>
       </div>
       <p>Stable recitation order for internals: <strong>Śikṣā, Vyākaraṇa, Nirukta, Chandas, Jyotiṣa, Kalpa</strong>. Posters shuffle; pick this order and keep it.</p>
+
+      <h2>Kalpa’s own four hands</h2>
+      ${D.render({
+        type: "compare",
+        title: "Inside Kalpa",
+        headers: ["Folder", "What it manuals"],
+        rows: [
+          ["Śrauta", "The solemn public rite"],
+          ["Gṛhya", "The household’s sacraments"],
+          ["Dharma", "Conduct — neighbour of Dharmaśāstra"],
+          ["Śulba", "Cord geometry for altars — Unit III’s honest door"]
+        ]
+      })}
+      ${D.render({
+        type: "figures",
+        title: "Eyes, mouth, and a cord",
+        items: [
+          {
+            file: "Jaipur Jantar Mantar panorama 2011.jpg",
+            alt: "Jantar Mantar, Jaipur",
+            caption: "Jantar Mantar, Jaipur.",
+            note: "Jyotiṣa as a public instrument: the sky made walkable. Later than Vedāṅga-jyotiṣa; same loyalty — time that can be stood in."
+          },
+          {
+            file: "Grammarian Panini.png",
+            alt: "A traditional picture of a grammarian",
+            caption: "A grammarian at work.",
+            note: "Vyākaraṇa’s celebrity is Pāṇini. The mouth of the vedapuruṣa is a rule-system. Unit II returns here."
+          },
+          {
+            file: "Vedas palm leaf manuscript, Tamil Grantha Script, Sanskrit, Tamil Nadu.jpg",
+            alt: "Palm-leaf Veda manuscript",
+            caption: "Leaf that still needs a mouth.",
+            note: "Śikṣā is why a leaf is not enough. Sound must be right or the offering is other than it claims."
+          }
+        ]
+      })}
     `;
   }
 
@@ -590,6 +652,12 @@
             alt: "Stone chariot wheel at Konark Sun Temple",
             caption: "Konark wheel.",
             note: "Time as a carved wheel: śilpa, jyotiṣa, and bhakti in one object. Kalinga stone-craft."
+          },
+          {
+            file: "Nataraja Bronze in Government Museum, Chennai.jpg",
+            alt: "Chola Naṭarāja bronze, Government Museum Chennai",
+            caption: "Naṭarāja, Chola bronze (Chennai).",
+            note: "Madhucchista-vidhāna — lost-wax. Alloy, fire, and a theology you can lift. Process as a śāstra, not a souvenir."
           }
         ]
       })}
@@ -614,6 +682,81 @@
 
       <h2>The tree</h2>
       ${D.render({ type: "named", id: "caturdasa-tree", title: "Fourteen, then eighteen" })}
+
+      <h2>Every seat named</h2>
+      <p>Caturdaśa = 4 Vedas + 6 Vedāṅgas + 4 Upāṅgas. Aṣṭādaśa adds 4 Upavedas. Below, every name with a one-line job — the Kalās bar applied to a curriculum tree.</p>
+      ${D.render({
+        type: "compare",
+        title: "Four Vedas — śruti cores",
+        headers: ["Veda", "Temperament", "Own gallery"],
+        rows: [
+          ["Ṛgveda", "Hymn — ṛc, maṇḍala, ṛṣi-line", "Four Vedas"],
+          ["Yajurveda", "Rite — yajus; Śukla and Kṛṣṇa recensions", "Four Vedas"],
+          ["Sāmaveda", "Chant — the ṛk as gāna", "Four Vedas"],
+          ["Atharvaveda", "Household, healing, śānti, kingship", "Four Vedas"]
+        ]
+      })}
+      ${D.render({
+        type: "compare",
+        title: "Six Vedāṅgas — limbs",
+        headers: ["Vedāṅga", "Limb", "Job"],
+        rows: [
+          ["Śikṣā", "Nose", "Pronunciation and svara"],
+          ["Vyākaraṇa", "Mouth", "Grammar — Pāṇini"],
+          ["Nirukta", "Ear", "Etymology — Yāska"],
+          ["Chandas", "Feet", "Metre — Piṅgala"],
+          ["Jyotiṣa", "Eyes", "Time and sky"],
+          ["Kalpa", "Hands", "Procedure; Śulba geometry"]
+        ]
+      })}
+      ${D.render({
+        type: "compare",
+        title: "Four Upāṅgas — a widely taught quartet",
+        headers: ["Upāṅga", "Job", "Honesty"],
+        rows: [
+          ["Purāṇa", "Narrative encyclopaedia; five lakṣaṇas", "Own gallery"],
+          ["Nyāya", "Logic and pramāṇa", "Also an Āstika darśana"],
+          ["Mīmāṁsā", "Hermeneutics of Vedic injunction", "Pūrva-Mīmāṁsā in the pair-map"],
+          ["Dharmaśāstra", "The science of dharma", "Manu and kin; nīti is a neighbour"]
+        ]
+      })}
+      <p>Other teachers fold Itihāsa–Purāṇa together, or treat darśana more broadly in the Upāṅga slot. Say the common quartet; add one calm line: variant listings exist. That sentence is scholarship, not hedging.</p>
+      ${D.render({
+        type: "compare",
+        title: "Four Upavedas — how 14 becomes 18",
+        headers: ["Upaveda", "Domain", "Later unit"],
+        rows: [
+          ["Āyurveda", "Life and health", "Unit V"],
+          ["Dhanurveda", "Bow, defence, organised force", "Nīti neighbour"],
+          ["Gandharvaveda", "Music and performance", "Sāma / Kalā neighbour"],
+          ["Sthāpatyaveda", "Built form", "Unit IV · Śilpa"]
+        ]
+      })}
+
+      ${D.render({
+        type: "figures",
+        title: "Seats of learning, as places",
+        items: [
+          {
+            file: "Temple 12 - Nalanda Mahavihara (17).jpg",
+            alt: "Nālandā mahāvihāra ruins",
+            caption: "Nālandā.",
+            note: "A vidyāsthāna of brick and debate. The Caturdaśa tree is older than this monastery; the monastery proves that seats of learning were also places."
+          },
+          {
+            file: "Ancient Taxila University site at Bhir Mound.JPG",
+            alt: "Takṣaśilā, Bhir Mound",
+            caption: "Takṣaśilā.",
+            note: "Another named seat. The tree on this card is a curriculum; these ruins are what a seat looks like when the monsoon has had centuries."
+          },
+          {
+            file: "Raja Ravi Varma, Goddess Saraswati.jpg",
+            alt: "Sarasvatī",
+            caption: "Sarasvatī.",
+            note: "The goddess of vāc standing over the whole tree — not as a mascot, as the picture of why a civilisation counted vidyās."
+          }
+        ]
+      })}
 
       <h2>How to read the map</h2>
       <p>The <strong>four Vedas</strong> are the śruti cores (own gallery). The <strong>six Vedāṅgas</strong> are the limbs that make śruti usable (own gallery). The <strong>four Upāṅgas</strong> complete the fourteen. A widely taught quartet is Purāṇa, Nyāya, Mīmāṁsā, Dharmaśāstra — narrative encyclopaedia, logic, Vedic hermeneutics, and the science of dharma. Other teachers fold Itihāsa–Purāṇa together, or treat darśana more broadly. Say the common list; add one calm line: variant listings exist. That sentence is scholarship, not hedging.</p>
@@ -659,7 +802,25 @@
       <div class="deep-panels">
         <article class="deep-panel">
           <h3>Sāṁkhya and Yoga</h3>
-          <p>Sāṁkhya enumerates becoming: prakṛti and its evolutes, puruṣa as witness. Yoga, in the Pātañjala stream, is the disciplined stilling of the turnings of mind — eight limbs as a later Unit V hook. Same family: map and method. The two birds of Muṇḍaka 3.1.1 (on the Vedas card) are a picture this pair can share.</p>
+          <p>Sāṁkhya enumerates becoming: prakṛti and its evolutes, puruṣa as witness. Yoga, in the Pātañjala stream, is the disciplined stilling of the turnings of mind. Same family: map and method. The two birds of Muṇḍaka 3.1.1 (on the Vedas card) are a picture this pair can share.</p>
+          ${cite({
+            kind: "Sāṁkhya-kārikā",
+            sa: "प्रकृतेर्महांस्ततोऽहंकारस्तस्माद् गणश्च षोडशकः ।<br/>तस्मादपि षोडशकात् पञ्चभ्यः पञ्च भूतानि ॥",
+            iast: "prakṛter mahāṃs tato ’haṃkāras tasmād gaṇaś ca ṣoḍaśakaḥ / tasmād api ṣoḍaśakāt pañcabhyaḥ pañca bhūtāni",
+            en: "From prakṛti, mahat; from that, ahaṁkāra; from that, the group of sixteen; from five among those sixteen, the five great elements.",
+            hi: "प्रकृति से महत्, फिर अहंकार, फिर सोलह का गण, फिर पाँच भूत — साख्य की गिनती एक नदी है।",
+            attrib: "Īśvarakṛṣṇa, Sāṁkhya-kārikā 22.",
+            note: "The twenty-five tattvas are listed below. This verse is the river’s order, not a substitute for the names."
+          })}
+          ${cite({
+            kind: "Yoga-sūtra",
+            sa: "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि ॥",
+            iast: "yama-niyamāsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo ’ṣṭāv aṅgāni",
+            en: "Yama, niyama, āsana, prāṇāyāma, pratyāhāra, dhāraṇā, dhyāna, samādhi — these eight are the limbs.",
+            hi: "आठ अंग — यम से समाधि तक। आसन तीसरा है, पूरा योग नहीं।",
+            attrib: "Patañjali, Yoga-sūtra 2.29.",
+            note: "Aṣṭāṅga as a full list on this card. Unit V may return to practice; today the eight names are the śāstra."
+          })}
         </article>
         <article class="deep-panel">
           <h3>Nyāya and Vaiśeṣika</h3>
@@ -676,9 +837,75 @@
         </article>
         <article class="deep-panel">
           <h3>Pūrva-Mīmāṁsā and Vedānta</h3>
-          <p>Both read the Veda. Pūrva-Mīmāṁsā hears primarily injunction — dharma, rite, the force of a sacred sentence. Vedānta (Uttara-Mīmāṁsā) hears the Upaniṣadic end: Brahman, ātman, liberation-knowledge. Mention Advaita, Viśiṣṭādvaita, Dvaita as a polite footnote, not as the whole hour.</p>
+          <p>Both read the Veda. Pūrva-Mīmāṁsā hears primarily injunction — dharma, rite, the force of a sacred sentence. Vedānta (Uttara-Mīmāṁsā) hears the Upaniṣadic end: Brahman, ātman, liberation-knowledge. Mention Advaita, Viśiṣṭādvaita, Dvaita as a polite footnote, not as the whole hour. Four mahāvākyas already sit on the Vedas card.</p>
+          ${cite({
+            kind: "Mīmāṁsā-sūtra",
+            sa: "अथातो धर्मजिज्ञासा ॥",
+            iast: "athāto dharma-jijñāsā",
+            en: "Now, therefore, the inquiry into dharma.",
+            hi: "अब धर्म की जिज्ञासा — मीमांसा यहीं से द्वार खोलती है।",
+            attrib: "Jaimini, Mīmāṁsā-sūtra 1.1.1.",
+            note: "The next sūtra (1.1.2) defines dharma as what a Vedic injunction marks. Action as the Veda’s centre — until Vedānta reads the end."
+          })}
         </article>
       </div>
+
+      <h2>Sāṁkhya’s twenty-five tattvas</h2>
+      <p>The full count, as commonly taught. Puruṣa stands apart as witness; the rest evolve from prakṛti.</p>
+      <div class="eighteen-grid">
+        <article class="maha-card"><p class="kicker">1</p><h3>Puruṣa</h3><p>Witness consciousness — not an evolute.</p></article>
+        <article class="maha-card"><p class="kicker">2</p><h3>Prakṛti</h3><p>Unmanifest nature; the three guṇas in equilibrium.</p></article>
+        <article class="maha-card"><p class="kicker">3</p><h3>Mahat / buddhi</h3><p>The great principle; intellect.</p></article>
+        <article class="maha-card"><p class="kicker">4</p><h3>Ahaṁkāra</h3><p>I-making; the sense of ‘I’.</p></article>
+        <article class="maha-card"><p class="kicker">5</p><h3>Manas</h3><p>Mind as inner sense.</p></article>
+        <article class="maha-card"><p class="kicker">6–10</p><h3>Five jñānendriyas</h3><p>Ear, skin, eye, tongue, nose — organs of knowing.</p></article>
+        <article class="maha-card"><p class="kicker">11–15</p><h3>Five karmendriyas</h3><p>Speech, hand, foot, anus, genitals — organs of acting.</p></article>
+        <article class="maha-card"><p class="kicker">16–20</p><h3>Five tanmātras</h3><p>Śabda, sparśa, rūpa, rasa, gandha — subtle elements.</p></article>
+        <article class="maha-card"><p class="kicker">21–25</p><h3>Five mahābhūtas</h3><p>Ākāśa, vāyu, tejas, ap, pṛthivī — the great elements.</p></article>
+      </div>
+
+      <h2>Yoga’s eight limbs, and Vaiśeṣika’s seven padārthas</h2>
+      ${D.render({
+        type: "compare",
+        title: "Aṣṭāṅga — YS 2.29",
+        headers: ["#", "Limb", "Plain sense"],
+        rows: [
+          ["1", "Yama", "Restraints toward others (ahiṁsā, satya, asteya, brahmacarya, aparigraha)"],
+          ["2", "Niyama", "Observances toward the self (śauca, santoṣa, tapas, svādhyāya, īśvara-praṇidhāna)"],
+          ["3", "Āsana", "Steady seat"],
+          ["4", "Prāṇāyāma", "Breath as a disciplined gate"],
+          ["5", "Pratyāhāra", "Withdrawal of the senses"],
+          ["6", "Dhāraṇā", "Fixing"],
+          ["7", "Dhyāna", "Meditation"],
+          ["8", "Samādhi", "Absorption"]
+        ]
+      })}
+      ${D.render({
+        type: "compare",
+        title: "Vaiśeṣika padārthas (later seven-count)",
+        headers: ["Padārtha", "Sense"],
+        rows: [
+          ["Dravya", "Substance"],
+          ["Guṇa", "Quality"],
+          ["Karma", "Action / motion"],
+          ["Sāmānya", "Generality"],
+          ["Viśeṣa", "Particularity"],
+          ["Samavāya", "Inherence"],
+          ["Abhāva", "Absence (added in later lists)"]
+        ]
+      })}
+      ${D.render({
+        type: "figures",
+        title: "Method in stone",
+        items: [
+          {
+            file: "15th-16th century Achyutaraya temple yoga asana 3, Hampi Hindu monuments Karnataka.jpg",
+            alt: "Yoga āsana in stone, Achyutaraya temple, Hampi",
+            caption: "Āsana at Hampi.",
+            note: "Yoga as a body of knowledge carved on a temple wall — limb three, not a modern brand."
+          }
+        ]
+      })}
     `;
   }
 
@@ -735,6 +962,105 @@
           })}
         </article>
       </div>
+
+      <h2>Cārvāka — what counts as knowing</h2>
+      ${D.render({
+        type: "compare",
+        title: "A perception-first flag",
+        headers: ["Handle", "Classroom sense"],
+        rows: [
+          ["Pratyakṣa", "Perception as the trusted pramāṇa"],
+          ["Anumāna", "Inference pressed hard — especially of unseen worlds"],
+          ["Śabda / Veda", "Testimony of Veda not taken as binding authority"],
+          ["Honesty", "Much of Cārvāka reaches us through opponents. Teach the pressure-test; do not invent their lost library."]
+        ]
+      })}
+
+      <h2>Bauddha — four truths, named</h2>
+      ${D.render({
+        type: "compare",
+        title: "Ariya-sacca (as commonly taught)",
+        headers: ["#", "Truth", "Plain sense"],
+        rows: [
+          ["1", "Dukkha", "Suffering / unsatisfactoriness — the fact to be understood"],
+          ["2", "Samudaya", "Arising — craving as a condition, not a cartoon of ‘blame’"],
+          ["3", "Nirodha", "Cessation — that the arising can stop"],
+          ["4", "Magga", "The path — the eightfold way below"]
+        ]
+      })}
+      ${D.render({
+        type: "compare",
+        title: "Eightfold path — magga opened",
+        headers: ["#", "Aṅga", "Cluster"],
+        rows: [
+          ["1", "Right view (sammā-diṭṭhi)", "Wisdom"],
+          ["2", "Right intention (sammā-saṅkappa)", "Wisdom"],
+          ["3", "Right speech (sammā-vācā)", "Conduct"],
+          ["4", "Right action (sammā-kammanta)", "Conduct"],
+          ["5", "Right livelihood (sammā-ājīva)", "Conduct"],
+          ["6", "Right effort (sammā-vāyāma)", "Cultivation"],
+          ["7", "Right mindfulness (sammā-sati)", "Cultivation"],
+          ["8", "Right concentration (sammā-samādhi)", "Cultivation"]
+        ]
+      })}
+      <p>Pāli names in brackets are a gift to the ear, not a demand that a first-year become a Pāli scholar. The English is enough for internals if the eight stay in order.</p>
+
+      <h2>Jaina — three jewels, seven tattvas, five vows</h2>
+      <p>The path is already in Tattvārtha 1.1: samyag-darśana, jñāna, cāritra. Beside it sit anekāntavāda (many-sidedness of truth-claims) and syādvāda (conditioned predication) — intellectual humility with a spine.</p>
+      ${D.render({
+        type: "compare",
+        title: "Seven tattvas (a widely taught count)",
+        headers: ["Tattva", "Sense"],
+        rows: [
+          ["Jīva", "The living / conscious"],
+          ["Ajīva", "The non-living"],
+          ["Āsrava", "Inflow of karma"],
+          ["Bandha", "Bondage"],
+          ["Saṁvara", "Stopping the inflow"],
+          ["Nirjarā", "Shedding of bound karma"],
+          ["Mokṣa", "Liberation"]
+        ]
+      })}
+      ${D.render({
+        type: "compare",
+        title: "Five mahāvratas",
+        headers: ["Vrata", "Sense"],
+        rows: [
+          ["Ahiṁsā", "Non-harm — the signature ethic"],
+          ["Satya", "Truth-speech"],
+          ["Asteya", "Non-stealing"],
+          ["Brahmacarya", "Restraint in desire"],
+          ["Aparigraha", "Non-grasping"]
+        ]
+      })}
+      ${sitePoem({
+        lines: "तीन झंडे, तीन ईमान —<br/>वेद न बाँधे, ज्ञान तो बाँधे।",
+        en: "Three flags, three honesties — Veda does not bind them; knowing still does. (Original — not a śloka.)"
+      })}
+      ${D.render({
+        type: "figures",
+        title: "Two civilisations of knowing, in stone",
+        items: [
+          {
+            file: "Buddha preaching his First Sermon (Sarnath).jpg",
+            alt: "Buddha preaching the first sermon, Sarnath",
+            caption: "Dharmacakra-pravartana, Sarnath.",
+            note: "The first turning of the wheel. Bauddha as a knowledge civilisation with a place, a gesture, and a path — not a footnote to Vedānta."
+          },
+          {
+            file: "Parasnath 23 Jain Tirthankara Vidisha.jpg",
+            alt: "Jain Tīrthaṅkara in kāyotsarga",
+            caption: "Tīrthaṅkara, kāyotsarga.",
+            note: "Standing meditation as a knowledge-posture. Jaina thought has a body in stone across the subcontinent."
+          },
+          {
+            file: "Temple 12 - Nalanda Mahavihara (17).jpg",
+            alt: "Nālandā ruins",
+            caption: "Nālandā.",
+            note: "Monastic university: Bauddha logic and debate as institutional knowledge. Same IKS map as the Veda-tree."
+          }
+        ]
+      })}
     `;
   }
 
@@ -1039,6 +1365,45 @@
         </article>
       </div>
 
+      <h2>Seven kāṇḍas of the Rāmāyaṇa</h2>
+      <p>The full traditional book-list. Uttara-kāṇḍa is sometimes argued as later; the classroom still names seven so the epic can be pointed at as a whole.</p>
+      <div class="eighteen-grid">
+        <article class="maha-card"><p class="kicker">1</p><h3>Bāla</h3><p>Childhood, the bow, the marriage — beginnings under a vow.</p></article>
+        <article class="maha-card"><p class="kicker">2</p><h3>Ayodhyā</h3><p>The promised exile. Maryādā as a stress-test of speech.</p></article>
+        <article class="maha-card"><p class="kicker">3</p><h3>Araṇya</h3><p>The forest. Hospitality, abduction, the cost of a line crossed.</p></article>
+        <article class="maha-card"><p class="kicker">4</p><h3>Kiṣkindhā</h3><p>Alliance. Counsel, friendship, a kingdom of vānaras.</p></article>
+        <article class="maha-card"><p class="kicker">5</p><h3>Sundara</h3><p>Hanumān’s crossing. Information that must reach a campaign.</p></article>
+        <article class="maha-card"><p class="kicker">6</p><h3>Yuddha</h3><p>The war and the return. Constraint under victory.</p></article>
+        <article class="maha-card"><p class="kicker">7</p><h3>Uttara</h3><p>Aftermath. The hardest book for a first-year — name it; do not cartoon it.</p></article>
+      </div>
+
+      <h2>Eighteen parvans of the Mahābhārata</h2>
+      ${D.render({
+        type: "compare",
+        title: "The eighteen books",
+        headers: ["#", "Parvan", "What it holds (one line)"],
+        rows: [
+          ["1", "Ādi", "Beginnings, the dice’s shadow already in the blood"],
+          ["2", "Sabhā", "The hall; the dicing; public shame"],
+          ["3", "Vana", "Forest exile; the Yakṣa’s questions"],
+          ["4", "Virāṭa", "Hidden year; a kingdom as a disguise"],
+          ["5", "Udyoga", "Effort before war; counsel that still might turn"],
+          ["6", "Bhīṣma", "The first war-book; the Gītā as inner module"],
+          ["7", "Droṇa", "The teacher in the field"],
+          ["8", "Karṇa", "The friend of the other side"],
+          ["9", "Śalya", "The last commanders"],
+          ["10", "Sauptika", "Night slaughter — dharma’s collapse as a scene"],
+          ["11", "Strī", "Women’s lament"],
+          ["12", "Śānti", "Yudhiṣṭhira taught kingship after blood"],
+          ["13", "Anuśāsana", "Further instruction; ahiṁsā’s famous line"],
+          ["14", "Aśvamedhika", "The horse-sacrifice of a wounded peace"],
+          ["15", "Āśramavāsika", "The elders to the hermitage"],
+          ["16", "Mausala", "Yādava self-destruction"],
+          ["17", "Mahāprasthānika", "The last walk"],
+          ["18", "Svargārohaṇa", "Ascent — and a final test of seeing"]
+        ]
+      })}
+
       <div class="verse-duo">
         ${cite({
           kind: "Mahābhārata · Yakṣa-praśna",
@@ -1148,6 +1513,33 @@
         })}
       </div>
 
+      <h2>Pañcatantra — five tantras</h2>
+      <p>Viṣṇuśarman’s frame: a teacher educates princes. Each book is a policy-room. The animals are the wrapping; the nīti is what leaves the room.</p>
+      ${D.render({
+        type: "compare",
+        title: "The five books",
+        headers: ["#", "Tantra", "Policy-room"],
+        rows: [
+          ["1", "Mitrabheda", "The losing of friends — how counsel is split"],
+          ["2", "Mitraprāpti", "The gaining of friends — alliance as a skill"],
+          ["3", "Kākolūkīya", "Crows and owls — war, distrust, and night-policy"],
+          ["4", "Labdhapraṇāśa", "The loss of what was gained — fortune without watchfulness"],
+          ["5", "Aparīkṣitakāraka", "Action without examining — haste as a vice"]
+        ]
+      })}
+      ${D.render({
+        type: "compare",
+        title: "Hitopadeśa — four books (Nārāyaṇa’s recension as commonly printed)",
+        headers: ["#", "Book", "Policy-room"],
+        rows: [
+          ["1", "Mitralābha", "The gaining of friends"],
+          ["2", "Suhṛdbheda", "The splitting of friends"],
+          ["3", "Vigraha", "War / conflict"],
+          ["4", "Sandhi", "Peace / alliance"]
+        ]
+      })}
+      <p>The two catalogues overlap on purpose: friendship, fracture, war, peace. A first-year who can name five tantras or four Hitopadeśa books has the genre in the hand. Kauṭilya’s heavier statecraft waits in Unit V.</p>
+
       <h2>How this classroom quotes</h2>
       <p>Fake Sanskrit on a slide is a professionalism fail — which is why this card carries <em>named</em> verses and refuses the rest. Prefer a line you can attribute. Students may add an original English or Hindi couplet of their own, labelled as theirs. Two safe themes if you paraphrase rather than chant: company shapes conduct; knowledge unused is a lamp in a closed room.</p>
       ${sitePoem({
@@ -1155,6 +1547,24 @@
         en: "Keep the rule in two lines, the story in ten. What still walks at 9 a.m. is nīti’s water. (Original — not a śloka.)"
       })}
       <p><strong>Link forward.</strong> Kauṭilya in Unit V is nīti at state scale. Unit I only installs the format: practical ethics, compressed, teachable before breakfast.</p>
+      ${D.render({
+        type: "figures",
+        title: "Story as a packet that survived",
+        items: [
+          {
+            file: "18th century Panchatantra manuscript page, the talkative turtle.jpg",
+            alt: "Pañcatantra manuscript page, the talkative turtle",
+            caption: "Pañcatantra — the talkative turtle.",
+            note: "A prince is being educated; an animal speaks; the maxim is what leaves the room. Nīti as a storage format."
+          },
+          {
+            file: "Hitopadesha manuscript pages Nepalese manuscript 1800 CE.jpg",
+            alt: "Hitopadeśa manuscript pages, Nepal, c. 1800",
+            caption: "Hitopadeśa, Nepalese manuscript.",
+            note: "The vidyā-chain on this card travelled as ink. A well-spoken line has a body."
+          }
+        ]
+      })}
     `;
   }
 
@@ -1182,6 +1592,76 @@
       <h2>A working definition</h2>
       <p><strong>Indian Knowledge System</strong> names the organised methods by which knowledge on the subcontinent was produced, classified, transmitted, and put to work — from recitation schools and rule-grammars to medicine, metallurgy, architecture, and statecraft. It is a <em>system</em> word: taxonomy + transmission + application. If you only say “old Indian wisdom,” you have not started the paper.</p>
       ${D.render({ type: "named", id: "gcta", title: "Generate · Classify · Transmit · Apply" })}
+      <div class="deep-panels">
+        <article class="deep-panel">
+          <h3>Generate</h3>
+          <p>Nyāya’s questions, Śulba’s cords, Caraka’s bedside, a ṛṣi’s hymn, a sculptor’s trial in wax. Knowledge here is made — by inquiry, experiment, and śāstra — not only inherited as a slogan.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>Classify</h3>
+          <p>Fourteen seats, sixty-four skills, six limbs, three darśana-pairs. A civilisation that counts its knowledges is already doing system-work. Caturdaśa is the next card’s tree.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>Transmit</h3>
+          <p>Mouth to ear, sūtra to memory, palm leaf to monsoon. Pāṭha, gurukula, the compact rule. Nālandā’s ruins and a Grantha Veda-leaf are the same vow in two materials: hold it so the next person can take it.</p>
+        </article>
+        <article class="deep-panel">
+          <h3>Apply</h3>
+          <p>Health, craft, counsel, the built place. Upaveda, Śilpa, Nīti. A vidyā that never leaves the mouth is unfinished; a BCA paper that never names a workshop is also unfinished.</p>
+        </article>
+      </div>
+
+      ${D.render({
+        type: "figures",
+        title: "Where a knowledge-system left a body",
+        items: [
+          {
+            file: "Raja Ravi Varma, Goddess Saraswati.jpg",
+            alt: "Sarasvatī, Raja Ravi Varma",
+            caption: "Sarasvatī (Ravi Varma).",
+            note: "Vāc, vīṇā, book, and water — the goddess as a picture of knowing: sound, instrument, text, flow."
+          },
+          {
+            file: "Temple 12 - Nalanda Mahavihara (17).jpg",
+            alt: "Ruins of ancient Nālandā mahāvihāra",
+            caption: "Nālandā mahāvihāra.",
+            note: "A Buddhist university on the same subcontinent’s knowledge map. IKS includes this brick. CO4 begins here."
+          },
+          {
+            file: "Ancient Taxila University site at Bhir Mound.JPG",
+            alt: "Bhir Mound, ancient Takṣaśilā",
+            caption: "Takṣaśilā, Bhir Mound.",
+            note: "A crossroads of teaching older than any BCA building. Transmission as a place, not a metaphor."
+          },
+          {
+            file: "Vedas palm leaf manuscript, Tamil Grantha Script, Sanskrit, Tamil Nadu.jpg",
+            alt: "Palm-leaf Veda manuscript in Grantha script",
+            caption: "Veda on palm, Grantha.",
+            note: "Śruti also travelled as leaf. Oral vow and written leaf are neighbours, not rivals."
+          }
+        ]
+      })}
+
+      <h2>The Unit I map this definition opens</h2>
+      ${D.render({
+        type: "compare",
+        title: "Thirteen rooms of this unit",
+        headers: ["Card", "What it conserves"],
+        rows: [
+          ["Caturdaśa", "Fourteen seats, then eighteen"],
+          ["64 Kalās", "Sixty-four trained skills in seven rooms"],
+          ["Śilpa", "Making: proportion, material, process"],
+          ["Four Vedas", "Śruti as four temperaments and one river"],
+          ["Six Vedāṅgas", "The living limbs of the vedapuruṣa"],
+          ["Upavedas", "Four applied doors"],
+          ["Āstika", "Six Veda-accepting darśanas in three pairs"],
+          ["Nāstika", "Cārvāka, Bauddha, Jaina — other authority flags"],
+          ["Purāṇas", "Five rooms, eighteen names, place as a book"],
+          ["Itihāsa", "Rāmāyaṇa and Mahābhārata as knowledge in a claimed past"],
+          ["Nīti", "Practical ethics in a travelling line"],
+          ["Revision", "The map redrawn"]
+        ]
+      })}
 
       <h2>Why it is on a BCA timetable</h2>
       <p>CCS places this course as <strong>BCA-1003 T</strong>, GEC-I <em>Indian Culture and Civilization</em>, 2 credits, 30 theory hours, 100 marks (25 internal + 75 external), aligned to the <strong>AICTE Model Curriculum 2024</strong> and <strong>NEP 2020</strong>. The policy bet is not that every graduate becomes a Sanskritist. The bet is that a professional student can recognise Indian methods of conservation, measurement, grammar, and governance as knowledge architectures — then relate them to well-being and sustainable practice (CO3, CO4) without a shouting match.</p>
@@ -1253,17 +1733,154 @@
         </article>
       </div>
 
-      <p><strong>Pairing lore</strong> (optional colour, not a hill): traditional schemes often pair Āyurveda with Ṛg or Atharva, Dhanurveda with Yajur, Gandharva with Sāma, Sthāpatya with Atharva. Posters disagree. If you mention pairings, say “one traditional pairing” and keep the four names as the scoring core.</p>
+      <p><strong>Pairing lore</strong> is colour, not a hill. Posters disagree. If you mention pairings, say “one traditional pairing” and keep the four names as the scoring core.</p>
+      ${D.render({
+        type: "compare",
+        title: "One traditional pairing (not a law)",
+        headers: ["Upaveda", "Often hung near", "Honesty"],
+        rows: [
+          ["Āyurveda", "Ṛg or Atharva", "Both pairings are taught; Atharvan bheṣaja is a neighbour"],
+          ["Dhanurveda", "Yajurveda", "Rite and organised force as measured acts"],
+          ["Gandharvaveda", "Sāmaveda", "The ṛk that became gāna, then stage"],
+          ["Sthāpatyaveda", "Atharvaveda", "House, city, and the built sacred"]
+        ]
+      })}
       ${D.render({
         type: "figures",
+        title: "Four doors, four witnesses",
         items: [
           {
             file: "The Susruta-Samhita or Sahottara-Tantra (A Treatise on Ayurvedic Medicine) LACMA M.87.271a-g (1 of 8).jpg",
             alt: "Palm-leaf Suśruta Saṁhitā manuscript (LACMA)",
             caption: "Suśruta Saṁhitā (LACMA).",
-            note: "Āyurveda as a written śāstra: palm leaf, diagram, and a surgeon’s tradition. Name the book; do not invent biographies."
+            note: "Āyurveda as a written śāstra: palm leaf, diagram, a surgeon’s tradition."
+          },
+          {
+            file: "Ravi Varma-Rama-breaking-bow.jpg",
+            alt: "Rāma breaking Śiva’s bow, Raja Ravi Varma",
+            caption: "Rāma and the bow (Ravi Varma).",
+            note: "Dhanurveda as a measured act: the bow is a test of fitness, not a video-game skin. Neighbour of nīti when a king must decide when not to draw."
+          },
+          {
+            file: "Nataraja Bronze in Government Museum, Chennai.jpg",
+            alt: "Chola Naṭarāja bronze",
+            caption: "Naṭarāja bronze.",
+            note: "Gandharvaveda’s neighbour in metal: dance as a knowledge that needed a caster."
+          },
+          {
+            file: "Brihadeeswara_Temple_-_Thanjavur.jpg",
+            alt: "Bṛhadīśvara temple, Thanjāvūr",
+            caption: "Bṛhadīśvara.",
+            note: "Sthāpatyaveda’s public face. Unit IV returns to the brief; today, name the door."
           }
         ]
+      })}
+    `;
+  }
+
+  function revision() {
+    return `
+      ${cite({
+        kind: "Muṇḍaka Upaniṣad",
+        sa: "द्वे विद्ये वेदितव्ये इति ह स्म यद्ब्रह्मविदो वदन्ति परा चैवापरा च ।",
+        iast: "dve vidye veditavye iti ha sma yad brahmavido vadanti parā caivāparā ca",
+        en: "Two knowledges are to be known, say the knowers of Brahman — the higher and the lower.",
+        hi: "दो विद्याएँ गिननी हैं — परा और अपरा। इकाई एक का नक्शा यही गिनती है।",
+        attrib: "Muṇḍaka Upaniṣad 1.1.4 (the sentence that opens Caturdaśa on this bench).",
+        note: "Revision is not a quiz booklet. It is the same tree seen from the ridge."
+      })}
+
+      <h2>Thirteen rooms, one house</h2>
+      <p>Unit I is a map of seats, skills, and ways of seeing. If you can walk these thirteen rooms without scrolling, the later units have somewhere to live.</p>
+      ${D.render({
+        type: "compare",
+        title: "The Unit I galleries",
+        headers: ["Room", "What you should still be able to say"],
+        rows: [
+          ["What is IKS?", "G-C-T-A: generate, classify, transmit, apply — not a slogan pack"],
+          ["Caturdaśa", "4+6+4; eighteen when Upavedas are counted"],
+          ["64 Kalās", "A trained-skill catalogue in seven rooms; lists vary; Vātsyāyana as spine"],
+          ["Śilpa", "Proportion, material, process; Nāgara · Drāviḍa · Vesara"],
+          ["Four Vedas", "Ṛg · Yajur · Sāma · Atharva; the inner river S-B-Ā-U"],
+          ["Vedāṅgas", "Six limbs of the vedapuruṣa; Kalpa’s four folders"],
+          ["Upavedas", "Āyus · Dhanus · Gandharva · Sthāpatya"],
+          ["Āstika", "Three pairs; 25 tattvas; eight yoga-limbs; four pramāṇas"],
+          ["Nāstika", "C-B-J; four truths and eightfold path; seven Jaina tattvas"],
+          ["Purāṇas", "Five lakṣaṇas; eighteen names; place as a book"],
+          ["Itihāsa", "Seven kāṇḍas; eighteen parvans; ‘so indeed it was’"],
+          ["Nīti", "Five tantras; four Hitopadeśa books; a travelling line"],
+          ["This ridge", "The six artefacts below, redrawn from memory"]
+        ]
+      })}
+
+      <h2>Six artefacts you should be able to draw</h2>
+      <p>If these six sit in the hand, Unit I has happened. Each is a gallery elsewhere on this bench — here they are named as one map.</p>
+      ${D.render({
+        type: "compare",
+        title: "The Unit I hand",
+        headers: ["Artefact", "What it holds"],
+        rows: [
+          ["4+6+4(+4)", "Caturdaśa, then eighteen with Upavedas"],
+          ["RYSA + SBAU", "Four Veda-temperaments; one inner river"],
+          ["Six limbs", "Vedapuruṣa: nose, mouth, ear, feet, eyes, hands"],
+          ["64 in seven rooms", "Kalā-catalogue + Śilpa as P-M-P"],
+          ["Three pairs + C-B-J", "Āstika houses and nāstika flags"],
+          ["Five lakṣaṇas + R+M", "Purāṇa rooms; two Itihāsa books; nīti as a travelling line"]
+        ]
+      })}
+      ${D.render({ type: "named", id: "caturdasa-tree", title: "The tree again" })}
+      ${D.render({ type: "named", id: "veda-river", title: "The river again" })}
+      ${D.render({ type: "flow", title: "Six hours as a walk, not a quiz booklet", steps: ["Map", "Vedas", "Limbs+apply", "Make", "See", "Tell"] })}
+
+      <h2>Where Units II–V file</h2>
+      <p>Later names are not a new civilisation. They are files in folders this unit already owns.</p>
+      ${D.render({
+        type: "compare",
+        title: "Forward filing",
+        headers: ["Later heading", "Folder already drawn"],
+        rows: [
+          ["Pāṇini / Aṣṭādhyāyī", "Vedāṅga — Vyākaraṇa"],
+          ["Śulba, altar geometry", "Vedāṅga — Kalpa"],
+          ["Pañcāṅga, yantra", "Vedāṅga — Jyotiṣa"],
+          ["Temple, vāstu, metal", "Sthāpatya · Śilpa · kalā of dhātu"],
+          ["Āyurveda, food, sleep", "Upaveda — Āyus"],
+          ["Kauṭilya / Arthaśāstra", "Nīti at state scale"]
+        ]
+      })}
+
+      ${D.render({
+        type: "figures",
+        title: "Four witnesses of the whole unit",
+        items: [
+          {
+            file: "Raja Ravi Varma, Goddess Saraswati.jpg",
+            alt: "Sarasvatī",
+            caption: "Sarasvatī.",
+            note: "Vāc over the whole map."
+          },
+          {
+            file: "Yajna.jpg",
+            alt: "Yajña",
+            caption: "Agni as guest.",
+            note: "Śruti begins as a calling."
+          },
+          {
+            file: "Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg",
+            alt: "Naṭarāja bronze",
+            caption: "Naṭarāja.",
+            note: "Kalā and śilpa in one lift."
+          },
+          {
+            file: "Buddha preaching his First Sermon (Sarnath).jpg",
+            alt: "Sarnath Buddha",
+            caption: "Sarnath.",
+            note: "The map includes Bauddha. CO4 is a drawing, not a speech."
+          }
+        ]
+      })}
+      ${sitePoem({
+        lines: "नक्शा हाथ में हो, नदी कान में हो,<br/>कला अंग में हो — फिर इकाई पूरी हो।",
+        en: "A map in the hand, a river in the ear, a kalā in the limb — then Unit I is whole. (Original — not a śloka.)"
       })}
     `;
   }
@@ -1281,6 +1898,7 @@
     niti,
     what,
     upaveda,
+    revision,
     KALAS,
     CLUSTERS
   };
