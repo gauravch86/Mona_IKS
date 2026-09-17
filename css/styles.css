@@ -344,8 +344,142 @@ h2.display, .topic h1, .hero h2 {
 }
 
 .explainer p { margin: 0 0 12px; }
-.explainer ul, .outline, .outcomes, .tips-list, .qs-list { margin: 0 0 12px; padding-left: 18px; }
+.explainer ul, .explainer ol, .outline, .outcomes, .tips-list, .qs-list { margin: 0 0 12px; padding-left: 18px; }
 .explainer li { margin-bottom: 6px; }
+.explainer h2 {
+  font-family: var(--display);
+  font-size: 1.28rem;
+  margin: 26px 0 10px;
+  border-left: 3px solid var(--gold);
+  padding-left: 10px;
+}
+.explainer h3 {
+  font-family: var(--display);
+  font-size: 1.05rem;
+  margin: 18px 0 8px;
+  color: var(--gold-2);
+}
+.explainer .tiny, .tiny { font-size: 0.82rem; color: var(--muted); }
+
+.verse {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px 18px;
+  margin: 0 0 18px;
+  background:
+    radial-gradient(500px 120px at 0% 0%, color-mix(in srgb, var(--gold) 16%, transparent), transparent 70%),
+    var(--elev-2);
+}
+.verse .sanskrit {
+  font-family: var(--display);
+  font-size: 1.18rem;
+  margin: 0 0 6px;
+  line-height: 1.45;
+}
+.verse .gloss {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--gold-2);
+  margin: 0 0 10px;
+}
+.verse p:last-child { margin-bottom: 0; }
+
+.figure-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 12px 0 18px;
+}
+.heritage-fig {
+  margin: 0;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.heritage-fig img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #120c1c;
+}
+.heritage-fig figcaption {
+  padding: 10px 12px 12px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.heritage-fig figcaption strong {
+  display: block;
+  color: var(--ink);
+  font-weight: 650;
+  margin-bottom: 4px;
+}
+
+.four-veda-grid, .cluster-panels, .upanishad-grid, .style-trio, .catur-cols, .deep-panels {
+  display: grid;
+  gap: 12px;
+  margin: 12px 0 16px;
+}
+.four-veda-grid, .style-trio, .catur-cols { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.cluster-panels { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.upanishad-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.veda-portrait, .cluster-card, .upa-card, .style-trio article, .catur-cols > div, .deep-panel {
+  background: var(--elev-2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+.veda-portrait h3, .cluster-card h3, .upa-card h3 { margin: 0 0 6px; font-family: var(--display); }
+.cluster-card .nums { font-family: var(--mono); font-size: 0.75rem; color: var(--gold-2); margin: 0 0 8px; }
+
+.kala-index { font-size: 0.88rem; }
+.kala-index td:first-child { font-family: var(--mono); width: 2.4rem; color: var(--gold-2); }
+.cluster-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 1px 7px;
+  color: var(--muted);
+}
+
+.patha-weave { display: grid; gap: 8px; }
+.patha-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 180px) 1fr;
+  gap: 10px;
+  align-items: baseline;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--elev-2);
+  border: 1px solid var(--line);
+}
+.patha-name { font-family: var(--display); color: var(--gold-2); }
+.diagram-note { color: var(--muted); font-size: 0.88rem; margin: 8px 0 0; }
+.kalas-mandala { max-height: 560px; }
+.catur-tree { display: grid; gap: 12px; justify-items: stretch; }
+.catur-tree .root { text-align: center; font-family: var(--display); }
+.catur-cols ul { margin: 0; padding-left: 18px; }
+.mahāvākya, .mahavakya-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+.mahavakya-row article {
+  border: 1px dashed var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  background: color-mix(in srgb, var(--gold) 8%, var(--elev-2));
+}
+.mahavakya-row .sa { font-family: var(--display); font-size: 1.05rem; margin: 0 0 4px; }
+
+.tips-list.thin { color: var(--muted); font-size: 0.9rem; }
+.shelf-footer { font-size: 0.86rem; }
+.modern-bridge { background: color-mix(in srgb, var(--teal) 10%, var(--elev-2)); }
 
 .analogy, .mnemonic, .note, .activity, .coming {
   border-radius: 14px;
@@ -559,7 +693,11 @@ button.log-title:hover { color: var(--gold-2); }
   color: var(--muted);
   font-size: 0.86rem;
 }
-.fab-topics { display: none; position: fixed; right: 16px; bottom: 16px; z-index: 15; }
+@media (max-width: 640px) {
+  .patha-row { grid-template-columns: 1fr; }
+  .heritage-fig img { height: 150px; }
+  .four-veda-grid, .cluster-panels, .upanishad-grid { grid-template-columns: 1fr; }
+}
 
 .map-wrap { overflow: auto; }
 

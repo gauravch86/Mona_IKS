@@ -5,6 +5,62 @@
   g.IKS.logbook = [
     {
       date: "2026-09-17",
+      type: "updated",
+      paper: "site",
+      topicId: "",
+      title: "Content-first Sanātana galleries",
+      note: "Unit I high-yield cards rewritten as museum chapters: verse-led, illustrated, four-audience. Git/repo/checksum framing removed from Vedas. 64 Kalās now carries a full numbered list in seven clusters plus heritage figures. Mona coaching moved to Teach notes."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-vedas",
+      title: "Four Vedas — inner river",
+      note: "Museum chapter: Ṛgveda 1.1.1 hook; four temperaments; Saṁhitā–Brāhmaṇa–Āraṇyaka–Upaniṣad river; ten mukhya Upaniṣads; four mahāvākyas; pāṭha as vow. Timeline hook no longer uses payload/runbook/checksum."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-kalas",
+      title: "64 Kalās — full catalogue",
+      note: "All 64 numbered (Sanskrit + English) on a Vātsyāyana spine; seven pedagogical rooms with every item assigned; mandala diagram; Chola bronze, Ajanta, Bharatanāṭyam/Odissi, Bṛhadīśvara, Konark figures."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-vedanga",
+      title: "Six Vedāṅgas — vedapuruṣa",
+      note: "Limb-map from the traditional body-verses; function table; compiler-toolchain no longer the spine."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-silpa",
+      title: "Śilpa — temple dialects",
+      note: "Nāgara / Drāviḍa / Vesara with named temples; Mānasāra/Mayamata; Wikimedia case cards including Khajuraho, Thanjāvūr, Paṭṭadakal, Ellora, Konark wheel."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-caturdasa",
+      title: "Caturdaśa tree",
+      note: "Named 4+6+4 tree, Upaveda extension to 18, placement table for later units."
+    },
+    {
+      date: "2026-09-17",
+      type: "updated",
+      paper: "unit1",
+      topicId: "u1-astika",
+      title: "Āstika / Nāstika matrix",
+      note: "Comparison matrix across six Āstika and three Nāstika streams; theism-shortcut removed; CS ‘runtime’ analogies removed from the spine."
+    },
+    {
+      date: "2026-09-17",
       type: "added",
       paper: "site",
       topicId: "",
