@@ -327,6 +327,113 @@
     );
   }
 
+  function varnaSthana() {
+    return compare(
+      ["Sthāna (place)", "Sounds the Śikṣā seats there", "A student can feel"],
+      [
+        ["Kaṇṭha · throat", "a, h; and, with the lips or palate, e ai and o au", "The open vowel, the breath of h"],
+        ["Tālu · palate", "i ī, ca-varga, y, ś", "The tongue rises to the hard palate"],
+        ["Mūrdhan · roof", "ṛ ṝ, ṭa-varga, r, ṣ", "The tongue curls back"],
+        ["Danta · teeth", "ḷ ḹ, ta-varga, l, s", "The tongue meets the teeth"],
+        ["Oṣṭha · lips", "u ū, pa-varga", "The lips round or close"],
+        ["Jihvāmūla", "ka-varga", "The tongue-root against the soft palate"],
+        ["Danta-oṣṭha", "v", "Teeth and lower lip together"],
+        ["Nāsikā · nose", "ṅ ñ ṇ n m, and anusvāra", "The breath leaves by the nose"]
+      ]
+    ) + `<p class="diagram-note">A classroom seating of Pāṇinīya-śikṣā 17–18, beside the verse’s own list of eight places (chest, throat, head, tongue-root, teeth, nose, lips, palate). The poster and the verse are kin, not photocopies.</p>`;
+  }
+
+  function placeValue() {
+    const slots = [
+      ["10⁵", "niyuta", "0"],
+      ["10⁴", "ayuta", "3"],
+      ["10³", "sahasra", "0"],
+      ["10²", "śata", "5"],
+      ["10¹", "daśa", "0"],
+      ["10⁰", "eka", "2"]
+    ];
+    const cells = slots
+      .map(
+        ([pow, name, digit]) =>
+          `<g>
+            <rect width="78" height="86" rx="8" fill="#e07a2f" fill-opacity="0.12" stroke="#e07a2f"/>
+            <text x="39" y="22" text-anchor="middle" font-size="11" fill="currentColor" font-family="IBM Plex Mono, monospace">${pow}</text>
+            <text x="39" y="52" text-anchor="middle" font-size="26" fill="currentColor" font-family="Fraunces, Georgia, serif">${digit}</text>
+            <text x="39" y="74" text-anchor="middle" font-size="11" fill="currentColor" font-family="Figtree, sans-serif">${name}</text>
+          </g>`
+      )
+      .map((g, i) => `<g transform="translate(${i * 88}, 8)">${g}</g>`)
+      .join("");
+    return `<svg viewBox="0 0 536 110" width="100%" role="img" aria-label="Place-value slots for 30502, with empty places kept by zero">
+      ${cells}
+    </svg>
+    <p class="diagram-note">Six seats spelling 30502: 0 niyuta, 3 ayuta, 0 sahasra, 5 śata, 0 daśa, 2 eka. A leading empty seat may be left unwritten. An empty seat in the middle may not. Without a mark for it, 352 and 30502 collapse into each other.</p>`;
+  }
+
+  function katapayadiGrid() {
+    const header = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+    const rows = [
+      ["क", "ख", "ग", "घ", "ङ", "च", "छ", "ज", "झ", "ञ"],
+      ["ट", "ठ", "ड", "ढ", "ण", "त", "थ", "द", "ध", "न"],
+      ["प", "फ", "ब", "भ", "म", "—", "—", "—", "—", "—"],
+      ["य", "र", "ल", "व", "श", "ष", "स", "ह", "—", "—"]
+    ];
+    return compare(["", ...header], rows.map((r, i) => [["ka-row", "ṭa-row", "pa-row", "ya-row"][i], ...r]));
+  }
+
+  function pingalaPrastara() {
+    const rows = [
+      ["0", "LLL", "000"],
+      ["1", "LLG", "001"],
+      ["2", "LGL", "010"],
+      ["3", "LGG", "011"],
+      ["4", "GLL", "100"],
+      ["5", "GLG", "101"],
+      ["6", "GGL", "110"],
+      ["7", "GGG", "111"]
+    ];
+    return compare(
+      ["Index", "Syllables (left = heavy place)", "If L=0 and G=1"],
+      rows
+    ) + `<p class="diagram-note">All eight patterns of three syllables. Laghu (L) and guru (G) are weights of verse, not bits in a machine. The right-hand column is a modern reading so the count can be checked by hand. Piṅgala does not write “0” and “1”.</p>`;
+  }
+
+  function meru() {
+    const rows = [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1], [1, 5, 10, 10, 5, 1], [1, 6, 15, 20, 15, 6, 1]];
+    const body = rows
+      .map((r, i) => {
+        const cells = r.map((n) => `<span>${n}</span>`).join("");
+        return `<div class="meru-row"><em>${i}</em>${cells}<b>${r.reduce((a, b) => a + b, 0)}</b></div>`;
+      })
+      .join("");
+    return `<div class="meru" role="img" aria-label="Meru prastāra, rows zero through six">${body}</div>
+      <p class="diagram-note">Halāyudha’s Meru: row n lists how many patterns of n syllables contain 0, 1, 2… guru (or laghu). The bold figure at the right is the row’s sum — 2ⁿ. Row 6 sums to 64. Same integer as the kalā catalogue, by arithmetic. Do not build a doctrine on the rhyme.</p>`;
+  }
+
+  function knowledgePyramid() {
+    const bands = [
+      ["Niḥśreyasa", "the highest good the opening sūtra names"],
+      ["Prameya", "what is known — Gautama’s twelve, and more"],
+      ["Pramā", "a cognition that has succeeded"],
+      ["Pramāṇa", "perception, inference, comparison, word"]
+    ];
+    const h = 36 + bands.length * 62;
+    const rects = bands
+      .map((b, i) => {
+        const inset = i * 28;
+        const y = 16 + i * 62;
+        const w = 440 - inset * 2;
+        const colors = ["#e07a2f", "#c45c4a", "#8b86d8", "#3fa796"];
+        const c = colors[i];
+        return `<rect x="${20 + inset}" y="${y}" width="${w}" height="52" rx="10" fill="${c}" fill-opacity="0.16" stroke="${c}"/>
+          <text x="240" y="${y + 22}" text-anchor="middle" fill="currentColor" font-size="16" font-family="Fraunces, Georgia, serif">${esc(b[0])}</text>
+          <text x="240" y="${y + 40}" text-anchor="middle" fill="currentColor" font-size="11" font-family="Figtree, sans-serif">${esc(b[1])}</text>`;
+      })
+      .join("");
+    return `<svg viewBox="0 0 480 ${h}" width="100%" role="img" aria-label="Classroom knowledge pyramid from pramāṇa up to niḥśreyasa">${rects}</svg>
+      <p class="diagram-note">A classroom stack for the syllabus word “knowledge pyramid.” It is not a figure drawn in the Nyāyasūtra, and it is not the management ladder of data–information–knowledge–wisdom. Saṁśaya stands at the door: doubt is what makes a person reach for a pramāṇa. Doubt is not a floor of the building.</p>`;
+  }
+
   const NAMED = {
     "veda-river": vedaRiver,
     "veda-four": vedaFour,
@@ -339,7 +446,13 @@
     "purana-lakshanas": puranaLakshanas,
     "purana-streams": puranaStreams,
     "dashavatara": dashavatara,
-    "gcta": gcta
+    "gcta": gcta,
+    "varna-sthana": varnaSthana,
+    "place-value": placeValue,
+    "katapayadi-grid": katapayadiGrid,
+    "pingala-prastara": pingalaPrastara,
+    "meru": meru,
+    "knowledge-pyramid": knowledgePyramid
   };
 
   function render(diagram) {

@@ -8,7 +8,7 @@ Tone: lecture-ready, CS/BCA analogies, pride in IKS without chauvinism. This is 
 
 ## How to use for lectures
 
-1. Open a **unit tab**, then a sidebar topic. **Unit I is complete** (13 cards). Units II–V show real syllabus titles with honest **Coming next** placeholders so the 30-hour map is visible on day one.
+1. Open a **unit tab**, then a sidebar topic. **Units I and II are complete** (13 + 9 cards). Units III–V show real syllabus titles with honest **Coming next** placeholders so the 30-hour map is visible on day one.
 2. Project **Concept + board diagram**. Read the BCA analogy once; hide the site and redraw the diagram on the board.
 3. Run the **10-minute classroom activity** on the card. Park student answers.
 4. Close with a 2-mark oral. Point to the matching chapter in the **physical Thakur / Mahadevan book** — this site does not copy those books (`readAs` is a pointer only).
@@ -21,7 +21,7 @@ Tone: lecture-ready, CS/BCA analogies, pride in IKS without chauvinism. This is 
 | Unit | Official home | On this site |
 |------|----------------|--------------|
 | **I** | Introduction to IKS — Caturdaśa, 64 Kalās, Śilpa, Four Vedas, Vedāṅga, Āstika/Nāstika, Purāṇa, Itihāsa, Nīti, Subhāṣita | **13 lecture-ready cards** (checkmarks on Kalās, Śilpa, Vedas, Vedāṅga get extra board time) |
-| **II** | Linguistics / Pāṇini / NLP; zero & place value; Bhūta-saṁkhyā, Katapayādi, Piṅgala; Prameya / Pramāṇa | Sidebar titles + Coming next |
+| **II** | Linguistics / Pāṇini / NLP; zero & place value; Bhūta-saṁkhyā, Katapayādi, Piṅgala; Prameya / Pramāṇa | **9 lecture-ready cards** — Śikṣā, Aṣṭādhyāyī, NLP, zero, large numbers, Bhūta-saṁkhyā, Kaṭapayādi, Piṅgala, pramāṇa |
 | **III** | Mathematicians, Śulba, π, trig, algebra, Pañcāṅga, Yantras / Jantar Mantar | Sidebar titles + Coming next |
 | **IV** | Occupational skills, metallurgy, dyes, town planning, temple architecture, Vāstu | Sidebar titles + Coming next |
 | **V** | Āyurveda (sleep/food/water), Yoga, Triguṇa, BMIC, Rāmāyaṇa admin, Arthaśāstra | Sidebar titles + Coming next |
@@ -82,8 +82,11 @@ js/app.js
 js/diagrams.js
 js/timeline.js
 js/content/meta.js          # stub helper, resources page
+js/content/gallery.js        # Unit I chapter prose
+js/content/gallery2.js       # Unit II chapter prose
 js/content/unit1.js         # 13 lecture-ready cards
-js/content/unit2.js … unit5.js
+js/content/unit2.js         # 9 lecture-ready cards
+js/content/unit3.js … unit5.js
 js/content/timelines.js
 js/content/logbook.js
 js/content/teach.js         # 6-lecture Unit I plan

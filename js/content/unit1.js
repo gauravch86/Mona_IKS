@@ -951,7 +951,7 @@
           "I can redraw six artefacts in five minutes.",
           "I can walk thirteen rooms as one house.",
           "I can file Pāṇini, Śulba, temple, Āyurveda, and Kauṭilya in folders already drawn.",
-          "I know Units II–V are Coming next, not a new civilisation."
+          "I can file Unit II’s sounds, numbers, and pramāṇas in folders this map already drew. Units III–V still open those folders further."
         ],
         youtube: [
           { title: "IKS unit 1 recap searches", search: "Indian knowledge system Vedas Vedanga darshana revision" }

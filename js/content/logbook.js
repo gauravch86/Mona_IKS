@@ -4,6 +4,86 @@
   /* Newest first. paper: unit1…unit5 or "site". topicId must match a real card id (empty for site-only). */
   g.IKS.logbook = [
     {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "site",
+      topicId: "",
+      title: "Unit II raised to the 64 Kalās bar",
+      note: "Nine galleries replace the Coming-next stubs: Śikṣā, Aṣṭādhyāyī, an honest NLP hour, place value and zero, large-number names, Bhūta-saṁkhyā, Kaṭapayādi, Piṅgala’s Meru, and Nyāya’s pramāṇa / prameya / saṁśaya. Full lists, attested verses, deep panels, Wikimedia figures, diagrams. Units III–V remain titled."
+    },
+    {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "unit2",
+      topicId: "u2-phonetics",
+      title: "Śikṣā — places, effort, sandhi",
+      note: "Pāṇinīya-śikṣā 1, 10, 13, 17–18, 32–33. Five parameters, eight places, five vowel sandhis, reciter’s six faults and six virtues. Vedic recitation, Sarasvatī, Devanāgarī, nāgasvaram."
+    },
+    {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "unit2",
+      topicId: "u2-panini",
+      title: "Aṣṭādhyāyī — fourteen lines and six roles",
+      note: "All fourteen Śiva-sūtras; ac, hal, al; rule-tempers including 1.4.2 and the tripāḍī; six kārakas with sūtra numbers; commentary stack. Grantha manuscript, Mahābhāṣya with Kaiyaṭa, Śeṣa image captioned honestly."
+    },
+    {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "unit2",
+      topicId: "u2-nlp",
+      title: "Sanskrit and NLP — three layers, one retired myth",
+      note: "Sandhi-viccheda, reversed prakriyā, kāraka. Heritage Reader, Saṃsādhanī, Sanskrit Library named as research, not trophies. The space-agency claim is marked false."
+    },
+    {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "unit2",
+      topicId: "u2-zero",
+      title: "Place value and the arithmetical zero",
+      note: "Āryabhaṭīya Gaṇitapāda 2; 30502 on six seats; Brahmagupta 18.30 and the product law; division by zero left open. Bakhshali dot with its date spread; Chaturbhuj 876 CE; Brahmi numerals as the before. Śūnyatā kept separate."
+    },
+    {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "unit2",
+      topicId: "u2-large",
+      title: "Large numbers — three columns",
+      note: "Āryabhaṭa’s ten names as the spine. Lakh and crore placed without erasing niyuta. Later Sanskrit words above koṭi flagged as author-dependent. Līlāvatī and a Grantha Sūrya-siddhānta."
+    },
+    {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "unit2",
+      topicId: "u2-bhuta",
+      title: "Bhūta-saṁkhyā — lexicon and Mādhava",
+      note: "Classroom lexicon 0–12 plus 18, 27, 33. Units-first reading. netra-veda = 42. Mādhava’s circumference walked digit by digit, including the two-unit gap. Three number-codes kept apart."
+    },
+    {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "unit2",
+      topicId: "u2-katapayadi",
+      title: "Kaṭapayādi — grid, melody, circumference",
+      note: "Full consonant grid; conjunct rule; left edge = units. māyā = 15 as melakarta. bhadrā ends in 24. Haridatta 683 CE; Śaṅkaravarman’s rule-verse 1819, not backdated. Kerala paramparā and a vīṇā."
+    },
+    {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "unit2",
+      topicId: "u2-pingala",
+      title: "Piṅgala — two weights and a mountain",
+      note: "Sūtras 8.20–21 and 8.34 quoted as terse. All eight patterns of three syllables. Meru through row 6, credited to Halāyudha. Base-2 shape allowed; the computer claim refused. Temple mṛdaṅgam and recitation."
+    },
+    {
+      date: "2026-10-12",
+      type: "updated",
+      paper: "unit2",
+      topicId: "u2-pramana",
+      title: "Pramāṇa, prameya, saṁśaya",
+      note: "Sixteen padārthas; Nyāya’s four against rival counts; twelve prameyas; saṁśaya 1.1.23. Classroom pyramid labelled as ours, not a management diagram and not a sūtra figure. Nālandā and śabda as manuscript."
+    },
+    {
       date: "2026-09-17",
       type: "updated",
       paper: "site",
