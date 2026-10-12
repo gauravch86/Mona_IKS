@@ -7,7 +7,7 @@
     return `<article class="topic" id="topic-plan" data-jump="plan">
       <p class="kicker">Teach notes · Unit I · 6 × ~50 min</p>
       <h1>Six-lecture plan for Mona</h1>
-      <p class="lede">These notes are for the lecturer. The topic cards themselves are now galleries of substance — lists, rivers, temples, verses — so that a BCA student, an engineer, and a traditional scholar can all stay in the room. Do not project this tab as the lesson.</p>
+      <p class="lede">These notes are for the lecturer. The topic cards themselves are galleries of substance — lists, rivers, temples, verses, grids — so that a BCA student, an engineer, and a traditional scholar can all stay in the room. Do not project this tab as the lesson. Unit II has its own six-hour arc below the Unit I plan.</p>
       ${D.render({ type: "flow", steps: ["L1 Map", "L2 Vedas", "L3 Limbs", "L4 Make", "L5 See", "L6 Tell+quiz"] })}
       <div class="lecture-grid">
         <section class="lecture-card">
@@ -42,10 +42,48 @@
         </section>
       </div>
     </article>
+    <article class="topic" id="topic-plan2" data-jump="plan2">
+      <p class="kicker">Teach notes · Unit II · 6 × ~50 min</p>
+      <h1>Six-lecture plan — foundation of number and rule</h1>
+      <p class="lede">Nine cards, six hours. The galleries are the chapter. This arc is only the order. Open on a verse or a grid, not on a computing metaphor.</p>
+      ${D.render({ type: "flow", steps: ["L1 Sound", "L2 Pāṇini", "L3 Places", "L4 Codes", "L5 Metre", "L6 Knowing"] })}
+      <div class="lecture-grid">
+        <section class="lecture-card">
+          <h3>Lecture 1 — Śikṣā</h3>
+          <p>Card: <button type="button" class="text-link" data-nav="unit2" data-topic="u2-phonetics">Phonetics</button></p>
+          <p><strong>Open</strong> with Pāṇinīya-śikṣā 1. <strong>Board:</strong> five parameters; eight places; five vowel sandhis with examples. <strong>Close</strong> on the six faults and six virtues. <strong>Do not:</strong> call the alphabet a character encoding. <strong>Exit ticket:</strong> one place, one sandhi undone.</p>
+        </section>
+        <section class="lecture-card">
+          <h3>Lecture 2 — Aṣṭādhyāyī, then the honest machine hour</h3>
+          <p>Cards: <button type="button" class="text-link" data-nav="unit2" data-topic="u2-panini">Pāṇini</button> · <button type="button" class="text-link" data-nav="unit2" data-topic="u2-nlp">Sanskrit and NLP</button></p>
+          <p><strong>First 30 minutes:</strong> fourteen Śiva-sūtras on the board; expand only ac, hal, al; 1.1.1; one clash-rule; six kārakas versus endings. <strong>Last 20:</strong> three layers (cut, reverse the derivation, role). Strike the space-agency myth once, out loud. <strong>Do not:</strong> lead with “compiler.” <strong>Exit ticket:</strong> expand hal, and name kartṛ in one sentence.</p>
+        </section>
+        <section class="lecture-card">
+          <h3>Lecture 3 — Place value, zero, and the names of magnitude</h3>
+          <p>Cards: <button type="button" class="text-link" data-nav="unit2" data-topic="u2-zero">Zero and place value</button> · <button type="button" class="text-link" data-nav="unit2" data-topic="u2-large">Large numbers</button></p>
+          <p><strong>Board:</strong> 30502 in six seats before any glory. Āryabhaṭa’s tenfold verse. Brahmagupta’s addition law with +2, −2, and 0. Then the ten names, and lakh/crore placed without erasing niyuta. <strong>Do not:</strong> give zero a single birthday, or collapse śūnyatā into the digit. <strong>Exit ticket:</strong> which zero in 30502 is load-bearing, and what is a crore?</p>
+        </section>
+        <section class="lecture-card">
+          <h3>Lecture 4 — Two codes</h3>
+          <p>Cards: <button type="button" class="text-link" data-nav="unit2" data-topic="u2-bhuta">Bhūta-saṁkhyā</button> · <button type="button" class="text-link" data-nav="unit2" data-topic="u2-katapayadi">Kaṭapayādi</button></p>
+          <p><strong>Direction first,</strong> on both systems: the left edge is the units. Decode netra-veda = 42 before Mādhava’s long compound, and say the two-unit gap. Then the Kaṭapayādi grid, māyā = 15, drā as a single digit. Date Haridatta (683 CE) and Śaṅkaravarman (1819). <strong>Do not:</strong> call either code Vedic, or call them the same code. <strong>Exit ticket:</strong> one word for 4, and why naya is not 15.</p>
+        </section>
+        <section class="lecture-card">
+          <h3>Lecture 5 — Piṅgala</h3>
+          <p>Card: <button type="button" class="text-link" data-nav="unit2" data-topic="u2-pingala">Piṅgala</button></p>
+          <p><strong>Board:</strong> eight patterns of three syllables from the class’s mouth, then the Meru up to a row that sums to 16. Halāyudha’s name goes on the triangle. <strong>Do not:</strong> say he invented the computer. The allowed sentence is “two weights, freely combined, are a power of two.” <strong>Exit ticket:</strong> 2³ and the name of the commentator who draws the Meru.</p>
+        </section>
+        <section class="lecture-card">
+          <h3>Lecture 6 — Pramāṇa, prameya, saṁśaya</h3>
+          <p>Card: <button type="button" class="text-link" data-nav="unit2" data-topic="u2-pramana">Knowledge pyramid</button></p>
+          <p><strong>Open</strong> with Nyāyasūtra 1.1.3. <strong>Board:</strong> sixteen as a table of contents; four means; two rival counts; twelve prameyas from self to release; the post and the person. Label the pyramid as a classroom figure in the first minute. <strong>Do not:</strong> teach data–information–knowledge–wisdom as if Gautama drew it. <strong>Exit ticket:</strong> three definitions, and one school that does not count four pramāṇas.</p>
+        </section>
+      </div>
+    </article>
     <article class="topic" id="topic-voice" data-jump="voice">
       <p class="kicker">Teach notes · four audiences</p>
       <h1>The four-audience test</h1>
-      <p>Every rewritten Unit I gallery must be able to please, in the same page:</p>
+      <p>Every gallery on this bench — Unit I and Unit II alike — must be able to please, in the same page:</p>
       <ol>
         <li><strong>A BCA first-year</strong> — curious, clear, memorable. Light modern bridges are guests at the end, never the spine.</li>
         <li><strong>Prof. Mona</strong> — enough accurate substance to lecture 45–60 minutes without opening another tab.</li>

@@ -213,7 +213,8 @@
             ]
             : page === "teach"
             ? [
-                ["plan", "6-lecture plan"],
+                ["plan", "Unit I · 6 lectures"],
+                ["plan2", "Unit II · 6 lectures"],
                 ["voice", "Four audiences"],
                 ["board", "Board habits"],
                 ["internals", "Internals"]
@@ -385,7 +386,7 @@
         <div class="stat"><b>2</b>credits · 30 theory hours</div>
         <div class="stat"><b>25 + 75</b>internal + external</div>
         <div class="stat"><b>${n}/${t}</b>topics sealed</div>
-        <div class="stat"><b>Unit I</b>complete this drop</div>
+        <div class="stat"><b>Units I–II</b>lecture-ready</div>
       </div>
     </section>
     <section class="panel" id="topic-units" data-jump="units">
@@ -395,7 +396,7 @@
     <section class="panel">
       <h2 class="display">How to use this bench in class</h2>
       <ol>
-        <li>Pick a unit tab, then a sidebar topic. Unit I is lecture-ready; Units II–V show the course map with honest “Coming next” cards.</li>
+        <li>Pick a unit tab, then a sidebar topic. Units I and II are lecture-ready galleries. Units III–V still show the course map with honest “Coming next” cards.</li>
         <li>Project the <strong>gallery</strong> (verse, map, figures). A modern bridge, if any, is last. Hide the site and redraw the map on the board.</li>
         <li>Run the <strong>10-minute classroom activity</strong>. Park student answers; do not chase a perfect list.</li>
         <li>Close with a 2-mark oral and point students at the matching chapter in the <strong>physical Thakur / Mahadevan book</strong> — this site does not copy those books.</li>
@@ -421,12 +422,12 @@
     </section>
     <section class="panel" id="topic-coverage" data-jump="coverage">
       <h2 class="display">Official 30-hour map</h2>
-      <p>Checked against the CCS BCA-1003 T sheet (GEC-I, 2 credits, 5 × ~6 lectures). Unit I is filled; later units are titled so the map is visible on day one.</p>
+      <p>Checked against the CCS BCA-1003 T sheet (GEC-I, 2 credits, 5 × ~6 lectures). Units I and II are filled; later units are titled so the map is visible on day one.</p>
       <table class="compare">
         <thead><tr><th>Unit</th><th>Official home</th><th>On this site</th></tr></thead>
         <tbody>
           <tr><td>I</td><td>Introduction to IKS — Caturdaśa Vidyāsthānam, 64 Kalās, Śilpa, Four Vedas, Vedāṅga, Āstika/Nāstika, Purāṇa, Itihāsa, Nīti, Subhāṣita</td><td><strong>13 lecture-ready cards</strong> including a revision map</td></tr>
-          <tr><td>II</td><td>Foundation for science &amp; technology — Pāṇini / NLP, zero &amp; place value, Bhūta-saṁkhyā, Katapayādi, Piṅgala binary, Prameya / Pramāṇa</td><td>Sidebar titles + Coming-next placeholders</td></tr>
+          <tr><td>II</td><td>Foundation for science &amp; technology — Pāṇini / NLP, zero &amp; place value, Bhūta-saṁkhyā, Katapayādi, Piṅgala binary, Prameya / Pramāṇa</td><td><strong>9 lecture-ready cards</strong> — full lists, attested verses, figures</td></tr>
           <tr><td>III</td><td>Indian mathematics &amp; astronomy — Śulba, π, trig, algebra, Pañcāṅga, Yantras / Jantar Mantar</td><td>Sidebar titles + Coming-next placeholders</td></tr>
           <tr><td>IV</td><td>S&amp;T heritage — metallurgy, dyes, town planning, temple architecture, Vāstu</td><td>Sidebar titles + Coming-next placeholders</td></tr>
           <tr><td>V</td><td>Humanities &amp; social sciences — Āyurveda, Yoga, Triguṇa, Arthaśāstra / Kautilya</td><td>Sidebar titles + Coming-next placeholders</td></tr>
